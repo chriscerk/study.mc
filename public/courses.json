@@ -1,0 +1,30 @@
+[
+      {
+            "id": 1,
+            "status": "active",
+            "name": "Medicinal Chemistry 600",
+            "abbreviation": "MC",
+            "number": "600",
+            "topics": [
+                { "title": "Benzodiazepines", "id": 1, "status": "inactive" },
+                { "title": "Barbiturates", "id": 2, "status": "inactive" },
+                { "title": "Z-Drugs", "id": 3, "status": "inactive" },
+                { "title": "Anticonvulsants", "id": 4, "status": "inactive"  },
+                { "title": "SRIs", "id": 5, "status": "active" },
+                { "title": "SNRIs", "id": 6, "status": "active" },
+                { "title": "TCAs", "id": 7, "status": "active" },
+                { "title": "ATAs", "id": 8, "status": "active" }
+            ]
+      },
+      {
+            "id": 2,
+            "status": "inactive",
+            "name": "Medicinal Chemistry 700",
+            "abbreviation": "MC",
+            "number": "700",
+            "topics": [
+                { "title": "", "id": 1, "status": "inactive" }
+            ]
+      }
+]
+

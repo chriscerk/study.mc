@@ -1,0 +1,1787 @@
+[
+      {
+            "id": 1,
+            "name": "Benzodiazepines",
+            "learnItems":[
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Example Compound 1",
+                        "imagePath" : "slide-4a.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "red", "location": "Ring A", "description" : "Ring A: Pi-Pi stacking with BZR" },
+                              {"color": "orange", "location": "C7", "description" : "C7: EWG increases activity" },
+                              {"color": "green", "location": "Ring B", "description" : "Ring B:  H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
+                              {"color": "blue", "location": "N1", "description" : "N1: methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
+                              {"color": "purple", "location": "C3", "description" : "C3: OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
+                              {"color": "deeppink", "location": "Ring C", "description" : "Ring C: Hydrophobic interaction with BZR" },
+                              {"color": "darkgoldenrod", "location": "C4", "description" : "C4: Steric repulsion occurs with para substituent " },
+                              {"color": "teal", "location": "C2", "description" : "C2:  F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+                        ]
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Example Compound 2",
+                        "imagePath" : "slide-4b.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "red", "location": "Ring A", "description" : "Ring A: Pi-Pi stacking with BZR" },
+                              {"color": "orange", "location": "C7", "description" : "C7: EWG increases activity" },
+                              {"color": "green", "location": "Ring B", "description" : "Ring B:  H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
+                              {"color": "blue", "location": "N1", "description" : "N1: methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
+                              {"color": "purple", "location": "C3", "description" : "C3: OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
+                              {"color": "deeppink", "location": "Ring C", "description" : "Ring C: Hydrophobic interaction with BZR" },
+                              {"color": "darkgoldenrod", "location": "C4", "description" : "C4: Steric repulsion occurs with para substituent " },
+                              {"color": "teal", "location": "C2", "description" : "C2:  F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+                        ]
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Lorazepam",
+                        "imagePath" : "slide-5a.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "red", "location": "Ring A", "description" : "Ring A: Pi-Pi stacking with BZR" },
+                              {"color": "orange", "location": "C7", "description" : "C7: EWG increases activity" },
+                              {"color": "green", "location": "Ring B", "description" : "Ring B:  H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
+                              {"color": "blue", "location": "N1", "description" : "N1: methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
+                              {"color": "purple", "location": "C3", "description" : "C3: OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
+                              {"color": "deeppink", "location": "Ring C", "description" : "Ring C: Hydrophobic interaction with BZR" },
+                              {"color": "darkgoldenrod", "location": "C4", "description" : "C4: Steric repulsion occurs with para substituent " },
+                              {"color": "teal", "location": "C2", "description" : "C2:  F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+                        ]
+                  },
+                  {
+                        "title":"SAR Requirements",
+                        "name" : "Alprazolam",
+                        "imagePath" : "slide-5b.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "red", "location": "Ring A", "description" : "Ring A: Pi-Pi stacking with BZR" },
+                              {"color": "orange", "location": "C7", "description" : "C7: EWG increases activity" },
+                              {"color": "green", "location": "Ring B", "description" : "Ring B:  H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
+                              {"color": "blue", "location": "N1", "description" : "N1: methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
+                              {"color": "purple", "location": "C3", "description" : "C3: OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
+                              {"color": "deeppink", "location": "Ring C", "description" : "Ring C: Hydrophobic interaction with BZR" },
+                              {"color": "darkgoldenrod", "location": "C4", "description" : "C4: Steric repulsion occurs with para substituent " },
+                              {"color": "teal", "location": "C2", "description" : "C2:  F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+                        ]
+                  },
+                  {
+                        "title":"SAR Practice Problem",
+                        "name" : "Activity Change",
+                        "imagePath" : "slide7-transition.jpg",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
+                        "options" : [
+                              "Increase",
+                              "Decrease",
+                              "No Effect"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Addition of a bulky group at N1 prevents binding to the BZR; methyl group is preferred"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "/molecular.PNG",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease", 
+                              "No Effect"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "Addition of Cl to position 2 reduces aromatic hydroxylation (phase one P450 metabolism) and increases half-life"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide10-3options.jpg",
+                        "question" : "Which of these 3 compounds would be the best benzodiazepine for use as a hypnotic?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "It already has the hydroxyl handle (position 3) so it is quickly metabolized to an inactive metabolite by conjugation; thus it has a short elimination half-life, which is ideal for hypnotics"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide11-3options.jpg",
+                        "question" : "Which of these 3 compounds would be the best benzodiazepine for use as an anxiolytic?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "The compound is slowly absorbed because it has a carboxylic acid that must be cleaved first (like a prodrug) and it is metabolized to an active metabolite; thus it has a long elimination half-life (40-50 hr), which is ideal for anxiolytics"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Predict Metabolite Activity",
+                        "imagePath" : "slide13.jpg",
+                        "question" : "Predict whether the metabolites will be active or inactive for the compounds (2, 3) and Conjugated Products",
+                        "options" : [ 
+                              "Active, Active, Inactive",
+                              "Active, Inactive, Inactive", 
+                              "Inactive, Inactive, Active",
+                              "Inactive, Active, Inactive"
+                        ],
+                        "answer" : "Active, Active, Inactive",
+                        "explanation" : ""
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Predict Metabolite Activity",
+                        "imagePath" : "slide14.jpg",
+                        "question" : "Would compound 1 (temazepam) be an ideal hypnotic or anxiolytic? Predict whether the metabolites will be active or inactive for compound 2",
+                        "options" : [
+                              "Anxiolytic, Active",
+                              "Anxiolytic, Inactive",
+                              "Hypnotic, Inactive",
+                              "Hypnotic, Active"
+                        ],
+                        "answer" : "Hypnotic, Inactive",
+                        "explanation" : ""
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Predict Metabolite Activity",
+                        "imagePath" : "slide11-3options.jpg",
+                        "question" : "Would compound 1 (triazolam) be an ideal hypnotic or anxiolytic? Predict whether the metabolites will be active or inactive for the compounds (2, 3) and Conjugated Products",
+                        "options" : [
+                              "Anxiolytic, Active, Inactive, Inactive",
+                              "Anxiolytic, Inactive, Active, Inactive",
+                              "Hypnotic, Inactive, Active, Inactive",
+                              "Hypnotic, Active, Inactive, Inactive"
+                        ],
+                        "answer" : "Hypnotic, Inactive, Active, Inactive",
+                        "explanation" : ""
+                  }
+            ], 
+            "testItems":[
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Benzodiazepines act at _______ receptor to increase _______ channel opening:",
+                        "options" : [ 
+                              "GABA, Ca2+",
+                              "GABA, Na+",
+                              "GABA, Cl-",
+                              "glutamate, Ca2+",
+                              "glutamate, Na+",
+                              "glutamate, Cl-"
+                        ],
+                        "answer" : "GABA, Cl-"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Benzodiazepines will be affected by the inhibitors or activators of",
+                        "options" : [
+                              "CYP2B6", 
+                              "CYP3A4", 
+                              "CYP2C9",
+                              "C3PO"
+                        ],
+                        "answer" : "CYP3A4"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Diazepam and ______ are useful to treat withdrawal from _______",
+                        "options" : [
+                              "clonazepam, nicotine", 
+                              "clonazepam, alcohol", 
+                              "triazolam, opioids",
+                              "triazolam, nicotine",
+                              "midazolam, alcohol",
+                              "midazolam, opioids",
+                              "lorazepam, nicotine",
+                              "lorazepam, alcohol"
+                        ],
+                        "answer" : "lorazepam, alcohol"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Lorazepam, ______, and ______ are all used to treat status epilepticus",
+                        "options" : [
+                              "clonazepam, midazolam", 
+                              "clonazepam, triazolam", 
+                              "diazepam, clonazepam",
+                              "diazepam, midazolam"
+                        ],
+                        "answer" : "diazepam, clonazepam"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Patient Smith has been prescribed a benzodiazepine and another medication for OCD. Smith feels excessively sleepy and has noticed her balance is off. Smith is probably taking diazepam and",
+                        "options" : [
+                              "bupropion",
+                              "nortriptyline",
+                              "fluoxetine"
+                        ],
+                        "answer" : "bupropion"
+                  },
+                  {
+                        "title":"Contraindication",  
+                        "question" : "This benzodiazepine is best suited for elderly individuals with liver damage:",
+                        "options" : [
+                              "Lorazepam", 
+                              "Diazepam", 
+                              "Clonazepam"
+                        ],
+                        "answer" : "Lorazepam"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "An individual who takes benzodiazepine usually develops tolerance to",
+                        "options" : [
+                              "sedative effects", 
+                              "anxiolytic effects", 
+                              "anesthetic effects"
+                        ],
+                        "answer" : "sedative effects"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "When a benzodiazepine is taken for sleep, benzodiazepine's long elimination half life can cause:",
+                        "options" : [
+                              "headache", 
+                              "insomnia", 
+                              "grogginess",
+                              "amnesia"
+                        ],
+                        "answer" : "grogginess"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "A serious and unusual side effect of a benzodiazepine is",
+                        "options" : [
+                              "Induction of P450s", 
+                              "G6P deficiency", 
+                              "amnesia"
+                        ],
+                        "answer" : "Induction of P450s"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "An individual who takes benzodiazepine rarely develops tolerance to",
+                        "options" : [
+                              "sedative effects", 
+                              "anxiolytic effects", 
+                              "anesthetic effects"
+                        ],
+                        "answer" : "anxiolytic effects"
+                  }
+            ],
+            "reviewItems":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Diazepam", "content": "", "imagePath": "/molecular.PNG" },
+                              {"title": "Lorazepam", "content": "", "imagePath": "/molecular.PNG" }, 
+                              {"title": "Temazepam", "content": "", "imagePath": "/molecular.PNG" },
+                              {"title": "Midazolam", "content": "", "imagePath": "/molecular.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics",  
+                        "sections" : [
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }, 
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Pharmokinetic",  
+                        "sections" : [
+                              {"title": "Absorption", "content": "" },
+                              {"title": "Distribution", "content": "" }, 
+                              {"title": "Metabolism", "content": "" },
+                              {"title": "Excretion", "content": ""  }
+                        ]
+                  },
+                  {
+                        "title": "Action",  
+                        "sections" : [
+                              {"title": "Mechanism of Action", "content": "" },
+                              {"title": "Pharmacological Action", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",  
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Uses",  
+                        "sections" : [
+                              {"title": "Uses", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Notes",  
+                        "sections" : [
+                              {"title": "Notes", "content": "" }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": 2,
+            "name": "Barbiturates",
+            "learnItems":[
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Example Compound 1",
+                        "imagePath" : "slide26.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "red", "location": "N1", "description" : "N1: Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." },
+                              {"color": "orange", "location": "N3", "description" : "N3: must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action " },
+                              {"color": "green", "location": "C2", "description" : "C2: changing C=O → C=S increases lipophilicity and more rapid onset of action" },
+                              {"color": "blue", "location": "C4 & C6", "description" : "C4 & C6: must contain C=O" },
+                              {"color": "deeppink", "location": "R1 & R2", "description" : "R1 & R2: bulky carbon groups increases lipophilicity and more rapid onset of action " }
+                        ]
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Disubstitution Required for Activity",
+                        "imagePath" : "slide27a.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "N1", "description" : "Barbiturates can undergo enol-keto tautomerization, which gives them near neutral pkas (7.4). Less than 50% gets ionized, so good balance of solubility and CNS penetration." }
+                        ]
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Disubstitution Required for Activity",
+                        "imagePath" : "slide27b.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "N1", "description" : "Without any substitution at position 5, the acidic hydrogen gets deprotonated. Resonance stabilization leads to lower pka (4) and 99% ionization occurs, so unable to penetrate the CNS." }
+                        ]
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Phenobarbital",
+                        "imagePath" : "slide28a.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "red", "location": "N1", "description" : "N1: Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." },
+                              {"color": "orange", "location": "N3", "description" : "N3: must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action " },
+                              {"color": "green", "location": "C2", "description" : "C2: changing C=O → C=S increases lipophilicity and more rapid onset of action" },
+                              {"color": "blue", "location": "C4 & C6", "description" : "C4 & C6: must contain C=O" },
+                              {"color": "deeppink", "location": "R1 & R2", "description" : "R1 & R2: bulky carbon groups increases lipophilicity and more rapid onset of action " }
+                        ]
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Example Compound 2",
+                        "imagePath" : "slide28b.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "red", "location": "N1", "description" : "N1: Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." },
+                              {"color": "orange", "location": "N3", "description" : "N3: must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action " },
+                              {"color": "green", "location": "C2", "description" : "C2: changing C=O → C=S increases lipophilicity and more rapid onset of action" },
+                              {"color": "blue", "location": "C4 & C6", "description" : "C4 & C6: must contain C=O" },
+                              {"color": "deeppink", "location": "R1 & R2", "description" : "R1 & R2: bulky carbon groups increases lipophilicity and more rapid onset of action " }
+                        ]
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "/compounds/slide7-transition.jpg",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease", 
+                              "No Effect"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Changing C=S to C=O decreases lipophilicity and onset of action"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "/compounds/slide7-transition.jpg",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease", 
+                              "No Effect"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "5,5- disubstitution needed for activity in order for CNS penetration"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "/compounds/slide10-3options.jpg",
+                        "question" : "Which of these 3 compounds would be a CNS active barbiturate?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "5,5- disubstitution and weak acid (N1 or N3 must be unsubstituted) are required for activity in order for CNS penetration"
+                  }
+            ],
+            "testItems":[
+                  {
+                        "title":"Mechanism of Action",  
+                        "question" : "Higher doses of barbiturates bind these receptors in the cerebellum",
+                        "options" : [
+                              "GABAa", 
+                              "GABAb", 
+                              "glutamate"
+                        ],
+                        "answer" : "GABAa"
+                  },
+                  {
+                        "title":"Mechanism of Action",  
+                        "question" : "The long half life of barbiturates causes this effect",
+                        "options" : [
+                              "hangover", 
+                              "rebound"
+                        ],
+                        "answer" : "hangover"
+                  },
+                  {
+                        "title":"Mechanism of Action",  
+                        "question" : "The short half life or abrupt discontinuation of barbiturates causes this effect",
+                        "options" : [
+                              "hangover", 
+                              "rebound"
+                        ],
+                        "answer" : "rebound"
+                  },
+                  {
+                        "title":"Mechanism of Action",  
+                        "question" : "Higher doses of barbiturates bind [ans] receptors in the cerebellum causing the side effect of",
+                        "options" : [
+                              "Ataxia", 
+                              "amnesia", 
+                              "sedation"
+                        ],
+                        "answer" : "sedation"
+                  }
+            ], 
+            "reviewItems":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Diazepam", "content": "", "imagePath": "/molecular.PNG" },
+                              {"title": "Lorazepam", "content": "", "imagePath": "/molecular.PNG" }, 
+                              {"title": "Temazepam", "content": "", "imagePath": "/molecular.PNG" },
+                              {"title": "Midazolam", "content": "", "imagePath": "/molecular.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics",  
+                        "sections" : [
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }, 
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Pharmokinetic",  
+                        "sections" : [
+                              {"title": "Absorption", "content": "" },
+                              {"title": "Distribution", "content": "" }, 
+                              {"title": "Metabolism", "content": "" },
+                              {"title": "Excretion", "content": ""  }
+                        ]
+                  },
+                  {
+                        "title": "Action",  
+                        "sections" : [
+                              {"title": "Mechanism of Action", "content": "" },
+                              {"title": "Pharmacological Action", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",  
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Uses",  
+                        "sections" : [
+                              {"title": "Uses", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Notes",  
+                        "sections" : [
+                              {"title": "Notes", "content": "" }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": 3,
+            "name": "Z-Drugs",
+            "learnItems":[],
+            "testItems":[
+                  {
+                        "title":"Mechanism of Action",  
+                        "question" : "Eszopiclone binds to this receptor",
+                        "options" : [
+                              "barbiturate", 
+                              "benzodiazepine", 
+                              "dopamine"
+                        ],
+                        "answer" : "benzodiazepine"
+                  },
+                  {
+                        "title":"Mechanism of Action",  
+                        "question" : "Normal circadian rhythm is re-established by a drug acting at this receptor",
+                        "options" : [
+                              "dopamine", 
+                              "serotonin", 
+                              "melatonin"
+                        ],
+                        "answer" : "melatonin"
+                  },
+                  {
+                        "title":"Mechanism of Action",  
+                        "question" : "Eszopiclone binds to the benzodiazepine receptor and potentiates",
+                        "options" : [
+                              "GABA", 
+                              "Glutamate", 
+                              "dopamine"
+                        ],
+                        "answer" : "GABA"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Normal circadian rhythm is re-established at the melatonin receptor when this drug acts upon it",
+                        "options" : [
+                              "zolpidem", 
+                              "mirtazapine", 
+                              "ramelteon "
+                        ],
+                        "answer" : "ramelteon"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "This drug has the longest half-life",
+                        "options" : [
+                              "Zolpidem", 
+                              "Eszopiclone", 
+                              "Ramelteon"
+                        ],
+                        "answer" : "Eszopiclone"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "This drug has the longest potency",
+                        "options" : [
+                              "Zolpidem", 
+                              "Eszopiclone", 
+                              "Ramelteon"
+                        ],
+                        "answer" : "Zolpidem"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "This drug is used to induce sleep",
+                        "options" : [
+                              "zolpidem", 
+                              "zaleplon", 
+                              "eszopiclone"
+                        ],
+                        "answer" : "zolpidem"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Zolpidem is metabolized slower by ",
+                        "options" : [
+                              "Men", 
+                              "Women"
+                        ],
+                        "answer" : "Women"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "John Smith is waking up regularly in the middle of the night. A good therapy for him would be",
+                        "options" : [
+                              "zolpidem",
+                              "eszopiclone", 
+                              "zaleplon"
+                        ],
+                        "answer" : "zaleplon"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Both the a1 and a1 benzodiazepine receptor is acted upon by ",
+                        "options" : [
+                              "eszopiclone", 
+                              "zaleplon", 
+                              "zolpidem "
+                        ],
+                        "answer" : "eszopiclone"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Z-drugs primarily cause",
+                        "options" : [
+                              "sedation", 
+                              "amnesia", 
+                              "anxiety relief"
+                        ],
+                        "answer" : "sedation"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Z-drugs bind primarily to this receptor",
+                        "options" : [
+                              "GABA", 
+                              "benzodiazepine", 
+                              "barbiturate "
+                        ],
+                        "answer" : "benzodiazepine"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Z-drugs bind primarily to benzodiazepine's subunit receptor:",
+                        "options" : [
+                              "benzodiazepine", 
+                              "alpha1", 
+                              "alpha2",
+                              "beta"
+                        ],
+                        "answer" : "alpha1"
+                  },
+                  {
+                        "title":"Side-Effects",  
+                        "question" : "Z drugs are not effective antianxiety drugs because they bind primarily to the alpha1 subunit of benzodiazepine not the subunit:",
+                        "options" : [
+                              "benzodiazepine", 
+                              "alpha1", 
+                              "alpha2",
+                              "beta"
+                        ],
+                        "answer" : "alpha2"
+                  }
+            ], 
+            "reviewItems":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Diazepam", "content": "", "imagePath": "/molecular.PNG" },
+                              {"title": "Lorazepam", "content": "", "imagePath": "/molecular.PNG" }, 
+                              {"title": "Temazepam", "content": "", "imagePath": "/molecular.PNG" },
+                              {"title": "Midazolam", "content": "", "imagePath": "/molecular.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics",  
+                        "sections" : [
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }, 
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Pharmokinetic",  
+                        "sections" : [
+                              {"title": "Absorption", "content": "" },
+                              {"title": "Distribution", "content": "" }, 
+                              {"title": "Metabolism", "content": "" },
+                              {"title": "Excretion", "content": ""  }
+                        ]
+                  },
+                  {
+                        "title": "Action",  
+                        "sections" : [
+                              {"title": "Mechanism of Action", "content": "" },
+                              {"title": "Pharmacological Action", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",  
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Uses",  
+                        "sections" : [
+                              {"title": "Uses", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Notes",  
+                        "sections" : [
+                              {"title": "Notes", "content": "" }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": 4,
+            "name": "Anticonvulsants",
+            "learnItems":[],
+            "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Antiepileptic drugs primarily reduce this activity",
+                        "options" : [
+                              "excitatory", 
+                              "inhibitory "
+                        ],
+                        "answer" : "excitatory"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Consciousness is impaired for 30 seconds - 2 minutes by this seizure type: ",
+                        "options" : [
+                              "partial", 
+                              "complex partial",
+                              "absence "
+                        ],
+                        "answer" : "complex partial"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Antiepileptic drugs targeting sodium channels block",
+                        "options" : [
+                              "Sodium efflux",
+                              "normal action potentials",
+                              "epileptiform discharges"
+                        ],
+                        "answer" : "epileptiform discharges"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Antiepileptic drugs primarily enhance this activity",
+                        "options" : [
+                              "excitatory", 
+                              "inhibitory "
+                        ],
+                        "answer" : "inhibitory"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Felbamate is an antiepileptic that blocks these receptors",
+                        "options" : [
+                              "AMPA", 
+                              "dopamine",
+                              "GABA",
+                              "NMDA"
+                        ],
+                        "answer" : "GABA"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Reducing seizures and weight is possible with this anticonvulsant drug",
+                        "options" : [
+                              "topiramate", 
+                              "valproic acid",
+                              "gabapentin"
+                        ],
+                        "answer" : "topiramate"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Ethosuximide acts by inhibiting the activity of these channels",
+                        "options" : [
+                              "Calcium",
+                              "Sodium",
+                              "Chloride",
+                              "Potassium"
+                        ],
+                        "answer" : "Calcium"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Ethosuximide is only used for this type of seizure",
+                        "options" : [
+                              "complex",
+                              "partial",
+                              "absence "
+                        ],
+                        "answer" : "absence"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "This drug induces its own metabolism",
+                        "options" : [
+                              "Phenytoin", 
+                              "Carbamazepine",
+                              "Gabapentin"
+                        ],
+                        "answer" : "Carbamazepine"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Steven's Johnson syndrome is a rare but serious side effect of",
+                        "options" : [
+                              "Levetiracetam", 
+                              "Lamotrigine",
+                              "Carbamazepine"
+                        ],
+                        "answer" : "Lamotrigine"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Dizziness and somnolence is the most common side effect of",
+                        "options" : [
+                              "Phenytoin & Gabapentin", 
+                              "Pregabalin & Phenobarbital",
+                              "Pregabalin & Gabapentin",
+                              "Phenobarbital & Gabapentin"
+                        ],
+                        "answer" : "Pregabalin & Gabapentin"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "This binds to a synaptic vesicle protein and reduces presynaptic neurotransmitter release mediated by Ca2+",
+                        "options" : [
+                              "Levetiracetam", 
+                              "Lamotrigine",
+                              "topiramate"
+                        ],
+                        "answer" : "Levetiracetam"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Carbamazepine can be administered most safely without interaction with",
+                        "options" : [
+                              "lorazepam", 
+                              "phenytoin",
+                              "diazepam"
+                        ],
+                        "answer" : "diazepam"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "This is an irreversible inhibitor of GABA transaminase",
+                        "options" : [
+                              "Gabapentin", 
+                              "Pregabalin",
+                              "Valproic acid",
+                              "Vigabatrin "
+                        ],
+                        "answer" : "Vigabatrin"
+                  }
+
+            ], 
+            "reviewItems":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Diazepam", "content": "Long acting (30 - 60 hours)", "imagePath": "/molecular.PNG" },
+                              {"title": "Lorazepam", "content": "Intermediate acting (8-20 hours)", "imagePath": "/molecular.PNG" }, 
+                              {"title": "Temazepam", "content": "Intermediate acting (8-20 hours)", "imagePath": "/molecular.PNG" },
+                              {"title": "Midazolam", "content": "Short acting (1.5-5 hours)", "imagePath": "/molecular.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics",  
+                        "sections" : [
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }, 
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Pharmokinetic",  
+                        "sections" : [
+                              {"title": "Absorption", "content": "" },
+                              {"title": "Distribution", "content": "" }, 
+                              {"title": "Metabolism", "content": "" },
+                              {"title": "Excretion", "content": ""  }
+                        ]
+                  },
+                  {
+                        "title": "Action",  
+                        "sections" : [
+                              {"title": "Mechanism of Action", "content": "" },
+                              {"title": "Pharmacological Action", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",  
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Uses",  
+                        "sections" : [
+                              {"title": "Uses", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Notes",  
+                        "sections" : [
+                              {"title": "Notes", "content": "" }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": 5,
+            "name": "SRIs",
+            "learnItems":[
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Phenoxyphenylalkyl Amines",
+                        "imagePath" : "slide3.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "green", "location": "Basic Nitrogen", "description" : "Basic nitrogen: protonated at physiological pH; pKa 8.7−9.8" },
+                              {"color": "deeppink", "location": "Electron-withdrawing group", "description" : "Electron-withdrawing group: para or meta substitution enhances binding affinity for SERT; while Ortho substitution (except CF3) enhances binding affinity for NET and results in NRI" },
+                              {"color": "red", "location": "Phenoxy", "description" : "Phenoxy: distinguishes antidepressant and antihistamine activity (derived from diphenhydramine)." }
+                        ]
+                  },
+                  {
+                        "title":"Phenoxyphenylalkyl Amines Example",  
+                        "name" : "Fluoxetine",
+                        "imagePath" : "slide-5a.PNG",
+                        "colorLocationAssociations" : [
+                               {"color": "green", "location": "Basic Nitrogen", "description" : "Basic nitrogen: protonated at physiological pH; pKa 8.7−9.8" },
+                              {"color": "deeppink", "location": "Electron-withdrawing group", "description" : "Electron-withdrawing group: para or meta substitution enhances binding affinity for SERT; while Ortho substitution (except CF3) enhances binding affinity for NET and results in NRI" },
+                              {"color": "red", "location": "Phenoxy", "description" : "Phenoxy: distinguishes antidepressant and antihistamine activity (derived from diphenhydramine)." }
+                        ]
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Phenylalkyl Amines",
+                        "imagePath" : "slide4.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "green", "location": "Basic Nitrogen", "description" : "Basic nitrogen: protonated at physiological pH; pKa 9.5" },
+                              {"color": "deeppink", "location": "Chlorine", "description" : "Chlorine: enhances SERT selectivity" }
+                        ]
+                  },
+                  {
+                        "title":"Phenylalkyl Amines Example",  
+                        "name" : "Sertraline",
+                        "imagePath" : "slide-5b.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "green", "location": "Basic Nitrogen", "description" : "Basic nitrogen: protonated at physiological pH; pKa 9.5" },
+                              {"color": "deeppink", "location": "Chlorine", "description" : "Chlorine: enhances SERT selectivity" }
+                        ]
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide7.PNG",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease", 
+                              "No Effect"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "The presence of an EWG (CF3) increases SERT activity of phenoxyphenylalkyl amines"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide8.PNG",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease", 
+                              "No Effect"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "The presence of the phenoxy (O directly attached to phenyl ring) distinguishes SRIs from diphenhydramine"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide9.PNG",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease", 
+                              "No Effect"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "The S isomer of fluoxetine is 100x more selective for SERT"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide10.PNG",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease", 
+                              "No Effect"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Ortho EWG substitution results in NRI and decreases SERT affinity"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide12.PNG",
+                        "question" : "Which of these 3 antidepressants has major side effects as GI upset and sexual dysfunction?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Paroxetine is an SRI, which commonly shows these adverse events"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide13.PNG",
+                        "question" : "Which of these 3 antidepressants is most selective for SERT?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Sertraline is an SRI, which is selective for SERT. Compound 1 is an NRI and compound 2 is a secondary amine TCA, which is more selective for NET."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Predict Metabolite Activity",
+                        "imagePath" : "slide15.PNG",
+                        "question" : "Predict whether the metabolites will be active or inactive for the compounds (1, 3)",
+                        "options" : [ 
+                              "Active, Active",
+                              "Active, Inactive",
+                              "Inactive, Active",
+                              "Inactive, Inactive"
+                        ],
+                        "answer" : "Inactive, Active",
+                        "explanation" : ""
+                  }
+            ],
+            "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Escitalopram, fluoxetine, sertraline, and citalopram are examples of:",
+                        "options" : [
+                              "Tricyclic antidepressants",
+                              "Atypical antidepressants",
+                              "Norepinephrine Reuptake Inhibitors",
+                              "Serotonin Reuptake Inhibitors"
+                        ],
+                        "answer" : "Serotonin Reuptake Inhibitors"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "___________ are the most widely prescribed antidepressants",
+                        "options" : [
+                              "TCAs",
+                              "SRIs",
+                              "Lithium",
+                              "SNRIs"
+                        ],
+                        "answer" : "SRIs"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "__________ inhibits CYPs more significantly than other _______",
+                        "options" : [
+                              "(Escitalopram, TCAs)",
+                              "(Sertraline, Atypical Antidepressants)",
+                              "(Fluoxetine, SRIs)",
+                              "(Citalopram, NRIs)"
+                        ],
+                        "answer" : "(Fluoxetine, SRIs)"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "The most common adverse effects of SRIs GI and ________________",
+                        "options" : [
+                              "sexual side effects",
+                              "orthostatic hypotension",
+                              "constipation",
+                              "drowsiness"
+                        ],
+                        "answer" : "sexual side effects"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "SRIs have common drug interactions with _______ and can cause elevated levels of __________",
+                        "options" : [
+                              "(Acetylcholinesterase inhibitors, Acetylcholine)",
+                              "(Anticonvulsants, Norepinephrine)",
+                              "(Antibiotics, Dopamine)",
+                              "(MAOIs, Serotonin)"
+                        ],
+                        "answer" : "(MAOIs, Serotonin)"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "_________ can be recognized with side effects such as increased heart rate and diarrhea",
+                        "options" : [
+                              "Orthostatic Hypotension,",
+                              "Antihistaminic Effects,",
+                              "Serotonin Syndrome",
+                              "Antimuscarinic Effects"
+                        ],
+                        "answer" : "Serotonin Syndrome"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "SRIs are ________ tolerated than TCA",
+                        "options" : [
+                              "more",
+                              "less",
+                              "equally"
+                        ],
+                        "answer" : "more"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Abrupt withdrawal of SRIs can cause:",
+                        "options" : [
+                              "physical dependence",
+                              "rebound effect",
+                              "hangover",
+                              "medullary depression"
+                        ],
+                        "answer" : "rebound effect"
+                  }
+            ], 
+            "reviewItems":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Paroxetine (Pheno)", "imagePath": "paroxetine.PNG" },
+                              {"title": "Escitalopram (Pheno)", "imagePath": "escitalopram.PNG" }, 
+                              {"title": "Fluoxetine (Pheno)", "imagePath": "fluoxetine.PNG" },
+                              {"title": "Sertraline (Pheny)", "imagePath": "sertraline.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics - Phenoxyphenylalkyl Amines",  
+                        "sections" : [
+                              {"title": "Phenoxyphenylalkyl Amines", "imagePath": "sarCharacteristics-pheno.PNG" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }, 
+                              {"title": "", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics - Phenylalkyl Amine",  
+                        "sections" : [
+                              {"title": "Phenylalkyl Amine", "imagePath": "sarCharacteristics-pheny.PNG" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Action",  
+                        "sections" : [
+                              {"title": "Mechanism of Action", "imagePath": "mechanismAction.PNG" },
+                              {"title": "Explanation", "content": "" },
+                              {"title": "Acute SRI Use", "content": "" },
+                              {"title": "Chronic SRI Use", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",  
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Uses",  
+                        "sections" : [
+                              {"title": "Uses", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Notes",  
+                        "sections" : [
+                              {"title": "Notes", "content": "" }
+                        ]
+                  }
+            ],
+             "exampleReview":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Paroxetine (Pheno)", "imagePath": "paroxetine.PNG" },
+                              {"title": "Escitalopram (Pheno)", "imagePath": "escitalopram.PNG" }, 
+                              {"title": "Fluoxetine (Pheno)", "imagePath": "fluoxetine.PNG" },
+                              {"title": "Sertraline (Pheny)", "imagePath": "sertraline.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics - Phenoxyphenylalkyl Amines",  
+                        "sections" : [
+                              {"title": "Phenoxyphenylalkyl Amines", "imagePath": "sarCharacteristics-pheno.PNG" },
+                              {"title": "Basic nitrogen: ", "content": "protonated at physiological pH; pKa 8.7−9.8" },
+                              {"title": "Electron-withdrawing group: ", "content": "para or meta substitution enhances binding affinity for SERT. -Ortho substitution (except CF3) enhances binding affinity for NET and results in NRI" }, 
+                              {"title": "Phenoxy:", "content": "distinguishes antidepressant and antihistamine activity (derived from diphenhydramine)" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics - Phenylalkyl Amine",  
+                        "sections" : [
+                              {"title": "Phenylalkyl Amine", "imagePath": "sarCharacteristics-pheny.PNG" },
+                              {"title": "Basic Nitrogen", "content": "Protonated at physiological pH; pKa 9.5" },
+                              {"title": "Chlorine", "content": "enhances SERT selectivity" }
+                        ]
+                  },
+                  {
+                        "title": "Action",  
+                        "sections" : [
+                              {"title": "Mechanism of Action", "imagePath": "mechanismAction.PNG" },
+                              {"title": "Explanation", "content": "Blocks Serotonin Transporter (SERT) on pre-synaptic neuron resulting in increased serotonin in the synapse which is available to bind to post synaptic serotonin receptors." },
+                              {"title": "Acute SRI Use", "content": "1. Drug blocks 5-HT re-update (SERT) 2. Auto receptor (5-HT1A) activity decreases 3. 5-HT release decreases" },
+                              {"title": "Chronic SRI Use", "content": "1. Auto receptor (5-HT1A) function is lost 2. 5-HT release returns to normal 3. Now serotonin in synapse is greatly increased" }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",  
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "Nausea & GI symptoms, Sexual effects (decreased libido & sexual dysfunction), Mild restlessness, Mild headaches, Mild Insomnia" }
+                        ]
+                  },
+                  {
+                        "title": "Uses",  
+                        "sections" : [
+                              {"title": "Uses", "content": "Depression, OCD, panic disorder, anxiety" }
+                        ]
+                  },
+                  {
+                        "title": "Notes",  
+                        "sections" : [
+                              {"title": "Notes", "content": "SRIs compete with metabolism of other drugs, Never use in combo with MAOIs (MAOIs inhibit breakdown of SRIs and could lead to overdose of serotonin in the brain)" }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": 6,
+            "name": "SNRIs",
+            "learnItems":[
+                  {
+                        "title":"Helpful Strucures to Know",  
+                        "name" : "(No SAR Requirements for SNRIs)",
+                        "imagePath" : "slide-23a.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "None", "description" : "Serotonin and Norepinephrine Reuptake Inhibitors do not have any Structure Activity Requirements but these are some helpful structures to be familiar with." }
+                        ]
+                  },
+                  {
+                        "title":"Helpful Strucures to Know",  
+                        "name" : "(No SAR Requirements for SNRIs)",
+                        "imagePath" : "slide-23b.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "None", "description" : "Serotonin and Norepinephrine Reuptake Inhibitors do not have any Structure Activity Requirements but these are some helpful structures to be familiar with." }
+                        ]
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide25.PNG",
+                        "question" : "Which of these 3 antidepressants is active at both SERT and NET?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Duloxetine is an SNRI, which is active at SERT and NET. Compound 1 is SRI and Compound 3 is bupropion, which weakly blocks DAT and NET"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide26.PNG",
+                        "question" : "Which of these 3 antidepressants is considered activating and may raise blood pressure?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Duloxetine is an SNRI, which is known to be activating"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study ",
+                        "imagePath" : "slide28.PNG",
+                        "question" : "Alfred Smith is 80-year old male suffering from depression. He is currently taking paroxetine, but it is not helping. What one compound would you recommend he try next?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Compound 1 is an SRI, which he was currently taking and not helping. Compound 2 is a tertiary amine TCA, which acts as a SNRI and would be helpful, but leads to adverse effects such as sedation and hypotension so not recommended in elderly. Compound 3 (venlafaxine) is best choice as it is SNRI, with few adverse effects."
+                  }
+            ],
+            "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Venlafaxine and duloxetine are examples of: ",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c",
+                              "Selective Serotonin Reuptake Inhibitor’s"
+                        ],
+                        "answer" : "Selective Serotonin Reuptake Inhibitor’s"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "SNRI’s have _________ effects such as agitation",
+                        "options" : [
+                              "a",
+                              "noradrenergic",
+                              "c",
+                              "d"
+                        ],
+                        "answer" : "noradrenergic"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "(venlafaxine/duloxetine) is more potent than (venlafaxine/duloxetine)",
+                        "options" : [
+                              "(venlafaxine, duloxetine)",
+                              "(duloxetine, venlafaxine)"
+                        ],
+                        "answer" : "(venlafaxine, duloxetine)"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "SNRI’s are similar to TCA potency, have (less/more) side effects, and (faster/slower) than SRI alone",
+                        "options" : [
+                              "(less, faster)",
+                              "(more, slower)",
+                              "(more, faster)",
+                              "(less, slower)"
+                        ],
+                        "answer" : "(less, faster)"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "_________ has an active metabolite",
+                        "options" : [
+                              "a",
+                              "b",
+                              "Venlafaxine",
+                              "d"
+                        ],
+                        "answer" : "Venlafaxine"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "BONUS: Venlafaxine's active metabolite's name is:",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c",
+                              "Desvenlafaxine"
+                        ],
+                        "answer" : "Desvenlafaxine"
+                  }
+            ], 
+            "reviewItems":[]
+      },
+      {
+            "id": 7,
+            "name": "Tricyclic-Antidepressants",
+            "learnItems":[
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Tertiary Amines",
+                        "imagePath" : "slide34.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "red", "location": "Linker of 3 carbons", "description" : "Linker of 3 carbons between tricyclic ring system and basic nitrogen. Branching from linker decreases binding affinity for SERT and NET. Unsaturation of linker is tolerated." },
+                              {"color": "deeppink", "location": "R→ CH3", "description" : "R→ CH3, tertiary amine imparts selectivity for SERT" },
+                              {"color": "blue", "location": "R’→ Cl or CN (EWG)", "description" : "R’→ Cl or CN (EWG) enhances binding affinity for SERT" },
+                              {"color": "green", "location": "Y→ can be C or N", "description" : "Y→ can be C or N" },
+                              {"color": "purple", "location": "Conformationally rigid [6.7.6]-fused ring system", "description" : "Conformationally rigid [6.7.6]-fused ring system" },
+                              {"color": "black", "location": "None", "description" : "7 membered ring in the middle is not coplanar; results in twisted shape" }
+                        ]
+                  },
+                  {
+                        "title":"Tertiary Amines Example Compound",  
+                        "name" : "Clomipramine",
+                        "imagePath" : "slide-36a.PNG",
+                        "colorLocationAssociations" : []
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Secondary Amines",
+                        "imagePath" : "slide35.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "red", "location": "Linker of 3 carbons", "description" : "Linker of 3 carbons between tricyclic ring system and basic nitrogen. Branching from linker decreases binding affinity for SERT and NET. Unsaturation of linker is tolerated." },
+                              {"color": "deeppink", "location": "R→ CH3", "description" : "R→ H, secondary amine imparts selectivity for NET" },
+                              {"color": "blue", "location": "R’→ Cl or CN (EWG)", "description" : "R’→ no substitution decreases SERT preference" },
+                              {"color": "green", "location": "Y→ can be C or N", "description" : "Y→ can be C or N" },
+                              {"color": "purple", "location": "Conformationally rigid [6.7.6]-fused ring system", "description" : "Conformationally rigid [6.7.6]-fused ring system" },
+                              {"color": "black", "location": "None", "description" : "7 membered ring in the middle is not coplanar; results in twisted shape" }
+                        ]
+                  },
+                  {
+                        "title":"Secondary Amines Example Compound",  
+                        "name" : "Nortriptyline",
+                        "imagePath" : "slide-36b.PNG",
+                        "colorLocationAssociations" : []
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide38.PNG",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease", 
+                              "No Effect"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Tertiary→ Secondary amine decreases binding affinity for SERT"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide39.PNG",
+                        "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease", 
+                              "No Effect"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "Presence of EWG (Cl) enhances binding affinity for SERT"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide41.PNG",
+                        "question" : "Which of these 3 antidepressants is active at both SERT and NET?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Compound 2, amitriptyline is a tertiary TCA, which is active at SERT and NET. Compound 1 is SRI and Compound 3 is a secondary TCA, only active at NET"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide42.PNG",
+                        "question" : "Which of these 3 antidepressants causes significant dry mouth, constipation, and sedation?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Compound 1, clomipramine is a tertiary TCA, which is can bind to muscarinic and histamine receptors resulting in off target adverse effects. Compound 2 is a SRI and does not cause these adverse effects. Compound 3 is a mirtazepine and while it can cause sedation, it does not display anticholinergic effects such as dry mouth and constipation."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Predict Metabolite Activity",
+                        "imagePath" : "slide44.PNG",
+                        "question" : "Predict whether the metabolites will be active or inactive for the compounds (2 & 3). Would compound 1 be an ideal antidepressant for the elderly?",
+                        "options" : [ 
+                              "Active, Active, Yes",
+                              "Active, Inactive, No", 
+                              "Inactive, Inactive, No",
+                              "Inactive, Active, Yes"
+                        ],
+                        "answer" : "Active, Inactive, No",
+                        "explanation" : "Compound 1 (amitriptyline) causes anticholinergic effects, therefore it is not an ideal antidepressant for the elderly."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Predict Metabolite Activity",
+                        "imagePath" : "slide45.PNG",
+                        "question" : "Predict whether the metabolites will be active or inactive for the compounds (1 & 3)",
+                        "options" : [ 
+                              "Active, Active",
+                              "Active, Inactive", 
+                              "Inactive, Inactive",
+                              "Inactive, Active"
+                        ],
+                        "answer" : "Active, Inactive",
+                        "explanation" : ""
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Predict Metabolite Activity",
+                        "imagePath" : "slide46.PNG",
+                        "question" : "Predict whether the metabolites will be active or inactive for compound 2. Is compound 1 considered an SNRI or NRI?",
+                        "options" : [ 
+                              "Active, NRI",
+                              "Active, SNRI", 
+                              "Inactive, NRI",
+                              "Inactive, SNRI"
+                        ],
+                        "answer" : "Inactive, NRI",
+                        "explanation" : ""
+                  }
+            ],
+            "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Tertiary TCAs have slightly greater selectivity for blockade of (Norepinephrine/Serotonin) reuptake over (Norepinephrine/Serotonin) reuptake",
+                        "options" : [
+                              "(Norepinephrine, Serotonin)",
+                              "(Serotonin, Norepinephrine)"
+                        ],
+                        "answer" : "a"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Secondary TCA’s, such as (Nortriptyline/Amitriptyline) have greater selectivity for blockade of (Norepinephrine/Serotonin)",
+                        "options" : [
+                              "(Nortriptyline, Norepinephrine)",
+                              "(Nortriptyline, Serotonin)",
+                              "(Amitriptyline, Norepinephrine)",
+                              "(Amitriptyline, Serotonin)"
+                        ],
+                        "answer" : "a"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "TCA adverse effects include _____________ effects such as dry eyes and mouth",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c"
+                        ],
+                        "answer" : "a"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Onset of action for TCA’s takes 2-3:",
+                        "options" : [
+                              "months",
+                              "weeks",
+                              "days"
+                        ],
+                        "answer" : "a"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Side effects include sexual dysfunction, constipation, and: ",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c"
+                        ],
+                        "answer" : "a"
+                  }
+            ], 
+            "reviewItems":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Amitriptyline (Tertiary)", "imagePath": "review-Amitriptyline.PNG" },
+                              {"title": "Nortriptyline (Secondary)", "imagePath": "review-Nortriptyline.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics",  
+                        "sections" : [
+                              {"title": "Example Compound", "imagePath": "review-sar.PNG" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }, 
+                              {"title": "", "content": "" }, 
+                              {"title": "", "content": "" }, 
+                              {"title": "", "content": "" },  
+                              {"title": "", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Mechanism of Action",  
+                        "sections" : [
+                              {"title": "MOA", "imagePath": "moa-TCAs.PNG" },
+                              {"title": "Explanation", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",  
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Uses",  
+                        "sections" : [
+                              {"title": "Uses", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Notes",  
+                        "sections" : [
+                              {"title": "Notes", "content": "" }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": 8,
+            "name": "Atypical-Antidepressants",
+            "learnItems":[
+                  {
+                        "title":"Useful Structures",  
+                        "name" : "Example Compound 1",
+                        "imagePath" : "slide-53a.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Atypical Antidepressants" }
+                        ]
+                  },
+                  {
+                        "title":"Useful Structures",  
+                        "name" : "Example Compound 2",
+                        "imagePath" : "slide-53b.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Atypical Antidepressants" }
+                        ]
+                  },
+                  {
+                        "title":"Useful Structures",  
+                        "name" : "Example Compound 3",
+                        "imagePath" : "slide-53c.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Atypical Antidepressants" }
+                        ]
+                  },
+                  {
+                        "title":"Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide55.PNG",
+                        "question" : "Which of these 3 antidepressants can also be used for smoking cessation?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Bupropion"
+                  },
+                  {
+                        "title":"Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide56.PNG",
+                        "question" : "Which of these 3 antidepressants causes sedation by blocking histamine receptors?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Mirtazepine"
+                  },
+                  {
+                        "title":"Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide57.PNG",
+                        "question" : "Which of these 3 antidepressants can result in a hepatotoxic metabolite?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Metabolism of Trazodone"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study ",
+                        "imagePath" : "slide59.PNG",
+                        "question" : "Mary Sue is 25-year old male suffering from depression. She complains of feeling tired and gaining weight with her last course of antidepressants. Which compound would you recommend her to try?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Compound 1 (trazodone) can cause sedation. Compound 2 (amitriptyline) can cause weight gain. Compound 3 (bupropion) would be a good alternative for this patient to prevent unwanted adverse effects."
+                  }
+            ],
+            "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Significant side effect of both trazodone and mirtazepine is: ",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c"
+                        ],
+                        "answer" : "a"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Trazodone works by blocking the ______ serotonin receptor and being an agonist at the _______ serotonin receptor",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c"
+                        ],
+                        "answer" : "a"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Mirtazapine blocks a serotonin receptor and a ________ receptor",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c"
+                        ],
+                        "answer" : "a"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Buproprion has a potential for ___________ at high doses",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c"
+                        ],
+                        "answer" : "a"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "__________ can cause increase appetite and weight gain while ___________ can have the opposite effect",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c"
+                        ],
+                        "answer" : "a"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "______________ can be used a sleep aid independent of its antidepressant activity",
+                        "options" : [
+                              "a",
+                              "b",
+                              "c"
+                        ],
+                        "answer" : "a"
+                  }
+            ], 
+            "reviewItems":[]
+      }
+]
