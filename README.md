@@ -1,14 +1,28 @@
 # StudyMC
 StudyMC (Study Medicinal Chemistry) is a College of Pharmacy web application to help students in studying their course materials.
 
-![alt tag](https://raw.githubusercontent.com/chriscerk/studymc/readme/mobileHomeScreen.png)
+# Organization
+<strong>Learn</strong>
+Content provided to help expand the student's knowledge along with practice problems which include feedback.
 
-![alt tag](https://raw.githubusercontent.com/chriscerk/studymc/readme/exampleTestQuestion.png)
+<strong>Test</strong>
+Example test questions to gauge a student's knowledge on a particular topic.
 
-<strong>Dependencies </strong>
+<strong>Review</strong>
+A review sheet which students can fill out online then print upon completion.
+
+[[https://github.com/chriscerk/studymc/blob/master/readme/exampleTestQuestion.png|alt=Example Test Question]]
+
+[[https://https://github.com/chriscerk/studymc/blob/master/readme/mobileHomeScreen.png|alt=Home Screen]]
+
+# Installation
+
+<strong>Dependencies</strong>
 `composer`, `nodejs` & `typescript`
 
-<strong>Setup </strong>
+<strong>Setup</strong>
 Laravel Homestead: https://www.laravel.com/docs/5.3/homestead
+
+
 
 Originally forked from: https://github.com/axiskafi/angular2-laravel5
