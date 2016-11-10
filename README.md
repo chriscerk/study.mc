@@ -11,9 +11,9 @@ Example test questions to gauge a student's knowledge on a particular topic.
 <strong>Review</strong>
 A review sheet which students can fill out online then print upon completion.
 
-[[https://github.com/chriscerk/studymc/blob/master/readme/exampleTestQuestion.png|alt=ExampleTestQuestion]]
+![Home Screen](/readme/mobileHomeScreen.png?raw=true "Home Screen")
 
-[[https://https://github.com/chriscerk/studymc/blob/master/readme/mobileHomeScreen.png|alt=HomeScreen]]
+![Example Test Question](/readme/exampleTestQuestion.png?raw=true "Example Test Question")
 
 # Installation
 
