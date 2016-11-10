@@ -15,14 +15,19 @@ import { DataService } from '../core/services/data.service';
   <div class="alert alert-info review-alert" role="alert" style="display:none;">
     <a href="#" class="alert-link"> Reviewing on a mobile device <strong>not available</strong> due to the large amount of <strong>typing</strong> required along with <strong>printing</strong>.</a>
   </div>
-  <p>Please fill each section of the review. Below is a generated review worksheet, printable upon completion.</p>
+  <p>Please fill each section of the review. Below is a generated review worksheet, printable upon completion. <a href="/studymc-media/savePDF-HowTo-studymc.mp4">How to Save Review Worksheet as a PDF Video</a></p>
 <div class="content review-module">
   <form #f="ngForm" (ngSubmit)="onSubmit()" method="post">
   <div *ngFor="let reviewItem of topic.reviewItems; let i = index">
     <div *ngIf="currentItem == i">    
         <h2>Section {{i+1}}: {{reviewItem.title}}</h2> 
         <div class="action-buttons">
-         <div class="btn-group">
+        <div class="shaded">
+          <button type="button" class="btn btn-default shaded" (click)="generateExampleReview()"> Autofill </button>
+        </div>
+        <br>
+         <div class="btn-group shaded">
+          <br>
           <button type="button" class="btn btn-default" (click)="toPreviousItem()"> Previous </button>
           <button type="button" class="btn btn-default" *ngIf="reviewComplete" (click)="toNextItem()"> Next </button>
          </div>
@@ -71,8 +76,8 @@ import { DataService } from '../core/services/data.service';
           <a href="#" class="alert-link"> There is currently no Review for {{topic.name}}.</a>
         </div>
   </div>
-    
-    <h2> Preview Below &nbsp;  <span class="glyphicon glyphicon-arrow-down"></span></h2> 
+  <hr>
+    <h2 style="text-align: center"> Preview Below &nbsp;  <span class="glyphicon glyphicon-arrow-down"></span></h2> 
   <hr>
   </form>
  </div>
@@ -172,6 +177,8 @@ export class TopicReviewComponent implements OnInit {
 
   generateExampleReview() {
     this.topic.reviewItems = this.topic.exampleReview;
+    this.studentName = "Lazy Lawrence";
+    this.reviewComplete = true;
   }
 
 

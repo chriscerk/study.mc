@@ -33,7 +33,7 @@ import { DataService } from '../core/services/data.service';
           <p>{{learnItem.name}}</p>
 
             <div class="action-buttons">
-              <div class="mobile-top">
+              <div class="shaded">
                 <button  type="button" class="btn btn-default" (click)="previousItem()"> Previous </button>
               </div>
               <br>

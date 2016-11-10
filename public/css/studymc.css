@@ -195,7 +195,7 @@ img.loading {
     z-index: 50;
 }
 
-.mobile-top > button {
+.shaded > button {
         z-index: 50;
         box-shadow: 0 0 10px rgb(111, 111, 111);
     }
