@@ -11,9 +11,9 @@ Example test questions to gauge a student's knowledge on a particular topic.
 <strong>Review</strong>
 A review sheet which students can fill out online then print upon completion.
 
-![Home Screen](/readme/mobileHomeScreen.png?raw=true "Home Screen")
+![Home Screen](/readme/HomeScreen.png?raw=true "Home Screen")
 
-![Example Test Question](/readme/exampleTestQuestion.png?raw=true "Example Test Question")
+![Example Test Question](/readme/TestQuestion.png?raw=true "Example Test Question")
 
 # Installation
 
