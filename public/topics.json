@@ -1339,9 +1339,9 @@
                         "title":"",  
                         "question" : "Venlafaxine and duloxetine are examples of: ",
                         "options" : [
-                              "a",
-                              "b",
-                              "c",
+                              "Tricyclic Antidepressants",
+                              "Atypical Antidepressants",
+                              "Norepinephrine reuptake inhibitors",
                               "Selective Serotonin Reuptake Inhibitor’s"
                         ],
                         "answer" : "Selective Serotonin Reuptake Inhibitor’s"
@@ -1350,10 +1350,10 @@
                         "title":"",  
                         "question" : "SNRI’s have _________ effects such as agitation",
                         "options" : [
-                              "a",
+                              "seratonergic",
                               "noradrenergic",
-                              "c",
-                              "d"
+                              "histaminergic",
+                              "cholinergic"
                         ],
                         "answer" : "noradrenergic"
                   },
@@ -1381,10 +1381,10 @@
                         "title":"",  
                         "question" : "_________ has an active metabolite",
                         "options" : [
-                              "a",
-                              "b",
+                              "Duloxetine",
+                              "Sibutramine",
                               "Venlafaxine",
-                              "d"
+                              "Milnacipran"
                         ],
                         "answer" : "Venlafaxine"
                   },
@@ -1392,9 +1392,9 @@
                         "title":"",  
                         "question" : "BONUS: Venlafaxine's active metabolite's name is:",
                         "options" : [
-                              "a",
-                              "b",
-                              "c",
+                              "Ansofaxine",
+                              "Duloxetine",
+                              "Atomoxetine",
                               "Desvenlafaxine"
                         ],
                         "answer" : "Desvenlafaxine"
@@ -1415,8 +1415,7 @@
                               {"color": "deeppink", "location": "R→ CH3", "description" : "R→ CH3, tertiary amine imparts selectivity for SERT" },
                               {"color": "blue", "location": "R’→ Cl or CN (EWG)", "description" : "R’→ Cl or CN (EWG) enhances binding affinity for SERT" },
                               {"color": "green", "location": "Y→ can be C or N", "description" : "Y→ can be C or N" },
-                              {"color": "purple", "location": "Conformationally rigid [6.7.6]-fused ring system", "description" : "Conformationally rigid [6.7.6]-fused ring system" },
-                              {"color": "black", "location": "None", "description" : "7 membered ring in the middle is not coplanar; results in twisted shape" }
+                              {"color": "purple", "location": "Conformationally rigid [6.7.6]-fused ring system", "description" : "Conformationally rigid [6.7.6]-fused ring system - 7 membered ring in the middle is not coplanar; results in twisted shape" }
                         ]
                   },
                   {
@@ -1434,8 +1433,7 @@
                               {"color": "deeppink", "location": "R→ CH3", "description" : "R→ H, secondary amine imparts selectivity for NET" },
                               {"color": "blue", "location": "R’→ Cl or CN (EWG)", "description" : "R’→ no substitution decreases SERT preference" },
                               {"color": "green", "location": "Y→ can be C or N", "description" : "Y→ can be C or N" },
-                              {"color": "purple", "location": "Conformationally rigid [6.7.6]-fused ring system", "description" : "Conformationally rigid [6.7.6]-fused ring system" },
-                              {"color": "black", "location": "None", "description" : "7 membered ring in the middle is not coplanar; results in twisted shape" }
+                              {"color": "purple", "location": "Conformationally rigid [6.7.6]-fused ring system", "description" : "Conformationally rigid [6.7.6]-fused ring system - 7 membered ring in the middle is not coplanar; results in twisted shape" }
                         ]
                   },
                   {
@@ -1500,7 +1498,7 @@
                         "title":"SAR Practice Problem",  
                         "name" : "Predict Metabolite Activity",
                         "imagePath" : "slide44.PNG",
-                        "question" : "Predict whether the metabolites will be active or inactive for the compounds (2 & 3). Would compound 1 be an ideal antidepressant for the elderly?",
+                        "question" : "Predict whether the metabolites will be active or inactive for the compound products. Would amitriptyline be an ideal antidepressant for the elderly?",
                         "options" : [ 
                               "Active, Active, Yes",
                               "Active, Inactive, No", 
@@ -1508,13 +1506,13 @@
                               "Inactive, Active, Yes"
                         ],
                         "answer" : "Active, Inactive, No",
-                        "explanation" : "Compound 1 (amitriptyline) causes anticholinergic effects, therefore it is not an ideal antidepressant for the elderly."
+                        "explanation" : "Aamitriptyline causes anticholinergic effects, therefore it is not an ideal antidepressant for the elderly."
                   },
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Predict Metabolite Activity",
                         "imagePath" : "slide45.PNG",
-                        "question" : "Predict whether the metabolites will be active or inactive for the compounds (1 & 3)",
+                        "question" : "Predict whether the metabolites will be active or inactive for the compound products",
                         "options" : [ 
                               "Active, Active",
                               "Active, Inactive", 
@@ -1522,13 +1520,13 @@
                               "Inactive, Active"
                         ],
                         "answer" : "Active, Inactive",
-                        "explanation" : ""
+                        "explanation" : "No explanation for this item."
                   },
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Predict Metabolite Activity",
                         "imagePath" : "slide46.PNG",
-                        "question" : "Predict whether the metabolites will be active or inactive for compound 2. Is compound 1 considered an SNRI or NRI?",
+                        "question" : "Predict whether the metabolites will be active or inactive for the compound product. Is nortriptyline considered an SNRI or NRI?",
                         "options" : [ 
                               "Active, NRI",
                               "Active, SNRI", 
@@ -1536,7 +1534,7 @@
                               "Inactive, SNRI"
                         ],
                         "answer" : "Inactive, NRI",
-                        "explanation" : ""
+                        "explanation" : "No explanation for this item."
                   }
             ],
             "testItems":[
@@ -1547,7 +1545,7 @@
                               "(Norepinephrine, Serotonin)",
                               "(Serotonin, Norepinephrine)"
                         ],
-                        "answer" : "a"
+                        "answer" : "(Serotonin, Norepinephrine)"
                   },
                   {
                         "title":"",  
@@ -1558,17 +1556,18 @@
                               "(Amitriptyline, Norepinephrine)",
                               "(Amitriptyline, Serotonin)"
                         ],
-                        "answer" : "a"
+                        "answer" : "(Nortriptyline, Norepinephrine)"
                   },
                   {
                         "title":"",  
                         "question" : "TCA adverse effects include _____________ effects such as dry eyes and mouth",
                         "options" : [
-                              "a",
-                              "b",
-                              "c"
+                              "adrenergic",
+                              "antihistaminic",
+                              "anticholinergic",
+                              "antimuscarinic"
                         ],
-                        "answer" : "a"
+                        "answer" : "antimuscarinic"
                   },
                   {
                         "title":"",  
@@ -1576,19 +1575,21 @@
                         "options" : [
                               "months",
                               "weeks",
-                              "days"
+                              "days",
+                              "minutes"
                         ],
-                        "answer" : "a"
+                        "answer" : "weeks"
                   },
                   {
                         "title":"",  
                         "question" : "Side effects include sexual dysfunction, constipation, and: ",
                         "options" : [
-                              "a",
-                              "b",
-                              "c"
+                              "prominent GI effects",
+                              "sedation",
+                              "migraines",
+                              "blood disorders"
                         ],
-                        "answer" : "a"
+                        "answer" : "sedation"
                   }
             ], 
             "reviewItems":[
@@ -1635,6 +1636,47 @@
                         "title": "Notes",  
                         "sections" : [
                               {"title": "Notes", "content": "" }
+                        ]
+                  }
+            ],
+            "exampleReview":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Amitriptyline (Tertiary)", "imagePath": "review-Amitriptyline.PNG" },
+                              {"title": "Nortriptyline (Secondary)", "imagePath": "review-Nortriptyline.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics",  
+                        "sections" : [
+                              {"title": "Example Compound", "imagePath": "review-sar.PNG" },
+                              {"title": "Linker of 3 carbons", "content": "Linker of 3 carbons between tricyclic ring system and basic nitrogen. Branching from linker decreases binding affinity for SERT and NET. Unsaturation of linker is tolerated." },
+                              {"title": "R→ CH3, tertiary amine", "content": "R→ CH3, tertiary amine imparts selectivity for SERT" },
+                              {"title": "R→ H, secondary amine", "content": "R→ H, secondary amine imparts selectivity for NET" }, 
+                              {"title": "R’→ Cl or CN (EWG)", "content": "R’→ Cl or CN (EWG) enhances binding affinity for SERT" }, 
+                              {"title": "R’→ no substitution", "content": "R’→ no substitution decreases SERT preference" }, 
+                              {"title": "Y→ can be C or N", "content": "Y→ can be C or N" },  
+                              {"title": "Conformationally rigid [6.7.6]-fused ring system", "content": "Conformationally rigid [6.7.6]-fused ring system - 7 membered ring in the middle is not coplanar; results in twisted shape" }
+                        ]
+                  },
+                  {
+                        "title": "Mechanism of Action",  
+                        "sections" : [
+                              {"title": "MOA", "imagePath": "moa-TCAs.PNG" },
+                              {"title": "Explanation", "content": "Block SERT & NET to inhibit seratonin and norepinephrine reuptake. Block muscarinic, Histamine H1, and Alpha adrenergic receptors" }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "[Amitriptyline]: Sedation, Hypotension, Anti-Muscarinic, Weight Gain. [Nortiptyline]: No major side effects." }
+                        ]
+                  },
+                  {
+                        "title": "Notes",  
+                        "sections" : [
+                              {"title": "Notes", "content": "[Amitriptyline]: Can cause extreme CNS depression leading to death if OD. [Nortiptyline]: Selectively blocks NET with much more affinity than SERT." }
                         ]
                   }
             ]
@@ -1725,49 +1767,55 @@
                         "title":"",  
                         "question" : "Significant side effect of both trazodone and mirtazepine is: ",
                         "options" : [
-                              "a",
-                              "b",
-                              "c"
+                              "orthostatic hypotension",
+                              "sedation",
+                              "constipation",
+                              "sexual effects"
                         ],
-                        "answer" : "a"
+                        "answer" : "sedation"
                   },
                   {
                         "title":"",  
                         "question" : "Trazodone works by blocking the ______ serotonin receptor and being an agonist at the _______ serotonin receptor",
                         "options" : [
-                              "a",
-                              "b",
-                              "c"
+                              "(5HT_1A, 5HT_2A)",
+                              "(5HT_1D, 5HT_2B)",
+                              "(5HT_2A, 5HT_1A)",
+                              "(5HT_2B, 5HT_1D)"
                         ],
-                        "answer" : "a"
+                        "answer" : "(5HT_2A, 5HT_1A)"
                   },
                   {
                         "title":"",  
                         "question" : "Mirtazapine blocks a serotonin receptor and a ________ receptor",
                         "options" : [
-                              "a",
-                              "b",
-                              "c"
+                              "adrenergic",
+                              "dopamine",
+                              "histamine",
+                              "muscarinic"
                         ],
-                        "answer" : "a"
+                        "answer" : "histamine"
                   },
                   {
                         "title":"",  
                         "question" : "Buproprion has a potential for ___________ at high doses",
                         "options" : [
-                              "a",
-                              "b",
-                              "c"
+                              "seizures",
+                              "dyskinesia",
+                              "memory loss",
+                              "respiratory depression"
                         ],
-                        "answer" : "a"
+                        "answer" : "seizures"
                   },
                   {
                         "title":"",  
                         "question" : "__________ can cause increase appetite and weight gain while ___________ can have the opposite effect",
                         "options" : [
-                              "a",
-                              "b",
-                              "c"
+                              "(Mirtazapine, Buproprion)",
+                              "(Buproprion, Mirtazapine)",
+                              "(Trazodone, Buproprion)",
+                              "(Buproprion, Trazodone)"
+                              
                         ],
                         "answer" : "a"
                   },
@@ -1775,11 +1823,12 @@
                         "title":"",  
                         "question" : "______________ can be used a sleep aid independent of its antidepressant activity",
                         "options" : [
-                              "a",
-                              "b",
-                              "c"
+                              "Fluoxetine",
+                              "Mirtazapine",
+                              "Buproprion",
+                              "Trazadone"
                         ],
-                        "answer" : "a"
+                        "answer" : "Trazadone"
                   }
             ], 
             "reviewItems":[]
