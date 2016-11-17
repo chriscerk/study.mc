@@ -149,15 +149,21 @@ img.loading {
 }
 
 @media print {
-  @page { margin: 0; }
-  body { margin-left: .5cm; margin-right: .5cm; }
+    @page { 
+        size:8.27in 11.69in; 
+        margin:.5in .5in .5in .5in; 
+        mso-header-margin:.5in; 
+        mso-footer-margin:.5in; 
+        mso-paper-source:0; 
+    }
+
   .review-print-hide {
       display: none !important;
   }
 
   main, html, body {
-    padding-top: 0px;
-    margin-top: 0px;
+    /*padding-top: 0px;
+    margin-top: 0px;*/
   }
 }
 

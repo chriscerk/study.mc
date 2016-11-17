@@ -6,14 +6,14 @@
             "abbreviation": "MC",
             "number": "600",
             "topics": [
-                { "title": "Benzodiazepines", "id": 1, "status": "inactive" },
-                { "title": "Barbiturates", "id": 2, "status": "inactive" },
-                { "title": "Z-Drugs", "id": 3, "status": "inactive" },
-                { "title": "Anticonvulsants", "id": 4, "status": "inactive"  },
+                { "title": "Benzodiazepines", "id": 1, "status": "active" },
+                { "title": "Barbiturates", "id": 2, "status": "active" },
+                { "title": "Z-Drugs", "id": 3, "status": "active" },
+                { "title": "Anticonvulsants", "id": 4, "status": "active"  },
                 { "title": "SRIs", "id": 5, "status": "active" },
                 { "title": "SNRIs", "id": 6, "status": "active" },
                 { "title": "TCAs", "id": 7, "status": "active" },
-                { "title": "ATAs", "id": 8, "status": "active" }
+                { "title": "Atypical Agents", "id": 8, "status": "active" }
             ]
       },
       {

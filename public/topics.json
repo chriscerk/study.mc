@@ -1280,7 +1280,7 @@
             "learnItems":[
                   {
                         "title":"Helpful Strucures to Know",  
-                        "name" : "(No SAR Requirements for SNRIs)",
+                        "name" : "Duloxetine",
                         "imagePath" : "slide-23a.PNG",
                         "colorLocationAssociations" : [
                               {"color": "black", "location": "None", "description" : "Serotonin and Norepinephrine Reuptake Inhibitors do not have any Structure Activity Requirements but these are some helpful structures to be familiar with." }
@@ -1288,7 +1288,7 @@
                   },
                   {
                         "title":"Helpful Strucures to Know",  
-                        "name" : "(No SAR Requirements for SNRIs)",
+                        "name" : "Venlafaxine",
                         "imagePath" : "slide-23b.PNG",
                         "colorLocationAssociations" : [
                               {"color": "black", "location": "None", "description" : "Serotonin and Norepinephrine Reuptake Inhibitors do not have any Structure Activity Requirements but these are some helpful structures to be familiar with." }
@@ -1318,7 +1318,7 @@
                               "Compound 3"
                         ],
                         "answer" : "Compound 3",
-                        "explanation" : "Duloxetine is an SNRI, which is known to be activating"
+                        "explanation" : " Venlafaxine is an SNRI, which is known to be activating"
                   },
                   {
                         "title":"SAR Practice Problem",  
@@ -1341,10 +1341,10 @@
                         "options" : [
                               "Tricyclic Antidepressants",
                               "Atypical Antidepressants",
-                              "Norepinephrine reuptake inhibitors",
-                              "Selective Serotonin Reuptake Inhibitor’s"
+                              "Serotonin-Norepinephrine Reuptake Inhibitors",
+                              "Selective Serotonin Reuptake Inhibitors"
                         ],
-                        "answer" : "Selective Serotonin Reuptake Inhibitor’s"
+                        "answer" : "Serotonin-Norepinephrine Reuptake Inhibitors"
                   },
                   {
                         "title":"",  
@@ -1534,7 +1534,7 @@
                               "Inactive, SNRI"
                         ],
                         "answer" : "Inactive, NRI",
-                        "explanation" : "No explanation for this item."
+                        "explanation" : "Nortriptyline is a secondary TCA so it is more selective for NET."
                   }
             ],
             "testItems":[
@@ -1687,7 +1687,7 @@
             "learnItems":[
                   {
                         "title":"Useful Structures",  
-                        "name" : "Example Compound 1",
+                        "name" : "Trazodone",
                         "imagePath" : "slide-53a.PNG",
                         "colorLocationAssociations" : [
                               {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Atypical Antidepressants" }
@@ -1695,7 +1695,7 @@
                   },
                   {
                         "title":"Useful Structures",  
-                        "name" : "Example Compound 2",
+                        "name" : "Mirtazepine",
                         "imagePath" : "slide-53b.PNG",
                         "colorLocationAssociations" : [
                               {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Atypical Antidepressants" }
@@ -1703,7 +1703,7 @@
                   },
                   {
                         "title":"Useful Structures",  
-                        "name" : "Example Compound 3",
+                        "name" : "Bupropion",
                         "imagePath" : "slide-53c.PNG",
                         "colorLocationAssociations" : [
                               {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Atypical Antidepressants" }
@@ -1817,7 +1817,7 @@
                               "(Buproprion, Trazodone)"
                               
                         ],
-                        "answer" : "a"
+                        "answer" : "(Trazodone, Buproprion)"
                   },
                   {
                         "title":"",  
@@ -1830,7 +1830,162 @@
                         ],
                         "answer" : "Trazadone"
                   }
-            ], 
-            "reviewItems":[]
+            ],
+             "reviewItems":[
+                  {
+                        "title": "Atypical Antidepressants (Trazodone)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "" },
+                              {"title": "SAR", "imagePath": "trazodone.PNG", "content": "None"},
+                              {"title": "Side Effects", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Atypical Antidepressants (Mirtazapine)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "" },
+                              {"title": "SAR", "imagePath": "mirtazapine.PNG", "content": "None"},
+                              {"title": "Side Effects", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Atypical Antidepressants (Bupropion)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "" },
+                              {"title": "SAR", "imagePath": "bupropion.PNG", "content": "None"},
+                              {"title": "Side Effects", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "SNRIs & SRIs (Venlafaxine)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "" },
+                              {"title": "SAR", "imagePath": "venlafaxine.PNG", "content": ""},
+                              {"title": "Side Effects", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "SRIs (Escitalopram, Fluoxetine, Sertraline)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "" },
+                              {"title": "SAR", "imagePath": "sri-sar.PNG", "content": ""},
+                              {"title": "Phenoxyphenylalkyl SAR", "content": ""},
+                              {"title": "Phenylalkyl SAR", "content": ""},
+                              {"title": "Side Effects", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Tricyclic Antidepressants (Amitriptyline & Nortriptyline)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "" },
+                              {"title": "SAR", "imagePath": "triptyline.PNG", "content": ""},
+                              {"title": "SAR Explained", "content": ""},
+                              {"title": "Side Effects", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "THEORIES OF DEPRESSION",  
+                        "sections" : [
+                              {"title": "Monoamine Theory", "content": ""},
+                              {"title": "Neurotrophic Theory", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "LOW NERUOTRANSMITTER LEVELS",  
+                        "sections" : [
+                              {"title": "Low serotonin", "content": ""},
+                              {"title": "Low norepinephrine", "content": ""},
+                              {"title": "Low dopamine", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "ACTIVATION OF RECEPTORS",  
+                        "sections" : [
+                              {"title": "5-HT", "content": ""},
+                              {"title": "Adrenergic", "content": ""},
+                              {"title": "Antihistamine H1", "content": ""},
+                              {"title": "Alpha1-Adrenergic", "content": ""}
+                        ]
+                  }
+
+            ],                     
+            "exampleReview":[
+                  {
+                        "title": "Atypical Antidepressants (Trazodone)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "Blocks SERT and alpha1-adrenergic receptor. Agonist at 5-HT1A on post-synaptic neuron." },
+                              {"title": "SAR", "imagePath": "trazodone.PNG", "content": "None"},
+                              {"title": "Side Effects", "content": "[Major]: Sedation. [Minor]: GI, Weight Gain."}
+                        ]
+                  },
+                  {
+                        "title": "Atypical Antidepressants (Mirtazapine)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "Blocks H1 histamine receptor, 5HT2 receptor and alpha2-adrendergic receptor. Agonist at 5HT1A on post synaptic neuron." },
+                              {"title": "SAR", "imagePath": "mirtazapine.PNG", "content": "None"},
+                              {"title": "Side Effects", "content": "[Major]: Sedation. [Minor]: Weight Gain"}
+                        ]
+                  },
+                  {
+                        "title": "Atypical Antidepressants (Bupropion)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "Blocks DAT and NET resulting in increased dopamine and NE in extracellular space - dopamine acts on reward pathway to improve mood." },
+                              {"title": "SAR", "imagePath": "bupropion.PNG", "content": "None"},
+                              {"title": "Side Effects", "content": "[Major]: Agitation (awakening). [Minor]: GI, Weight Gain"}
+                        ]
+                  },
+                  {
+                        "title": "SNRIs & SRIs (Venlafaxine)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "Blocks SERT and NET resulting in increased levels of serotinin and norepinephrine in the synapse." },
+                              {"title": "SAR", "imagePath": "venlafaxine.PNG", "content": "None"},
+                              {"title": "Side Effects", "content": "[Major]: GI, Sexual Effect."}
+                        ]
+                  },
+                  {
+                        "title": "SRIs (Escitalopram, Fluoxetine, Sertraline)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "Selectively blocks SERT on the pre-synaptic neuron resulting in increased levels of serotonin in the synapse and increased activation of 5-HT1A receptors on post-synaptic neuron." },
+                              {"title": "SAR", "imagePath": "sri-sar.PNG", "content": ""},
+                              {"title": "Phenoxyphenylalkyl SAR", "content": "[Basic nitrogen]: protonated at physiological pH; pKa 8.7−9.8. [Electron-withdrawing group]: para or meta substitution enhances binding affinity for SERT. [Phenoxy]: distinguishes antidepressant and antihistamine activity derived from diphenhydramine)"},
+                              {"title": "Phenylalkyl SAR", "content": "[Basic nitrogen]: protonated at physiological pH; pKa 9.5. [Chlorine]: enhances SERT selectivity."},
+                              {"title": "Side Effects", "content": "[Major]: GI, Sexual Effect."}
+                        ]
+                  },
+                  {
+                        "title": "Tricyclic Antidepressants (Amitriptyline & Nortriptyline)",  
+                        "sections" : [
+                              {"title": "MOA", "content": "Blocks SET and NET on pre-synaptic neuron resulting in increased levels of serotonin and norepinephrine in the synapse. Some also acts as antagonists at 5HT2, Alpha1-adrenergic, histamine and muscarinic receptors." },
+                              {"title": "SAR", "imagePath": "triptyline.PNG", "content": ""},
+                              {"title": "SAR Explained", "content": "[Linker of 3 carbons]: between tricyclic ring system and basic nitrogen. Branching from linker decreases binding affinity for SERT and NET. Unsaturation of linker is tolerated. [R→ CH3]: tertiary amine imparts selectivity for SERT. [R’→ Cl or CN (EWG)]: enhances binding affinity for SERT. [Y→ can be C or N]. [Conformationally rigid [6.7.6]-fused ring system]: 7 membered ring in the middle is not coplanar; results in twisted shape"},
+                              {"title": "Side Effects", "content": "[Major]: GI, Sexual Effect."}
+                        ]
+                  },
+                  {
+                        "title": "THEORIES OF DEPRESSION",  
+                        "sections" : [
+                              {"title": "Monoamine Theory", "content": "Deficiency of 5-HT and NE transmission in the CNS"},
+                              {"title": "Neurotrophic Theory", "content": "Decrease of Brain Derived Neurotophic Factor (BDNF) resulting in reduced neuroplasticity, decreased number of spines and thus, decreased neurotransmission."}
+                        ]
+                  },
+                  {
+                        "title": "LOW NERUOTRANSMITTER LEVELS",  
+                        "sections" : [
+                              {"title": "Low serotonin", "content": "Anxiety, panic, phobia"},
+                              {"title": "Low norepinephrine", "content": "Decreased concentration, decreased working memory, decreased information processing, fatigue."},
+                              {"title": "Low dopamine", "content": "Cognitive slowing, hypersomnia, anhedonia"}
+                        ]
+                  },
+                  {
+                        "title": "ACTIVATION OF RECEPTORS",  
+                        "sections" : [
+                              {"title": "5-HT", "content": "GI and Nausea, Sexual Effects (decreased libido, sexual dysfunction), Mild Restlessness, Headaches and Insomnia"},
+                              {"title": "Adrenergic", "content": "Agitation (awakening), small increases in blood pressure and heart rate"},
+                              {"title": "Antihistamine H1", "content": "Sedation"},
+                              {"title": "Alpha1-Adrenergic", "content": "Hypotension"}
+                        ]
+                  }
+
+            ]            
       }
 ]
