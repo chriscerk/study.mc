@@ -1931,7 +1931,7 @@
                         "sections" : [
                               {"title": "MOA", "content": "Blocks DAT and NET resulting in increased dopamine and NE in extracellular space - dopamine acts on reward pathway to improve mood." },
                               {"title": "SAR", "imagePath": "bupropion.PNG", "content": "None"},
-                              {"title": "Side Effects", "content": "[Major]: Agitation (awakening). [Minor]: GI, Weight Gain"}
+                              {"title": "Side Effects", "content": "[Major]: Insomnia, Agitation. [Minor]: Nausea, Dry Mouth"}
                         ]
                   },
                   {
@@ -1958,7 +1958,7 @@
                               {"title": "MOA", "content": "Blocks SET and NET on pre-synaptic neuron resulting in increased levels of serotonin and norepinephrine in the synapse. Some also acts as antagonists at 5HT2, Alpha1-adrenergic, histamine and muscarinic receptors." },
                               {"title": "SAR", "imagePath": "triptyline.PNG", "content": ""},
                               {"title": "SAR Explained", "content": "[Linker of 3 carbons]: between tricyclic ring system and basic nitrogen. Branching from linker decreases binding affinity for SERT and NET. Unsaturation of linker is tolerated. [R→ CH3]: tertiary amine imparts selectivity for SERT. [R’→ Cl or CN (EWG)]: enhances binding affinity for SERT. [Y→ can be C or N]. [Conformationally rigid [6.7.6]-fused ring system]: 7 membered ring in the middle is not coplanar; results in twisted shape"},
-                              {"title": "Side Effects", "content": "[Major]: GI, Sexual Effect."}
+                              {"title": "Side Effects", "content": "[Major]: Weight gain, GI, Sexual Effect."}
                         ]
                   },
                   {
