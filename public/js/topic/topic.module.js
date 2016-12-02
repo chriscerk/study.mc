@@ -1,4 +1,4 @@
-System.register(['@angular/core', '@angular/common', "@angular/forms", './topic.component', './topicLearn.component', './topicTest.component', './topicReview.component', '../shared/shared.module', './topic.routing', '../shared/pipes/percent.pipe'], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/common', "@angular/forms", './topic.component', './topicLearn.component', './topicTest.component', './topicReview.component', './compoundCanvas.component', '../shared/shared.module', './topic.routing', '../shared/pipes/percent.pipe'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['@angular/core', '@angular/common', "@angular/forms", './topic.
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, common_1, forms_1, topic_component_1, topicLearn_component_1, topicTest_component_1, topicReview_component_1, shared_module_1, topic_routing_1, percent_pipe_1;
+    var core_1, common_1, forms_1, topic_component_1, topicLearn_component_1, topicTest_component_1, topicReview_component_1, compoundCanvas_component_1, shared_module_1, topic_routing_1, percent_pipe_1;
     var TopicModule;
     return {
         setters:[
@@ -35,6 +35,9 @@ System.register(['@angular/core', '@angular/common', "@angular/forms", './topic.
             function (topicReview_component_1_1) {
                 topicReview_component_1 = topicReview_component_1_1;
             },
+            function (compoundCanvas_component_1_1) {
+                compoundCanvas_component_1 = compoundCanvas_component_1_1;
+            },
             function (shared_module_1_1) {
                 shared_module_1 = shared_module_1_1;
             },
@@ -51,9 +54,10 @@ System.register(['@angular/core', '@angular/common', "@angular/forms", './topic.
                 TopicModule = __decorate([
                     core_1.NgModule({
                         imports: [common_1.CommonModule, percent_pipe_1.MyPercentPipe, topic_routing_1.topic_routing, shared_module_1.SharedModule, forms_1.ReactiveFormsModule],
-                        declarations: [topic_component_1.TopicComponent, percent_pipe_1.MyPercentPipe, topicLearn_component_1.TopicLearnComponent,
+                        declarations: [compoundCanvas_component_1.CompoundCanvasComponent, topic_component_1.TopicComponent, percent_pipe_1.MyPercentPipe, topicLearn_component_1.TopicLearnComponent,
                             topicTest_component_1.TopicTestComponent, topicReview_component_1.TopicReviewComponent],
                         exports: [topic_component_1.TopicComponent, percent_pipe_1.MyPercentPipe],
+                        bootstrap: [topicLearn_component_1.TopicLearnComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], TopicModule);

@@ -1,9 +1,13 @@
+declare var hotspotsModule:any;
+
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 
 import { ITopic } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
+
+import { CompoundCanvasComponent } from './compoundCanvas.component';
 
 @Component({
   //moduleId: module.id,
@@ -40,8 +44,8 @@ import { DataService } from '../core/services/data.service';
               <div *ngIf="learnItem.answer && !answerSubmitted">
                 <button type="button" 
                         (click)="rightAnswer()" 
-                          class="btn btn-success btn-lg" 
-                          *ngIf="learnItem.answer == userAnswer">
+                        class="btn btn-success btn-lg" 
+                        *ngIf="learnItem.answer == userAnswer">
                     Submit
                 </button>
                 <button type="button" 
@@ -61,8 +65,11 @@ import { DataService } from '../core/services/data.service';
               <br>
 
             </div>
+          <div *ngIf="learnItem.compoundHotspots">
+            <compound-Canvas [learnItem]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</compound-Canvas>
+          </div>
 
-          <ul class="flex-container">
+          <ul *ngIf="!learnItem.compoundHotspots" class="flex-container">
             <li class="flex-item">
               <img src="/studymc-media/compounds/{{topic.name}}/{{learnItem.imagePath}}" id="logo" alt="logo">
             </li>

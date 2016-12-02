@@ -1,4 +1,4 @@
-import { Component, OnInit, trigger, state, style, transition, animate } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ITopic } from '../shared/interfaces';
 import { MyPercentPipe } from '../shared/pipes/percent.pipe'

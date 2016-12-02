@@ -13,6 +13,7 @@ import { TopicLearnComponent } from './topic/topicLearn.component';
 import { TopicTestComponent } from './topic/topicTest.component';
 import { TopicReviewComponent } from './topic/topicReview.component';
 import { CoursesComponent }  from './courses/courses.component';
+import { CompoundCanvasComponent } from './topic/compoundCanvas.component';
 
 import { app_routing } from './app.routing';
 import { CoreModule }   from './core/core.module';
@@ -21,9 +22,7 @@ import {ReactiveFormsModule} from "@angular/forms";
 
 import { MyPercentPipe } from './shared/pipes/percent.pipe'
 
-
-@NgModule({
-  declarations: [ 
+let Components: any[] = [
     AppComponent, 
     CourseComponent, 
     CoursesComponent, 
@@ -32,8 +31,15 @@ import { MyPercentPipe } from './shared/pipes/percent.pipe'
     TopicLearnComponent,
     TopicTestComponent,
     TopicReviewComponent,
+    CompoundCanvasComponent
+  ];
+
+  let Pipes: any[] = [
     MyPercentPipe
-     ],
+  ];
+
+@NgModule({
+  declarations: [ Components, Pipes ],
   imports: [
     BrowserModule,
     app_routing,

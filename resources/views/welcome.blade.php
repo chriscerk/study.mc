@@ -17,6 +17,7 @@
         {{ Html::script('systemjs/dist/system.src.js') }}
         {{ Html::script('systemjs.config.js') }}
         <script src="http://study.mc/systemjs.config.js"></script>
+        <script src="./canvasHotspots/hotspots.js"></script>
     <script>
       System.import('app').catch(function(err){ console.error(err); });
     </script>

@@ -11,6 +11,7 @@ export interface ITopic
 {
     id: number,
     title: string;
+    name: string;
     status: string;
     learnItems: ILearnItem[];
     testItems: ITestItem[];
@@ -51,6 +52,17 @@ export class InteractiveMolecule implements ILearnItem
     name: string;
     imagePath: string;
     colorLocationAssociations: IColorLocationAssociation[];
+    compoundHotspots: IHotspot[];
+}
+
+export interface IHotspot 
+{
+    name: string;
+    y: number;
+    x: number;
+    size: number;
+    color: string;
+    text: string;
 }
 
 export class PracticeProblem implements ILearnItem, IFillInTheBlank

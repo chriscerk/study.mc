@@ -5,17 +5,65 @@
             "learnItems":[
                   {
                         "title":"SAR Requirements",  
-                        "name" : "Example Compound 1",
+                        "name" : "Hover over the compound to learn about the SAR Characteristics",
                         "imagePath" : "slide-4a.PNG",
-                        "colorLocationAssociations" : [
-                              {"color": "red", "location": "Ring A", "description" : "Ring A: Pi-Pi stacking with BZR" },
-                              {"color": "orange", "location": "C7", "description" : "C7: EWG increases activity" },
-                              {"color": "green", "location": "Ring B", "description" : "Ring B:  H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
-                              {"color": "blue", "location": "N1", "description" : "N1: methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
-                              {"color": "purple", "location": "C3", "description" : "C3: OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
-                              {"color": "deeppink", "location": "Ring C", "description" : "Ring C: Hydrophobic interaction with BZR" },
-                              {"color": "darkgoldenrod", "location": "C4", "description" : "C4: Steric repulsion occurs with para substituent " },
-                              {"color": "teal", "location": "C2", "description" : "C2:  F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Ring A",
+                                    "y": 263,
+                                    "x": 292,
+                                    "size": 40,
+                                    "color": "red",
+                                    "text": "Pi-Pi stacking with BZR"
+                              },
+                              {
+                                    "name": "Ring B",
+                                    "y": 280,
+                                    "x": 203,
+                                    "size": 30,
+                                    "color": "green",
+                                    "text": "H-bond acceptor (O, N, S) or N-heterocycle required. 1,2 annelation (N-heterocycle) increases affinity for BZR"
+                              },
+                              {
+                                    "name": "N1",
+                                    "y": 209,
+                                    "x": 266,
+                                    "size": 30,
+                                    "color": "blue",
+                                    "text": "EWG increases activity"
+                              },
+                              {
+                                    "name": "C7",
+                                    "y": 317,
+                                    "x": 154,
+                                    "size": 30,
+                                    "color": "orange",
+                                    "text": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+                              },
+                              {
+                                    "name": "Ring C",
+                                    "y": 411,
+                                    "x": 288,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Hydrophobic interaction with BZR"
+                              },
+                              {
+                                    "name": "C2",
+                                    "y": 375,
+                                    "x": 340,
+                                    "size": 25,
+                                    "color": "purple",
+                                    "text": "F or Cl substitution reduces aromatic hydroxylation and improves half-life"
+                              },
+                              {
+                                    "name": "C4",
+                                    "y": 466,
+                                    "x": 288,
+                                    "size": 25,
+                                    "color": "darkgoldenrod",
+                                    "text": "steric repulsion occurs with para substituent"
+                              }
                         ]
                   },
                   {
