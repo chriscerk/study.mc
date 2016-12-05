@@ -131,7 +131,7 @@
                   },
                   {
                         "title":"SAR Requirements",  
-                        "name" : "Lorazepam",
+                        "name" : "Hover over Lorazepam to learn about the SAR Characteristics",
                         "imagePath" : "slide-5a.PNG",
                         "compoundHotspots" : [
                               {
@@ -204,7 +204,7 @@
                   },
                   {
                         "title":"SAR Requirements",
-                        "name" : "Alprazolam",
+                        "name" : "Hover over Alprazolam to learn about the SAR Characteristics",
                         "imagePath" : "slide-5b.PNG",
                         "compoundHotspots" : [
                               {
@@ -585,14 +585,65 @@
             "learnItems":[
                   {
                         "title":"SAR Requirements",  
-                        "name" : "Example Compound 1",
+                        "name" : "Hover over the compound to learn about the SAR Characteristics",
                         "imagePath" : "slide26.PNG",
-                        "colorLocationAssociations" : [
-                              {"color": "red", "location": "N1", "description" : "N1: Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." },
-                              {"color": "orange", "location": "N3", "description" : "N3: must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action " },
-                              {"color": "green", "location": "C2", "description" : "C2: changing C=O → C=S increases lipophilicity and more rapid onset of action" },
-                              {"color": "blue", "location": "C4 & C6", "description" : "C4 & C6: must contain C=O" },
-                              {"color": "deeppink", "location": "R1 & R2", "description" : "R1 & R2: bulky carbon groups increases lipophilicity and more rapid onset of action " }
+                        "compoundHotspots" : [
+                              {
+                                    "name": "N1",
+                                    "y": 234,
+                                    "x": 191,
+                                    "size": 40,
+                                    "color": "red",
+                                    "text": "Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+                              },
+                              {
+                                    "name": "N3",
+                                    "y": 234,
+                                    "x": 307,
+                                    "size": 40,
+                                    "color": "orange",
+                                    "text": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+                              },
+                              {
+                                    "name": "C2",
+                                    "y": 164,
+                                    "x": 250,
+                                    "size": 40,
+                                    "color": "green",
+                                    "text": "Changing C=O → C=S increases lipophilicity and more rapid onset of action"
+                              },
+                              {
+                                    "name": "C4 & C6",
+                                    "y": 311,
+                                    "x": 334,
+                                    "size": 40,
+                                    "color": "blue",
+                                    "text": "Must contain C=O"
+                              },
+                              {
+                                    "name": "C4 & C6",
+                                    "y": 311,
+                                    "x": 163,
+                                    "size": 40,
+                                    "color": "blue",
+                                    "text": "Must contain C=O"
+                              },
+                              {
+                                    "name": "R1 & R2",
+                                    "y": 365,
+                                    "x": 253,
+                                    "size": 55,
+                                    "color": "deeppink",
+                                    "text": "bulky carbon groups increases lipophilicity and more rapid onset of action"
+                              },
+                              {
+                                    "name": "5,5",
+                                    "y": 300,
+                                    "x": 250,
+                                    "size": 30,
+                                    "color": "goldenrod",
+                                    "text": "distribution required for activity"
+                              }
                         ]
                   },
                   {
@@ -613,20 +664,129 @@
                   },
                   {
                         "title":"SAR Requirements",  
-                        "name" : "Phenobarbital",
+                        "name" : "Hover over Phenobarbital to learn about the SAR Characteristics",
                         "imagePath" : "slide28a.PNG",
-                        "colorLocationAssociations" : [
-                              {"color": "red", "location": "N1", "description" : "N1: Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." },
-                              {"color": "orange", "location": "N3", "description" : "N3: must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action " },
-                              {"color": "green", "location": "C2", "description" : "C2: changing C=O → C=S increases lipophilicity and more rapid onset of action" },
-                              {"color": "blue", "location": "C4 & C6", "description" : "C4 & C6: must contain C=O" },
-                              {"color": "deeppink", "location": "R1 & R2", "description" : "R1 & R2: bulky carbon groups increases lipophilicity and more rapid onset of action " }
+                        "compoundHotspots" : [
+                              {
+                                    "name": "N1",
+                                    "y": 218,
+                                    "x": 180,
+                                    "size": 40,
+                                    "color": "red",
+                                    "text": "Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+                              },
+                              {
+                                    "name": "N3",
+                                    "y": 218,
+                                    "x": 302,
+                                    "size": 40,
+                                    "color": "orange",
+                                    "text": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+                              },
+                              {
+                                    "name": "C2",
+                                    "y": 162,
+                                    "x": 238,
+                                    "size": 40,
+                                    "color": "green",
+                                    "text": "Changing C=O → C=S increases lipophilicity and more rapid onset of action"
+                              },
+                              {
+                                    "name": "C4 & C6",
+                                    "y": 294,
+                                    "x": 162,
+                                    "size": 40,
+                                    "color": "blue",
+                                    "text": "Must contain C=O"
+                              },
+                              {
+                                    "name": "C4 & C6",
+                                    "y": 294,
+                                    "x": 314,
+                                    "size": 40,
+                                    "color": "blue",
+                                    "text": "Must contain C=O"
+                              },
+                              {
+                                    "name": "R1 & R2",
+                                    "y": 385,
+                                    "x": 262,
+                                    "size": 80,
+                                    "color": "deeppink",
+                                    "text": "bulky carbon groups increases lipophilicity and more rapid onset of action"
+                              },
+                              {
+                                    "name": "5,5",
+                                    "y": 288,
+                                    "x": 238,
+                                    "size": 30,
+                                    "color": "goldenrod",
+                                    "text": "distribution required for activity"
+                              }
                         ]
                   },
                   {
                         "title":"SAR Requirements",  
-                        "name" : "Example Compound 2",
+                        "name" : "Hover over Thiopental to learn about the SAR Characteristics",
                         "imagePath" : "slide28b.PNG",
+                        "compoundHotspots" : [
+                              {
+                                    "name": "N1",
+                                    "y": 218,
+                                    "x": 180,
+                                    "size": 40,
+                                    "color": "red",
+                                    "text": "Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+                              },
+                              {
+                                    "name": "N3",
+                                    "y": 218,
+                                    "x": 302,
+                                    "size": 40,
+                                    "color": "orange",
+                                    "text": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+                              },
+                              {
+                                    "name": "C2",
+                                    "y": 162,
+                                    "x": 238,
+                                    "size": 40,
+                                    "color": "green",
+                                    "text": "Changing C=O → C=S increases lipophilicity and more rapid onset of action"
+                              },
+                              {
+                                    "name": "C4 & C6",
+                                    "y": 294,
+                                    "x": 162,
+                                    "size": 40,
+                                    "color": "blue",
+                                    "text": "Must contain C=O"
+                              },
+                              {
+                                    "name": "C4 & C6",
+                                    "y": 294,
+                                    "x": 314,
+                                    "size": 40,
+                                    "color": "blue",
+                                    "text": "Must contain C=O"
+                              },
+                              {
+                                    "name": "R1 & R2",
+                                    "y": 385,
+                                    "x": 262,
+                                    "size": 80,
+                                    "color": "deeppink",
+                                    "text": "bulky carbon groups increases lipophilicity and more rapid onset of action"
+                              },
+                              {
+                                    "name": "5,5",
+                                    "y": 288,
+                                    "x": 238,
+                                    "size": 30,
+                                    "color": "goldenrod",
+                                    "text": "distribution required for activity"
+                              }
+                        ],
                         "colorLocationAssociations" : [
                               {"color": "red", "location": "N1", "description" : "N1: Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." },
                               {"color": "orange", "location": "N3", "description" : "N3: must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action " },
