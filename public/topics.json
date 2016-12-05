@@ -732,56 +732,56 @@
                         "compoundHotspots" : [
                               {
                                     "name": "N1",
-                                    "y": 218,
-                                    "x": 180,
+                                    "y": 210,
+                                    "x": 174,
                                     "size": 40,
                                     "color": "red",
                                     "text": "Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
                               },
                               {
                                     "name": "N3",
-                                    "y": 218,
-                                    "x": 302,
+                                    "y": 210,
+                                    "x": 274,
                                     "size": 40,
                                     "color": "orange",
                                     "text": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
                               },
                               {
                                     "name": "C2",
-                                    "y": 162,
-                                    "x": 238,
+                                    "y": 160,
+                                    "x": 222,
                                     "size": 40,
                                     "color": "green",
                                     "text": "Changing C=O → C=S increases lipophilicity and more rapid onset of action"
                               },
                               {
                                     "name": "C4 & C6",
-                                    "y": 294,
-                                    "x": 162,
+                                    "y": 270,
+                                    "x": 152,
                                     "size": 40,
                                     "color": "blue",
                                     "text": "Must contain C=O"
                               },
                               {
                                     "name": "C4 & C6",
-                                    "y": 294,
-                                    "x": 314,
+                                    "y": 270,
+                                    "x": 294,
                                     "size": 40,
                                     "color": "blue",
                                     "text": "Must contain C=O"
                               },
                               {
                                     "name": "R1 & R2",
-                                    "y": 385,
-                                    "x": 262,
+                                    "y": 364,
+                                    "x": 234,
                                     "size": 80,
                                     "color": "deeppink",
                                     "text": "bulky carbon groups increases lipophilicity and more rapid onset of action"
                               },
                               {
                                     "name": "5,5",
-                                    "y": 288,
-                                    "x": 238,
+                                    "y": 268,
+                                    "x": 223,
                                     "size": 30,
                                     "color": "goldenrod",
                                     "text": "distribution required for activity"
