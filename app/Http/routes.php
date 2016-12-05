@@ -11,6 +11,9 @@
 |
 */
 
+// You must register all valid Angular 2 Routes here. Otherwise,
+// the path will not be recognized and Laravel will throw a 500 Error.
+
 Route::get('/{any?}', [
     'uses' => 'Angular\AngularRoutesController@index',
     'as' => 'home'
