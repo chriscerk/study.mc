@@ -53,7 +53,7 @@
                                     "y": 375,
                                     "x": 340,
                                     "size": 25,
-                                    "color": "purple",
+                                    "color": "brown",
                                     "text": "F or Cl substitution reduces aromatic hydroxylation and improves half-life"
                               },
                               {
@@ -70,21 +70,127 @@
                         "title":"SAR Requirements",  
                         "name" : "Example Compound 2",
                         "imagePath" : "slide-4b.PNG",
-                        "colorLocationAssociations" : [
-                              {"color": "red", "location": "Ring A", "description" : "Ring A: Pi-Pi stacking with BZR" },
-                              {"color": "orange", "location": "C7", "description" : "C7: EWG increases activity" },
-                              {"color": "green", "location": "Ring B", "description" : "Ring B:  H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
-                              {"color": "blue", "location": "N1", "description" : "N1: methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
-                              {"color": "purple", "location": "C3", "description" : "C3: OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
-                              {"color": "deeppink", "location": "Ring C", "description" : "Ring C: Hydrophobic interaction with BZR" },
-                              {"color": "darkgoldenrod", "location": "C4", "description" : "C4: Steric repulsion occurs with para substituent " },
-                              {"color": "teal", "location": "C2", "description" : "C2:  F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Ring A",
+                                    "y": 291,
+                                    "x": 292,
+                                    "size": 40,
+                                    "color": "red",
+                                    "text": "Pi-Pi stacking with BZR"
+                              },
+                              {
+                                    "name": "Ring B",
+                                    "y": 305,
+                                    "x": 203,
+                                    "size": 30,
+                                    "color": "green",
+                                    "text": "H-bond acceptor (O, N, S) or N-heterocycle required. 1,2 annelation (N-heterocycle) increases affinity for BZR"
+                              },
+                              {
+                                    "name": "N1",
+                                    "y": 241,
+                                    "x": 266,
+                                    "size": 30,
+                                    "color": "blue",
+                                    "text": "EWG increases activity"
+                              },
+                              {
+                                    "name": "C7",
+                                    "y": 345,
+                                    "x": 159,
+                                    "size": 30,
+                                    "color": "orange",
+                                    "text": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+                              },
+                              {
+                                    "name": "Ring C",
+                                    "y": 440,
+                                    "x": 291,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Hydrophobic interaction with BZR"
+                              },
+                              {
+                                    "name": "C2",
+                                    "y": 410,
+                                    "x": 340,
+                                    "size": 25,
+                                    "color": "brown",
+                                    "text": "F or Cl substitution reduces aromatic hydroxylation and improves half-life"
+                              },
+                              {
+                                    "name": "C4",
+                                    "y": 490,
+                                    "x": 288,
+                                    "size": 25,
+                                    "color": "darkgoldenrod",
+                                    "text": "steric repulsion occurs with para substituent"
+                              }
                         ]
                   },
                   {
                         "title":"SAR Requirements",  
                         "name" : "Lorazepam",
                         "imagePath" : "slide-5a.PNG",
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Ring A",
+                                    "y": 227,
+                                    "x": 209,
+                                    "size": 30,
+                                    "color": "red",
+                                    "text": "Pi-Pi stacking with BZR"
+                              },
+                              {
+                                    "name": "Ring B",
+                                    "y": 158,
+                                    "x": 291,
+                                    "size": 30,
+                                    "color": "green",
+                                    "text": "H-bond acceptor (O, N, S) or N-heterocycle required. 1,2 annelation (N-heterocycle) increases affinity for BZR"
+                              },
+                              {
+                                    "name": "N1",
+                                    "y": 164,
+                                    "x": 223,
+                                    "size": 30,
+                                    "color": "blue",
+                                    "text": "EWG increases activity"
+                              },
+                              {
+                                    "name": "C7",
+                                    "y": 264,
+                                    "x": 159,
+                                    "size": 30,
+                                    "color": "orange",
+                                    "text": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+                              },
+                              {
+                                    "name": "Ring C",
+                                    "y": 310,
+                                    "x": 263,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Hydrophobic interaction with BZR"
+                              },
+                              {
+                                    "name": "C3",
+                                    "y": 202,
+                                    "x": 335,
+                                    "size": 25,
+                                    "color": "purple",
+                                    "text": "OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation."
+                              },
+                              {
+                                    "name": "C2",
+                                    "y": 279,
+                                    "x": 319,
+                                    "size": 25,
+                                    "color": "brown",
+                                    "text": "F or Cl substitution reduces aromatic hydroxylation and improves half-life"
+                              }
+                        ],
                         "colorLocationAssociations" : [
                               {"color": "red", "location": "Ring A", "description" : "Ring A: Pi-Pi stacking with BZR" },
                               {"color": "orange", "location": "C7", "description" : "C7: EWG increases activity" },
@@ -100,15 +206,47 @@
                         "title":"SAR Requirements",
                         "name" : "Alprazolam",
                         "imagePath" : "slide-5b.PNG",
-                        "colorLocationAssociations" : [
-                              {"color": "red", "location": "Ring A", "description" : "Ring A: Pi-Pi stacking with BZR" },
-                              {"color": "orange", "location": "C7", "description" : "C7: EWG increases activity" },
-                              {"color": "green", "location": "Ring B", "description" : "Ring B:  H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
-                              {"color": "blue", "location": "N1", "description" : "N1: methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
-                              {"color": "purple", "location": "C3", "description" : "C3: OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
-                              {"color": "deeppink", "location": "Ring C", "description" : "Ring C: Hydrophobic interaction with BZR" },
-                              {"color": "darkgoldenrod", "location": "C4", "description" : "C4: Steric repulsion occurs with para substituent " },
-                              {"color": "teal", "location": "C2", "description" : "C2:  F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Ring A",
+                                    "y": 276,
+                                    "x": 229,
+                                    "size": 50,
+                                    "color": "red",
+                                    "text": "Pi-Pi stacking with BZR"
+                              },
+                              {
+                                    "name": "Ring B",
+                                    "y": 197,
+                                    "x": 303,
+                                    "size": 50,
+                                    "color": "green",
+                                    "text": "H-bond acceptor (O, N, S) or N-heterocycle required. 1,2 annelation (N-heterocycle) increases affinity for BZR"
+                              },
+                              {
+                                    "name": "N1",
+                                    "y": 178,
+                                    "x": 223,
+                                    "size": 30,
+                                    "color": "blue",
+                                    "text": "EWG increases activity"
+                              },
+                              {
+                                    "name": "C7",
+                                    "y": 328,
+                                    "x": 165,
+                                    "size": 40,
+                                    "color": "orange",
+                                    "text": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+                              },
+                              {
+                                    "name": "Ring C",
+                                    "y": 384,
+                                    "x": 300,
+                                    "size": 50,
+                                    "color": "deeppink",
+                                    "text": "Hydrophobic interaction with BZR"
+                              }
                         ]
                   },
                   {
@@ -127,7 +265,7 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Activity Change",
-                        "imagePath" : "/molecular.PNG",
+                        "imagePath" : "slide8.PNG",
                         "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
                         "options" : [
                               "Increase", 
@@ -140,7 +278,7 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Compare Compounds",
-                        "imagePath" : "slide10-3options.jpg",
+                        "imagePath" : "slide10.PNG",
                         "question" : "Which of these 3 compounds would be the best benzodiazepine for use as a hypnotic?",
                         "options" : [
                               "Compound 1", 
@@ -153,7 +291,7 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Compare Compounds",
-                        "imagePath" : "slide11-3options.jpg",
+                        "imagePath" : "slide11.PNG",
                         "question" : "Which of these 3 compounds would be the best benzodiazepine for use as an anxiolytic?",
                         "options" : [
                               "Compound 1", 
@@ -166,7 +304,7 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Predict Metabolite Activity",
-                        "imagePath" : "slide13.jpg",
+                        "imagePath" : "slide13.PNG",
                         "question" : "Predict whether the metabolites will be active or inactive for the compounds (2, 3) and Conjugated Products",
                         "options" : [ 
                               "Active, Active, Inactive",
@@ -180,7 +318,7 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Predict Metabolite Activity",
-                        "imagePath" : "slide14.jpg",
+                        "imagePath" : "slide14.PNG",
                         "question" : "Would compound 1 (temazepam) be an ideal hypnotic or anxiolytic? Predict whether the metabolites will be active or inactive for compound 2",
                         "options" : [
                               "Anxiolytic, Active",
@@ -194,7 +332,7 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Predict Metabolite Activity",
-                        "imagePath" : "slide11-3options.jpg",
+                        "imagePath" : "slide15.PNG",
                         "question" : "Would compound 1 (triazolam) be an ideal hypnotic or anxiolytic? Predict whether the metabolites will be active or inactive for the compounds (2, 3) and Conjugated Products",
                         "options" : [
                               "Anxiolytic, Active, Inactive, Inactive",
@@ -323,10 +461,11 @@
                   {
                         "title": "Drugs",  
                         "sections" : [
-                              {"title": "Diazepam", "content": "", "imagePath": "/molecular.PNG" },
-                              {"title": "Lorazepam", "content": "", "imagePath": "/molecular.PNG" }, 
-                              {"title": "Temazepam", "content": "", "imagePath": "/molecular.PNG" },
-                              {"title": "Midazolam", "content": "", "imagePath": "/molecular.PNG" }
+                              {"title": "Diazepam", "imagePath": "diazepam.PNG" },
+                              {"title": "Lorazepam", "imagePath": "lorazepam.PNG" }, 
+                              {"title": "Temazepam", "imagePath": "temazepam.PNG" },
+                              {"title": "Triazolam", "imagePath": "triazolam.PNG" },
+                              {"title": "Midazolam", "imagePath": "midazolam.PNG" }
                         ]
                   },
                   {
@@ -354,6 +493,7 @@
                   {
                         "title": "Action",  
                         "sections" : [
+                              {"title": "MOA", "imagePath": "moa.PNG" },
                               {"title": "Mechanism of Action", "content": "" },
                               {"title": "Pharmacological Action", "content": "" }
                         ]
@@ -374,6 +514,67 @@
                         "title": "Notes",  
                         "sections" : [
                               {"title": "Notes", "content": "" }
+                        ]
+                  }
+            ],
+            "exampleReview":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Diazepam (Long Acting)", "imagePath": "diazepam.PNG" },
+                              {"title": "Lorazepam (Intermediate Acting)", "imagePath": "lorazepam.PNG" }, 
+                              {"title": "Temazepam (Intermediate Acting)", "imagePath": "temazepam.PNG" },
+                              {"title": "Triazolam (Short Acting)", "imagePath": "triazolam.PNG" },
+                              {"title": "Midazolam (Short Acting)", "imagePath": "midazolam.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics",  
+                        "sections" : [
+                              {"title": "Ring A", "content": "Pi-Pi stacking with BZR" },
+                              {"title": "C7", "content": "EWG increases activity" }, 
+                              {"title": "Ring B", "content": "H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
+                              {"title": "N1", "content": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
+                              {"title": "C3", "content": "OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
+                              {"title": "Ring C", "content": "Hydrophobic interaction with BZR" },
+                              {"title": "C4", "content": "Steric repulsion occurs with para substituent" },
+                              {"title": "C2", "content": "F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+                        ]
+                  },
+                  {
+                        "title": "Pharmokinetic",  
+                        "sections" : [
+                              {"title": "Absorption", "content": "When taken orally, most BZD show rapid and complete absorption from GI tract" },
+                              {"title": "Distribution", "content": "-Increase lipophilicity = Increase rate of CNS distribution. -Cross BBB by passive diffusion." }, 
+                              {"title": "Metabolism", "content": "-Do NOT induce metabolism of other drugs. -Liver metabolized to active compounds (except lorazepam)" },
+                              {"title": "Excretion", "content": "By kidneys" },
+                              {"title": "Duration of Action", "content": "[Short Acting]: 1.5-5 hours, Not converted into active intermediates. [Intermediate Acting]: 8-20 hours. [Long Acting]: 30-60 hours, Converted into active intermediates." }
+                        ]
+                  },
+                  {
+                        "title": "Action",  
+                        "sections" : [
+                              {"title": "MOA", "imagePath": "moa.PNG" },
+                              {"title": "Mechanism of Action", "content": "-Potentiates GABA by binding to allosteric site on receptor. Increase the frequency of Cl- channel opening. -Enhancement of GABA activity slows nerve impulses throughout the body, GABA produces calming effect in the brain." },
+                              {"title": "Pharmacological Action", "content": "-Sedation (decrease latency and REM). -Reduction in muscle tone. -Tolerance develops after 1-2 weeks of use. -Reduction in anxiety." }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",  
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "Drowsiness, Fatigue, Amnesia, Ataxia" }
+                        ]
+                  },
+                  {
+                        "title": "Uses",  
+                        "sections" : [
+                              {"title": "Uses", "content": "Anti-Epileptic (diazepam, lorazepam), Insomnia (temazepam, triazolam), Anti-anxiety (diazepam, lorazepam), Muscle spasms (diazepam), Anesthesia (diazepam, lorazepam, midazolam). *Duration of Action determines therapeutic use." }
+                        ]
+                  },
+                  {
+                        "title": "Notes",  
+                        "sections" : [
+                              {"title": "Notes", "content": "-Duration of action and elimination half life are NOT the same. -BZD increase frequency of Cl- channel opening. -GABA must be present for BZD to have effect. -Flumazenil = BZD receptor antagonist for treatment of acute overdose." }
                         ]
                   }
             ]
