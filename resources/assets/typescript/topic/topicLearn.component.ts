@@ -81,6 +81,8 @@ import { CompoundCanvasComponent } from './compoundCanvas.component';
               </ul>
               <p *ngIf="learnItem.answer">
                 {{learnItem.question}}
+                <br>
+                <br>
                 <select class="form-control input-lg" [(ngModel)]="userAnswer" name="userAnswerInput" *ngIf="!answerSubmitted" required>
                   <option [value]="''" disabled="disabled"></option>
                   <option *ngFor="let option of learnItem.options;">{{option}}</option>

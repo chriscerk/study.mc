@@ -30,7 +30,7 @@
                                     "x": 266,
                                     "size": 30,
                                     "color": "blue",
-                                    "text": "EWG increases activity"
+                                    "text": "Methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
                               },
                               {
                                     "name": "C7",
@@ -38,7 +38,7 @@
                                     "x": 154,
                                     "size": 30,
                                     "color": "orange",
-                                    "text": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+                                    "text": "EWG increases activity"
                               },
                               {
                                     "name": "Ring C",
@@ -57,6 +57,14 @@
                                     "text": "F or Cl substitution reduces aromatic hydroxylation and improves half-life"
                               },
                               {
+                                    "name": "C3",
+                                    "y": 245,
+                                    "x": 354,
+                                    "size": 25,
+                                    "color": "purple",
+                                    "text": "OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation."
+                              },
+                              {
                                     "name": "C4",
                                     "y": 466,
                                     "x": 288,
@@ -68,7 +76,7 @@
                   },
                   {
                         "title":"SAR Requirements",  
-                        "name" : "Example Compound 2",
+                        "name" : "Hover over the compound to learn about the SAR Characteristics",
                         "imagePath" : "slide-4b.PNG",
                         "compoundHotspots" : [
                               {
@@ -93,7 +101,7 @@
                                     "x": 266,
                                     "size": 30,
                                     "color": "blue",
-                                    "text": "EWG increases activity"
+                                    "text": "Methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
                               },
                               {
                                     "name": "C7",
@@ -101,7 +109,7 @@
                                     "x": 159,
                                     "size": 30,
                                     "color": "orange",
-                                    "text": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+                                    "text": "EWG increases activity"
                               },
                               {
                                     "name": "Ring C",
@@ -118,6 +126,14 @@
                                     "size": 25,
                                     "color": "brown",
                                     "text": "F or Cl substitution reduces aromatic hydroxylation and improves half-life"
+                              },
+                              {
+                                    "name": "C3",
+                                    "y": 273,
+                                    "x": 356,
+                                    "size": 25,
+                                    "color": "purple",
+                                    "text": "OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation."
                               },
                               {
                                     "name": "C4",
@@ -156,7 +172,7 @@
                                     "x": 223,
                                     "size": 30,
                                     "color": "blue",
-                                    "text": "EWG increases activity"
+                                    "text": "Methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
                               },
                               {
                                     "name": "C7",
@@ -164,7 +180,7 @@
                                     "x": 159,
                                     "size": 30,
                                     "color": "orange",
-                                    "text": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+                                    "text": "EWG increases activity"
                               },
                               {
                                     "name": "Ring C",
@@ -229,7 +245,7 @@
                                     "x": 223,
                                     "size": 30,
                                     "color": "blue",
-                                    "text": "EWG increases activity"
+                                    "text": "Methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
                               },
                               {
                                     "name": "C7",
@@ -237,7 +253,7 @@
                                     "x": 165,
                                     "size": 40,
                                     "color": "orange",
-                                    "text": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+                                    "text": "EWG increases activity"
                               },
                               {
                                     "name": "Ring C",
@@ -444,7 +460,7 @@
                               "G6P deficiency", 
                               "amnesia"
                         ],
-                        "answer" : "Induction of P450s"
+                        "answer" : "amnesia"
                   },
                   {
                         "title":"Side-Effects",  
@@ -798,7 +814,7 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Activity Change",
-                        "imagePath" : "/compounds/slide7-transition.jpg",
+                        "imagePath" : "slide30.PNG",
                         "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
                         "options" : [
                               "Increase", 
@@ -811,7 +827,7 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Activity Change",
-                        "imagePath" : "/compounds/slide7-transition.jpg",
+                        "imagePath" : "slide31.PNG",
                         "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
                         "options" : [
                               "Increase", 
@@ -824,7 +840,7 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Compare Compounds",
-                        "imagePath" : "/compounds/slide10-3options.jpg",
+                        "imagePath" : "slide33.PNG",
                         "question" : "Which of these 3 compounds would be a CNS active barbiturate?",
                         "options" : [
                               "Compound 1", 
@@ -879,10 +895,10 @@
                   {
                         "title": "Drugs",  
                         "sections" : [
-                              {"title": "Diazepam", "content": "", "imagePath": "/molecular.PNG" },
-                              {"title": "Lorazepam", "content": "", "imagePath": "/molecular.PNG" }, 
-                              {"title": "Temazepam", "content": "", "imagePath": "/molecular.PNG" },
-                              {"title": "Midazolam", "content": "", "imagePath": "/molecular.PNG" }
+                              {"title": "Phenobarbital (Long Acting)", "imagePath": "phenobarbital.PNG" },
+                              {"title": "Butabarbital (Intermediate Acting)", "imagePath": "butabarbital.PNG" }, 
+                              {"title": "Pentobarbital (Short Acting)", "imagePath": "pentobarbital.PNG" },
+                              {"title": "Secobarbital (Short Acting)", "imagePath": "secobarbital.PNG" }
                         ]
                   },
                   {
@@ -892,10 +908,7 @@
                               {"title": "", "content": "" }, 
                               {"title": "", "content": "" },
                               {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" }
+                              {"title": "", "content": "" } 
                         ]
                   },
                   {
@@ -910,7 +923,8 @@
                   {
                         "title": "Action",  
                         "sections" : [
-                              {"title": "Mechanism of Action", "content": "" },
+                              {"title": "Mechanism of Action", "imagePath": "moa-barbiturates.PNG" },
+                              {"title": "MOA Explanation", "content": "" },
                               {"title": "Pharmacological Action", "content": "" }
                         ]
                   },
@@ -927,9 +941,65 @@
                         ]
                   },
                   {
-                        "title": "Notes",  
+                        "title": "Reason for Limited Use",  
                         "sections" : [
                               {"title": "Notes", "content": "" }
+                        ]
+                  }
+            ],
+            "exampleReview":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Phenobarbital (Long Acting)", "imagePath": "phenobarbital.PNG" },
+                              {"title": "Butabarbital (Intermediate Acting)", "imagePath": "butabarbital.PNG" }, 
+                              {"title": "Pentobarbital (Short Acting)", "imagePath": "pentobarbital.PNG" },
+                              {"title": "Secobarbital (Short Acting)", "imagePath": "secobarbital.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "SAR Characteristics",  
+                        "sections" : [
+                              {"title": "N1", "content": "Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." },
+                              {"title": "N3", "content": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." }, 
+                              {"title": "C2", "content": "Changing C=O → C=S increases lipophilicity and more rapid onset of action" },
+                              {"title": "C4 & C6", "content": "Must contain C=O" },
+                              {"title": "R1 & R2", "content": "bulky carbon groups increases lipophilicity and more rapid onset of action" } 
+                        ]
+                  },
+                  {
+                        "title": "Pharmokinetic",  
+                        "sections" : [
+                              {"title": "Absorption", "content": "IV and Oral" },
+                              {"title": "Distribution", "content": "Increases lipid solubility = quicker entry into CNS. Barbiturates redistribute from brain to muscles and fat tissue." }, 
+                              {"title": "Metabolism", "content": "Metabolized in the liver" },
+                              {"title": "Excretion", "content": "Excreted in urine by kidney"  }
+                        ]
+                  },
+                  {
+                        "title": "Action",  
+                        "sections" : [
+                              {"title": "Mechanism of Action", "imagePath": "moa-barbiturates.PNG" },
+                              {"title": "MOA Explanation", "content": "Prolong GABA activity. Increase duration of Cl- channel opening. Also blocks the AMPA- receptor which is sensitive to glutamate, the excitatory transmitter. Blocking this action increases the duration of receptor response to GABA and extends the depressed condition of the cell." },
+                              {"title": "Pharmacological Action", "content": "[CNS Depression]: Sedation at low doses. Hypnosis followed by anesthesia at high doses. [Respiratory Depression]: Suppress hypoxic and chemoreceptor response to C02 -> Can lead to death." }
+                        ]
+                  },
+                  {
+                        "title": "Side-Effects",  
+                        "sections" : [
+                              {"title": "Side-Effects", "content": "Alcohol like symptoms: Impaired motor control (ataxia), dizziness, slower breathing and heart rate. Enzyme induction (CYP450). Potential for addiction." }
+                        ]
+                  },
+                  {
+                        "title": "Uses",  
+                        "sections" : [
+                              {"title": "Uses", "content": "NOT used as sedative or hypnotic. Anesthetic: Ultra short acting (thiopental). Anti-seizure: Long acting (phenobarbital)." }
+                        ]
+                  },
+                  {
+                        "title": "Reason for Limited Use",  
+                        "sections" : [
+                              {"title": "Notes", "content": "Physical dependence, Severe withdrawal symptoms, low toxicity threshold, tolerance develops." }
                         ]
                   }
             ]
@@ -937,7 +1007,71 @@
       {
             "id": 3,
             "name": "Z-Drugs",
-            "learnItems":[],
+             "learnItems":[
+                  {
+                        "title":"Useful Structures",  
+                        "name" : "Zaleplon",
+                        "imagePath" : "zaleplon-useful.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Z-Drugs" }
+                        ]
+                  },
+                  {
+                        "title":"Useful Structures",  
+                        "name" : "Eszopiclone",
+                        "imagePath" : "eszopiclone-useful.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Z-Drugs" }
+                        ]
+                  },
+                  {
+                        "title":"Useful Structures",  
+                        "name" : "Zolpidem",
+                        "imagePath" : "zolpidem-useful.PNG",
+                        "colorLocationAssociations" : [
+                              {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Z-Drugs" }
+                        ]
+                  },
+                  {
+                        "title":"Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide44.PNG",
+                        "question" : "Trissa is 30-year old female suffering from anxiety and insomnia. What one compound would be best to treat both her anxiety and insomnia?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Benzodiazepine (Compound 2)"
+                  },
+                  {
+                        "title":"Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide45.PNG",
+                        "question" : "Sakiya is 24-year old female suffering from anxiety and insomnia. Sakiya’s boyfriend takes one of these hypnotics for insomnia and it helps keep him asleep with no hangover effects in the morning. LM decides to take one of his pills, but in the morning she is still sleepy. Which of these compounds did she take and why is she still experiencing effects in the morning?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Zolpidem (Compound 1); women metabolize slower"
+                  },
+                  {
+                        "title":"Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide46.PNG",
+                        "question" : "Lance is 27-year old female suffering from anxiety and insomnia. Unfortunately, Lance has had abuse disorders in the past. Which of these compounds would be safest to use to treat her insomnia?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Ramelteon (Compound 3); not a scheduled drug"
+                  }
+            ],
             "testItems":[
                   {
                         "title":"Mechanism of Action",  
@@ -1085,65 +1219,170 @@
                   {
                         "title": "Drugs",  
                         "sections" : [
-                              {"title": "Diazepam", "content": "", "imagePath": "/molecular.PNG" },
-                              {"title": "Lorazepam", "content": "", "imagePath": "/molecular.PNG" }, 
-                              {"title": "Temazepam", "content": "", "imagePath": "/molecular.PNG" },
-                              {"title": "Midazolam", "content": "", "imagePath": "/molecular.PNG" }
+                              {"title": "Zolpidem", "imagePath": "zolpidem.PNG" },
+                              {"title": "Zaleplon", "imagePath": "zaleplon.PNG" }, 
+                              {"title": "Eszopiclone", "imagePath": "eszopiclone.PNG" }
                         ]
                   },
                   {
-                        "title": "SAR Characteristics",  
+                        "title": "Zolpidem",  
                         "sections" : [
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" }, 
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" }
+                              {"title": "Key Characteristics", "content": "" },
+                              {"title": "Key Pharmacokinetic", "content": "" }, 
+                              {"title": "Action/Effect", "content": "" },
+                              {"title": "Side Effects", "content": "" }
                         ]
                   },
                   {
-                        "title": "Pharmokinetic",  
+                        "title": "Zaleplon",  
                         "sections" : [
-                              {"title": "Absorption", "content": "" },
-                              {"title": "Distribution", "content": "" }, 
-                              {"title": "Metabolism", "content": "" },
-                              {"title": "Excretion", "content": ""  }
+                              {"title": "Key Characteristics", "content": "" },
+                              {"title": "Key Pharmacokinetic", "content": "" }, 
+                              {"title": "Action/Effect", "content": "" },
+                              {"title": "Side Effects", "content": "" }
                         ]
                   },
                   {
-                        "title": "Action",  
+                        "title": "Eszopiclone",  
                         "sections" : [
-                              {"title": "Mechanism of Action", "content": "" },
-                              {"title": "Pharmacological Action", "content": "" }
-                        ]
-                  },
-                  {
-                        "title": "Side-Effects",  
-                        "sections" : [
-                              {"title": "Side-Effects", "content": "" }
-                        ]
-                  },
-                  {
-                        "title": "Uses",  
-                        "sections" : [
-                              {"title": "Uses", "content": "" }
-                        ]
-                  },
-                  {
-                        "title": "Notes",  
-                        "sections" : [
-                              {"title": "Notes", "content": "" }
+                              {"title": "Key Characteristics", "content": "" },
+                              {"title": "Key Pharmacokinetic", "content": "" }, 
+                              {"title": "Action/Effect", "content": "" },
+                              {"title": "Side Effects", "content": "" }
                         ]
                   }
+                  
+            ],
+            "exampleReview":[
+                  {
+                        "title": "Drugs",  
+                        "sections" : [
+                              {"title": "Zolpidem", "imagePath": "zolpidem.PNG" },
+                              {"title": "Zaleplon", "imagePath": "zaleplon.PNG" }, 
+                              {"title": "Eszopiclone", "imagePath": "eszopiclone.PNG" }
+                        ]
+                  },
+                  {
+                        "title": "Zolpidem",  
+                        "sections" : [
+                              {"title": "Key Characteristics", "content": "Women metabolize slower. Used to treat insomnia." },
+                              {"title": "Key Pharmacokinetic", "content": "Rapidly absorbed in GI tract. Rapid onset and short elimination T1/2 (2-3 hours). Metabolism: Hepatic oxidation by CYP450." }, 
+                              {"title": "Action/Effect", "content": "Selective for GABA-A alpha-1 subunit. Sedative." },
+                              {"title": "Side Effects", "content": "Nightmares, agitation, headache, GI upset, dizziness, drowsiness." }
+                        ]
+                  },
+                  {
+                        "title": "Zaleplon",  
+                        "sections" : [
+                              {"title": "Key Characteristics", "content": "Used to treat insomnia." },
+                              {"title": "Key Pharmacokinetic", "content": "Fewer residual effect on psychomotor and cognitive functions. Rapid elimination and T1/2 of 1 hour = Good to tak in the middle of night. Metabolism: CYP450." }, 
+                              {"title": "Action/Effect", "content": "Selective for GABA-A alpha-1 subunit. Sedative." },
+                              {"title": "Side Effects", "content": "Dizziness, Drowsiness, Lack of coordination." }
+                        ]
+                  },
+                  {
+                        "title": "Eszopiclone",  
+                        "sections" : [
+                              {"title": "Key Characteristics", "content": "Longest T1/2. Used for chronic insomnia." },
+                              {"title": "Key Pharmacokinetic", "content": "Elimination half life ~6 hours. Metabolism: oxidation and demethylation via CYP450. Rapidly absorbed." }, 
+                              {"title": "Action/Effect", "content": "Acts at several GABA-A subunits, including alpha-1 and alpha-2 subunit. Sedative and Anxiolytic." },
+                              {"title": "Side Effects", "content": "Anxiety, dry mount, headache, peripheral edema, somnolence, unpleasant taste." }
+                        ]
+                  }
+                  
             ]
       },
       {
             "id": 4,
             "name": "Anticonvulsants",
-            "learnItems":[],
+            "learnItems":[
+                  {
+                        "title":"SAR Trends",  
+                        "name" : "Hover over Phenobarbital (barbiturate) to learn about the SAR Trends",
+                        "imagePath" : "phenobarbital-sar.PNG",
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Phenobarbital Ureide",
+                                    "y": 214,
+                                    "x": 300,
+                                    "size": 65,
+                                    "color": "green",
+                                    "text": "Phenobarbital's Ureide Common Scaffold"
+                              }
+                        ]
+                  },
+                  {
+                        "title":"SAR Trends",  
+                        "name" : "Hover over Ethosuximide (succinimide) to learn about the SAR Trends",
+                        "imagePath" : "ethosuximide-sar.PNG",
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Ethosuximide Ureide",
+                                    "y": 300,
+                                    "x": 250,
+                                    "size": 50,
+                                    "color": "green",
+                                    "text": "Ethosuximide's Ureide Common Scaffold"
+                              }
+                        ]
+                  },
+                  {
+                        "title":"SAR Trends",  
+                        "name" : "Hover over Phenytoin (hydantion) to learn about the SAR Trends",
+                        "imagePath" : "phenytoin-sar.PNG",
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Phenytoin Ureide",
+                                    "y": 286,
+                                    "x": 270,
+                                    "size": 50,
+                                    "color": "green",
+                                    "text": "Phenytoin's Ureide Common Scaffold"
+                              }
+                        ]
+                  },
+                  {
+                        "title":"SAR Trends",  
+                        "name" : "Hover over Fosphenytoin (hydantion) to learn about the SAR Trends",
+                        "imagePath" : "fosphenytoin-sar.PNG",
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Fosphenytoin Ureide",
+                                    "y": 250,
+                                    "x": 255,
+                                    "size": 40,
+                                    "color": "green",
+                                    "text": "Fosphenytoin's Ureide Common Scaffold"
+                              }
+                        ]
+                  },
+                   {
+                        "title":"Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide63.PNG",
+                        "question" : "Henry is 45-year old male who has recently been suffering from  what is believed to be absence seizures. Which compound should he be prescribed?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Ethosuximide (Compound 2); best used for absence seizures"
+                  },
+                   {
+                        "title":"Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide64.PNG",
+                        "question" : "Amir is 48-year old male who has recently been suffering from what is believed to be absence seizures. Unfortunately, ethosuximide was not effective, and it is decided that Amir needs a medication for partial seizures instead. Amir also is taking several other medications. Which compound should he take?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : ": Lamotrigine (Compound 3); not metabolized by CYP and does not induce CYP, which could interfere with other medications"
+                  }
+            ],
             "testItems":[
                   {
                         "title":"",  
@@ -1291,59 +1530,115 @@
             ], 
             "reviewItems":[
                   {
-                        "title": "Drugs",  
+                        "title": "Epilepsy",  
                         "sections" : [
-                              {"title": "Diazepam", "content": "Long acting (30 - 60 hours)", "imagePath": "/molecular.PNG" },
-                              {"title": "Lorazepam", "content": "Intermediate acting (8-20 hours)", "imagePath": "/molecular.PNG" }, 
-                              {"title": "Temazepam", "content": "Intermediate acting (8-20 hours)", "imagePath": "/molecular.PNG" },
-                              {"title": "Midazolam", "content": "Short acting (1.5-5 hours)", "imagePath": "/molecular.PNG" }
-                        ]
-                  },
-                  {
-                        "title": "SAR Characteristics",  
-                        "sections" : [
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" }, 
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" },
-                              {"title": "", "content": "" }
-                        ]
-                  },
-                  {
-                        "title": "Pharmokinetic",  
-                        "sections" : [
-                              {"title": "Absorption", "content": "" },
-                              {"title": "Distribution", "content": "" }, 
-                              {"title": "Metabolism", "content": "" },
-                              {"title": "Excretion", "content": ""  }
-                        ]
-                  },
-                  {
-                        "title": "Action",  
-                        "sections" : [
-                              {"title": "Mechanism of Action", "content": "" },
-                              {"title": "Pharmacological Action", "content": "" }
-                        ]
-                  },
-                  {
-                        "title": "Side-Effects",  
-                        "sections" : [
-                              {"title": "Side-Effects", "content": "" }
-                        ]
-                  },
-                  {
-                        "title": "Uses",  
-                        "sections" : [
-                              {"title": "Uses", "content": "" }
-                        ]
-                  },
-                  {
-                        "title": "Notes",  
-                        "sections" : [
+                              {"title": "Pathophysiology of a seizure", "content": "" },
+                              {"title": "Common toxicities of many antiepileptic drugs", "content": "" }, 
                               {"title": "Notes", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "Molecular Targets for Epilepsy Treatment",  
+                        "sections" : [
+                              {"title": "Decrease Excitatory Activity", "content": "" },
+                              {"title": "Increase Inhibitory Activity", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "(Target/MOA: Ca+ Channel) Treatment Drugs",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "" },
+                              {"title": "Neurotransmitter", "content": "" },
+                              {"title": "Drugs", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "(Target/MOA: Na+ Channel) Treatment Drugs",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "" },
+                              {"title": "Neurotransmitter", "content": "" },
+                              {"title": "Drugs", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "(Target/MOA: Synaptic Vesicle Protein) Treatment Drugs",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "" },
+                              {"title": "Neurotransmitter", "content": "" },
+                              {"title": "Drugs", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "(Target/MOA: PAM @ GABA-A) Treatment Drugs",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "" },
+                              {"title": "Neurotransmitter", "content": "" },
+                              {"title": "Drugs", "content": "" }
+                        ]
+                  },
+                  {
+                        "title": "(Target/MOA: GABA Metabolism) Treatment Drugs",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "" },
+                              {"title": "Neurotransmitter", "content": "" },
+                              {"title": "Drugs", "content": "" }
+                        ]
+                  }
+            ],
+             "exampleReview":[
+                  {
+                        "title": "Epilepsy",  
+                        "sections" : [
+                              {"title": "Pathophysiology of a seizure", "content": "Finite episodes of brain dysfunction resulting from abnormal repetitive discharge of cerebral neurons." },
+                              {"title": "Common toxicities of many antiepileptic drugs", "content": "Sedation, Rashes, Teratogenicity, Cerebellar: Ataxia & Nystagmus, CYP450 Interactions." }, 
+                              {"title": "Notes", "content": "Anti-epileptics do not block ALL action potentials - blocking all would cause death." }
+                        ]
+                  },
+                  {
+                        "title": "Molecular Targets for Epilepsy Treatment",  
+                        "sections" : [
+                              {"title": "Decrease Excitatory Activity", "content": "*Works at Glutamatergic synapse. 1. Block NA+ Channels. 2. Block Ca+ Channels. 3. Activate K+ Channels. 4. Block NMDA-Receptor. 5. Block NMDA-Receptor. 6. Bind to Synaptic Vesicle Proteins." },
+                              {"title": "Increase Inhibitory Activity", "content": "*Works at GABAergic synapse. 1. Block GABA Transporter (More GABA in synapse). 2. Block GABA Transaminase (Block metabolism of GABA). 3. Increase potency of GABA @ GABA-A Receptor." }
+                        ]
+                  },
+                  {
+                        "title": "(Ca+ Channel) Epilepsy Treatment",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "Decrease Ca+ Channel Activity" },
+                              {"title": "Neurotransmitter", "content": "Glutamate (Decrease excitatory activity)" },
+                              {"title": "Drugs", "content": "Phenobarbital, Ethosuximide, Valproic Aid, Gabapentin, Pregabalin" }
+                        ]
+                  },
+                  {
+                        "title": "(Na+ Channel) Epilepsy Treatment",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "Decrease Na+ Channel Activity" },
+                              {"title": "Neurotransmitter", "content": "Glutamate (Decrease excitatory activity)" },
+                              {"title": "Drugs", "content": "Phenytoin, Carbamazepine, Valproic Acid, Lamotrigine, Topiramate" }
+                        ]
+                  },
+                  {
+                        "title": "(Synaptic Vesicle Protein) Epilepsy Treatment",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "Binds to synaptic vesicle protein to reduce presynaptic NT release" },
+                              {"title": "Neurotransmitter", "content": "Glutamate (Decrease excitatory activity)" },
+                              {"title": "Drugs", "content": "Levetiracetam" }
+                        ]
+                  },
+                  {
+                        "title": "(PAM @ GABA-A) Epilepsy Treatment",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "PAM @ GABA-A" },
+                              {"title": "Neurotransmitter", "content": "GABA (increase inhibitory activity)" },
+                              {"title": "Drugs", "content": "Phenobarbital, Diazepam, Lorazepam" }
+                        ]
+                  },
+                  {
+                        "title": "(GABA Metabolism) Epilepsy Treatment",  
+                        "sections" : [
+                              {"title": "Target/MOA", "content": "Inhibition of GABA metabolism" },
+                              {"title": "Neurotransmitter", "content": "GABA (increase inhibitory activity)" },
+                              {"title": "Drugs", "content": "Valproic Acid" }
                         ]
                   }
             ]
