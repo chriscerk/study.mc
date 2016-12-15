@@ -1,5 +1,5 @@
 /// <reference path="../../../typings/browser.d.ts" />
-System.register(['@angular/core', '@angular/platform-browser', './app.component', './course/course.component', './course/courseTopics.component', './topic/topic.component', './topic/topicLearn.component', './topic/topicTest.component', './topic/topicReview.component', './courses/courses.component', './topic/compoundCanvas.component', './app.routing', './core/core.module', './shared/shared.module', "@angular/forms", './shared/pipes/percent.pipe'], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/platform-browser', './app.component', './course/course.component', './course/courseTopics.component', './topic/topic.component', './topic/topicLearn.component', './topic/topicTest.component', './topic/topicReview.component', './courses/courses.component', './shared/compoundCanvas.component', './shared/alertBox.component', './shared/endMessage.component', './app.routing', './core/core.module', './shared/shared.module', "@angular/forms", './shared/pipes/percent.pipe'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -11,7 +11,7 @@ System.register(['@angular/core', '@angular/platform-browser', './app.component'
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, platform_browser_1, core_2, app_component_1, course_component_1, courseTopics_component_1, topic_component_1, topicLearn_component_1, topicTest_component_1, topicReview_component_1, courses_component_1, compoundCanvas_component_1, app_routing_1, core_module_1, shared_module_1, forms_1, percent_pipe_1;
+    var core_1, platform_browser_1, core_2, app_component_1, course_component_1, courseTopics_component_1, topic_component_1, topicLearn_component_1, topicTest_component_1, topicReview_component_1, courses_component_1, compoundCanvas_component_1, alertBox_component_1, endMessage_component_1, app_routing_1, core_module_1, shared_module_1, forms_1, percent_pipe_1;
     var Components, Pipes, AppModule;
     return {
         setters:[
@@ -49,6 +49,12 @@ System.register(['@angular/core', '@angular/platform-browser', './app.component'
             function (compoundCanvas_component_1_1) {
                 compoundCanvas_component_1 = compoundCanvas_component_1_1;
             },
+            function (alertBox_component_1_1) {
+                alertBox_component_1 = alertBox_component_1_1;
+            },
+            function (endMessage_component_1_1) {
+                endMessage_component_1 = endMessage_component_1_1;
+            },
             function (app_routing_1_1) {
                 app_routing_1 = app_routing_1_1;
             },
@@ -74,7 +80,9 @@ System.register(['@angular/core', '@angular/platform-browser', './app.component'
                 topicLearn_component_1.TopicLearnComponent,
                 topicTest_component_1.TopicTestComponent,
                 topicReview_component_1.TopicReviewComponent,
-                compoundCanvas_component_1.CompoundCanvasComponent
+                compoundCanvas_component_1.CompoundCanvasComponent,
+                alertBox_component_1.AlertBoxComponent,
+                endMessage_component_1.EndMessageComponent
             ];
             Pipes = [
                 percent_pipe_1.MyPercentPipe

@@ -13,7 +13,9 @@ import { TopicLearnComponent } from './topic/topicLearn.component';
 import { TopicTestComponent } from './topic/topicTest.component';
 import { TopicReviewComponent } from './topic/topicReview.component';
 import { CoursesComponent }  from './courses/courses.component';
-import { CompoundCanvasComponent } from './topic/compoundCanvas.component';
+import { CompoundCanvasComponent } from './shared/compoundCanvas.component';
+import { AlertBoxComponent } from './shared/alertBox.component';
+import { EndMessageComponent } from './shared/endMessage.component';
 
 import { app_routing } from './app.routing';
 import { CoreModule }   from './core/core.module';
@@ -31,7 +33,10 @@ let Components: any[] = [
     TopicLearnComponent,
     TopicTestComponent,
     TopicReviewComponent,
-    CompoundCanvasComponent
+    CompoundCanvasComponent,
+    AlertBoxComponent,
+    EndMessageComponent
+    
   ];
 
   let Pipes: any[] = [

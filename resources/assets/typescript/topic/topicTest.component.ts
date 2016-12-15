@@ -5,6 +5,8 @@ import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms'
 
 import { ITopic } from '../shared/interfaces';
 import { MyPercentPipe } from '../shared/pipes/percent.pipe'
+import { AlertBoxComponent } from '../shared/alertBox.component';
+import { EndMessageComponent } from '../shared/endMessage.component';
 
 import { DataService } from '../core/services/data.service';
 
@@ -14,6 +16,7 @@ import { DataService } from '../core/services/data.service';
 <div *ngIf="topic">
   <h1><b>Test</b> your Knowledge on {{topic.name}}</h1>
 <div class="content">
+  <end-message *ngIf="moduleIsComplete" [topicName]="topic.name" [incorrectAnswers]="incorrectAnswers"></end-message>
     <div *ngFor="let testItem of topic.testItems; let i = index">
       <div *ngIf="currentQuestion == i">
         <br>
@@ -23,7 +26,8 @@ import { DataService } from '../core/services/data.service';
         <form #f="ngForm" (ngSubmit)="onSubmit()" *ngIf="validAnswer" method="post">
           <p class="test-question">
             {{testItem.question}}
-
+            <br>
+            <br>
             <select class="form-control input-lg" [(ngModel)]="userAnswer" name="userAnswerInput" required>
               <option  value="" selected="selected" disabled="disabled"></option>
               <option *ngFor="let option of testItem.options;">{{option}}</option>
@@ -55,9 +59,6 @@ import { DataService } from '../core/services/data.service';
         </div>
 
       </div>
-       <div class="alert alert-success" role="alert" *ngIf="topic.testItems.length == currentQuestion">
-            <a href="#" class="alert-link">Congrats! You completed the {{topic.name}} Test</a>
-      </div>
     </div>
 
     <div *ngIf="!topic.testItems.length">
@@ -86,12 +87,16 @@ export class TopicTestComponent implements OnInit {
   correctAnswer: string;
   currentQuestion: number;
   validAnswer: boolean;
+  incorrectAnswers: number;
+  moduleIsComplete: boolean;
 
   constructor(private route: ActivatedRoute, router: Router, private dataService: DataService) {
       this.router = router;
       this.validAnswer = true;
       this.userAnswer = "Current Question Not Answered Yet";
       this.currentQuestion = 0;
+      this.incorrectAnswers = 0;
+      this.moduleIsComplete = false;
    } 
 
   ngOnInit() {
@@ -109,6 +114,11 @@ export class TopicTestComponent implements OnInit {
   onSubmit(){
     this.userAnswer = "Current Question Not Answered Yet";
     this.currentQuestion++;
+
+    if(this.topic.testItems.length == this.currentQuestion)
+    {
+      this.moduleIsComplete = true;
+    }
   }
 
   wrongAnswer(){
@@ -118,6 +128,7 @@ export class TopicTestComponent implements OnInit {
   retryQuestion(){
     this.userAnswer = "Current Question Not Answered Yet";
     this.validAnswer = true;
+    this.incorrectAnswers++;
   }
 
 }

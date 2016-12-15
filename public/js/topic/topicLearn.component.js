@@ -33,6 +33,9 @@ System.register(['@angular/core', '@angular/router', '../core/services/data.serv
                     this.answerSubmitted = false;
                     this.userAnswer = "Current Question Not Answered Yet";
                     this.currentQuestion = 0;
+                    this.moduleIsComplete = false;
+                    this.incorrectAnswers = 0;
+                    this.currentAction = 'Submit';
                 }
                 TopicLearnComponent.prototype.ngOnInit = function () {
                     var _this = this;
@@ -53,14 +56,18 @@ System.register(['@angular/core', '@angular/router', '../core/services/data.serv
                         this.currentQuestion--;
                     }
                 };
-                TopicLearnComponent.prototype.onSubmit = function () {
+                TopicLearnComponent.prototype.nextItem = function () {
                     this.answerSubmitted = false;
                     this.userAnswer = "Current Question Not Answered Yet";
                     this.currentQuestion++;
+                    if (this.topic.learnItems.length == this.currentQuestion) {
+                        this.moduleIsComplete = true;
+                    }
                 };
                 TopicLearnComponent.prototype.wrongAnswer = function () {
                     this.answerSubmitted = true;
                     this.validAnswer = false;
+                    this.incorrectAnswers++;
                 };
                 TopicLearnComponent.prototype.rightAnswer = function () {
                     this.answerSubmitted = true;
@@ -71,11 +78,37 @@ System.register(['@angular/core', '@angular/router', '../core/services/data.serv
                     this.userAnswer = "Current Question Not Answered Yet";
                     this.validAnswer = true;
                 };
+                TopicLearnComponent.prototype.performAction = function (action) {
+                    switch (action) {
+                        case 'Next':
+                            this.nextItem();
+                            break;
+                        case 'Previous':
+                            this.previousItem();
+                            break;
+                        case 'Submit':
+                            this.checkAnswer();
+                            break;
+                        case 'Retry':
+                            this.retryQuestion();
+                            break;
+                    }
+                };
+                TopicLearnComponent.prototype.checkAnswer = function () {
+                    if (this.correctAnswer != this.userAnswer) {
+                        this.wrongAnswer();
+                        this.currentAction = 'retryQuestion';
+                    }
+                    else {
+                        this.rightAnswer();
+                        this.currentAction = 'next';
+                    }
+                };
                 TopicLearnComponent = __decorate([
                     core_1.Component({
                         //moduleId: module.id,
                         selector: 'topic-learn',
-                        template: "\n<div *ngIf=\"topic\">\n  <h1><b>Learn</b> about {{topic.name}}</h1>\n  <div class=\"content\">\n    <div *ngFor=\"let learnItem of topic.learnItems; let i = index\">\n      <div *ngIf=\"currentQuestion == i\">\n\n        <h3>{{i/topic.learnItems.length | MyPercentPipe }} Complete</h3>\n        <h2>{{learnItem.title}}</h2> \n        <br>\n\n        <div class=\"alert alert-danger\" role=\"alert\" *ngIf=\"!validAnswer && answerSubmitted\">\n            <a href=\"#\" class=\"alert-link\">Incorrect Answer!</a>\n            <p>Please click \"Retry\" to attempt answering the question again.</p>\n        </div>\n\n        <div class=\"alert alert-success\" role=\"alert\" *ngIf=\"validAnswer && answerSubmitted\">\n            <a href=\"#\" class=\"alert-link\">Correct Answer!</a>\n            <p>Correct Answer was {{learnItem.answer}}. <strong>Why?</strong>: {{learnItem.explanation}}</p>\n        </div>\n\n        <form #f=\"ngForm\" (ngSubmit)=\"onSubmit()\" method=\"post\">\n          <p>{{learnItem.name}}</p>\n\n            <div class=\"action-buttons\">\n              <div class=\"shaded\">\n                <button  type=\"button\" class=\"btn btn-default\" (click)=\"previousItem()\"> Previous </button>\n              </div>\n              <br>\n              <div *ngIf=\"learnItem.answer && !answerSubmitted\">\n                <button type=\"button\" \n                        (click)=\"rightAnswer()\" \n                        class=\"btn btn-success btn-lg\" \n                        *ngIf=\"learnItem.answer == userAnswer\">\n                    Submit\n                </button>\n                <button type=\"button\" \n                        (click)=\"wrongAnswer()\" \n                        class=\"btn btn-success btn-lg\" \n                        *ngIf=\"learnItem.answer != userAnswer && validAnswer\">\n                    Submit\n                </button>\n              </div>\n\n              <div *ngIf=\"!learnItem.answer || answerSubmitted\">\n                <button type=\"submit\" class=\"btn btn-success btn-lg\" *ngIf=\"validAnswer\">\n                  Next\n                </button>\n              </div>\n              <button (click)=\"retryQuestion()\" class=\"btn btn-danger btn-lg\" *ngIf=\"!validAnswer\">Retry</button>\n              <br>\n\n            </div>\n          <div *ngIf=\"learnItem.compoundHotspots\">\n            <compound-Canvas [learnItem]=\"learnItem\" [topic]=\"topic\" [i]=\"i\">Loading Canvas...</compound-Canvas>\n          </div>\n\n          <ul *ngIf=\"!learnItem.compoundHotspots\" class=\"flex-container\">\n            <li class=\"flex-item\">\n              <img src=\"/studymc-media/compounds/{{topic.name}}/{{learnItem.imagePath}}\" id=\"logo\" alt=\"logo\">\n            </li>\n            <li class=\"flex-item\" style=\"width: 400px;\">\n              <ul>\n                <li *ngFor=\"let info of learnItem.colorLocationAssociations\">\n                      <p [style.color]=[info.color]> {{info.description}} </p>\n                </li>\n              </ul>\n              <p *ngIf=\"learnItem.answer\">\n                {{learnItem.question}}\n                <br>\n                <br>\n                <select class=\"form-control input-lg\" [(ngModel)]=\"userAnswer\" name=\"userAnswerInput\" *ngIf=\"!answerSubmitted\" required>\n                  <option [value]=\"''\" disabled=\"disabled\"></option>\n                  <option *ngFor=\"let option of learnItem.options;\">{{option}}</option>\n                </select>\n              </p>\n              <br>\n            </li>\n          </ul>\n\n        </form>\n\n      </div>\n      <div class=\"alert alert-success\" role=\"alert\" *ngIf=\"topic.learnItems.length == currentQuestion\">\n            <a href=\"#\" class=\"alert-link\">Congrats! You finished learning about {{topic.name}} </a>\n      </div>\n    </div>\n\n    <div *ngIf=\"!topic.learnItems.length\">\n        <div class=\"alert alert-info review-alert\" role=\"alert\">\n          <a href=\"#\" class=\"alert-link\"> There are currently no Learning items for {{topic.name}}.</a>\n        </div>\n    </div>\n  </div>\n  <div *ngIf=\"!topic\" class=\"row\">\n    No topic found\n  </div>\n</div> \n                \n"
+                        template: "\n<div *ngIf=\"topic\">\n  <h1> <strong>Learn</strong> about {{topic.name}}</h1>\n\n    <div class=\"content\">\n      <end-message *ngIf=\"moduleIsComplete\" [topicName]=\"topic.name\" [incorrectAnswers]=\"incorrectAnswers\">\n      </end-message>\n\n    <div *ngFor=\"let learnItem of topic.learnItems; let i = index\">\n      <div *ngIf=\"currentQuestion == i\">\n\n        <h3>{{i/topic.learnItems.length | MyPercentPipe }} Complete</h3>\n        <h2>{{learnItem.title}}</h2> \n        <br>\n\n        <alert-box [learnItem]=\"learnItem\" [validAnswer]=\"validAnswer\" [answerSubmitted]=\"answerSubmitted\"></alert-box>\n  \n          <p>{{learnItem.name}}</p>\n\n            <div class=\"action-buttons\">\n              <div class=\"shaded\">\n                <button  type=\"button\" class=\"btn btn-default\" (click)=\"previousItem()\"> Previous </button>\n              </div>\n\n              <br>\n\n              <div *ngIf=\"learnItem.answer && !answerSubmitted\">\n                <button type=\"button\" \n                        (click)=\"rightAnswer()\" \n                        class=\"btn btn-success btn-lg\" \n                        *ngIf=\"learnItem.answer == userAnswer\">\n                    Submit\n                </button>\n\n                <button type=\"button\" \n                        (click)=\"wrongAnswer()\" \n                        class=\"btn btn-success btn-lg\" \n                        *ngIf=\"learnItem.answer != userAnswer && validAnswer\">\n                    Submit\n                </button>\n\n              </div>\n\n              <div *ngIf=\"!learnItem.answer || answerSubmitted\">\n\n                <button type=\"button\" (click)=\"nextItem()\" class=\"btn btn-success btn-lg\" *ngIf=\"validAnswer\">\n                  Next\n                </button>\n\n              </div>\n\n              <button (click)=\"retryQuestion()\" class=\"btn btn-danger btn-lg\" *ngIf=\"!validAnswer\">Retry</button>\n            </div>\n\n          <div *ngIf=\"learnItem.compoundHotspots\">\n            <compound-Canvas [learnItem]=\"learnItem\" [topic]=\"topic\" [i]=\"i\">Loading Canvas...</compound-Canvas>\n          </div>\n\n          <ul *ngIf=\"!learnItem.compoundHotspots\" class=\"flex-container\">\n            <li class=\"flex-item\">\n              <img src=\"/studymc-media/compounds/{{topic.name}}/{{learnItem.imagePath}}\" id=\"logo\" alt=\"logo\">\n            </li>\n            <li class=\"flex-item\" style=\"width: 400px;\">\n              <ul>\n                <li *ngFor=\"let info of learnItem.colorLocationAssociations\">\n                      <p [style.color]=[info.color]> {{info.description}} </p>\n                </li>\n              </ul>\n\n              <p *ngIf=\"learnItem.answer\">\n                {{learnItem.question}}\n                <br>\n                <br>\n                <select class=\"form-control input-lg\" [(ngModel)]=\"userAnswer\" name=\"userAnswerInput\" *ngIf=\"!answerSubmitted\" required>\n                  <option [value]=\"''\" disabled=\"disabled\"></option>\n                  <option *ngFor=\"let option of learnItem.options;\">{{option}}</option>\n                </select>\n              </p>\n              <br>\n            </li>\n          </ul>\n\n\n      </div>\n    </div>\n\n    <div *ngIf=\"!topic.learnItems.length\">\n        <div class=\"alert alert-info review-alert\" role=\"alert\">\n          <a href=\"#\" class=\"alert-link\"> There are currently no Learning items for {{topic.name}}.</a>\n        </div>\n    </div>\n  </div>\n  <div *ngIf=\"!topic\" class=\"row\">\n    No topic found\n  </div>\n</div> \n                \n"
                     }), 
                     __metadata('design:paramtypes', [router_1.ActivatedRoute, router_1.Router, data_service_1.DataService])
                 ], TopicLearnComponent);

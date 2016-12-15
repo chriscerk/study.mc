@@ -21,17 +21,16 @@ import { DataService } from '../core/services/data.service';
   <div *ngFor="let reviewItem of topic.reviewItems; let i = index">
     <div *ngIf="currentItem == i">    
         <h2>Section {{i+1}}: {{reviewItem.title}}</h2> 
+
         <div class="action-buttons">
         <div class="shaded">
           <button type="button" class="btn btn-default shaded" (click)="generateExampleReview()"> Autofill </button>
         </div>
         <br>
-         <div class="btn-group shaded">
-          <br>
+         <div class="shaded">
           <button type="button" class="btn btn-default" (click)="toPreviousItem()"> Previous </button>
           <button type="button" class="btn btn-default" *ngIf="reviewComplete" (click)="toNextItem()"> Next </button>
          </div>
-            <br>
             <br>
             <button type="submit" class="btn btn-success btn-lg" *ngIf="!reviewComplete" (click)="toNextItem()"> Next </button>
             <button type="submit" class="btn btn-success btn-lg" *ngIf="reviewComplete" (click)="printPage()"> Print! </button>

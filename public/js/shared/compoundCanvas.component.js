@@ -51,7 +51,7 @@ System.register(['@angular/core', '../shared/interfaces'], function(exports_1, c
                 CompoundCanvasComponent = __decorate([
                     core_1.Component({
                         selector: 'compound-Canvas',
-                        template: "\n  <button class=\"btn btn-default\" (click)=\"showCompoundAreas()\" type=\"button\" id=\"{{canvasId}}-button\">Display SAR Areas</button>\n  <canvas id=\"{{canvasId}}\">\n  </canvas>\n  ",
+                        template: "\n  <button class=\"btn btn-default\" (click)=\"showCompoundAreas()\" type=\"button\" id=\"{{canvasId}}-button\">Display SAR Areas</button>\n  <canvas id=\"{{canvasId}}\">\n  </canvas>",
                         styles: ["\n    button {\n      float: left;\n    }\n  "],
                     }), 
                     __metadata('design:paramtypes', [])

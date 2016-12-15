@@ -204,6 +204,11 @@ img.loading {
 .shaded > button {
         z-index: 50;
         box-shadow: 0 0 10px rgb(111, 111, 111);
+        font-size: 16pt;
+        padding: 0;
+        border-radius: 9px;
+        height: 75px;
+        width: 120px;
     }
 
 select {
@@ -672,6 +677,16 @@ p {
     height: 100px;
     width: 120px;
 }
+
+.shaded > button {
+        z-index: 50;
+        box-shadow: 0 0 10px rgb(111, 111, 111);
+        font-size: 16pt;
+        padding: 0;
+        border-radius: 75px 0 0 75px;
+        height: 75px;
+        width: 120px;
+    }
 
   .classBox {
     display: inline-block;

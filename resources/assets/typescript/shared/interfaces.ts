@@ -28,9 +28,6 @@ export interface ILearnItem
 export interface ITestItem
 {
     title: string;
-    question: string;
-    options : string[];
-    answer: string;
 }
 
 export interface IReviewItem
@@ -46,6 +43,25 @@ export interface ISection
     imagePath: string;
 }
 
+export class PracticeProblem implements ILearnItem, IMultipleChoice
+{
+    title: string;
+    name: string;
+    imagePath: string;
+    question: string;
+    options : string[];
+    answer: string;
+    explanation: string;
+}
+
+export class TestProblem implements ITestItem, IMultipleChoice
+{
+    title: string;
+    question: string;
+    options : string[];
+    answer: string;
+}
+
 export class InteractiveMolecule implements ILearnItem 
 {
     title: string;
@@ -54,6 +70,28 @@ export class InteractiveMolecule implements ILearnItem
     colorLocationAssociations: IColorLocationAssociation[];
     compoundHotspots: IHotspot[];
 }
+
+export interface IMultipleChoice extends IQuestion {
+    question: string;
+    options : string[];
+    answer: string;
+}
+
+export interface IFillInTheBlank extends IQuestion {
+    question: string;
+    answer: string;
+}
+
+export interface ILongAnswer extends IQuestion {
+    question: string;
+    answer: string;
+}
+
+export interface IQuestion {
+    question: string;
+    answer: string;
+}
+
 
 export interface IHotspot 
 {
@@ -65,27 +103,10 @@ export interface IHotspot
     text: string;
 }
 
-export class PracticeProblem implements ILearnItem, IFillInTheBlank
-{
-    title: string;
-    name: string;
-    imagePath: string;
-    question: string;
-    options : string[];
-    answer: string;
-    explanation: string;
-}
-
 export class IColorLocationAssociation
 {
     color: string;
     location: string;
     description: string;
 
-}
-
-export interface IFillInTheBlank {
-    question: string;
-    options : string[];
-    answer: string;
 }

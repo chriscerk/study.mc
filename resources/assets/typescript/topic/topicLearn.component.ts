@@ -7,15 +7,21 @@ import { Subscription } from 'rxjs/Subscription';
 import { ITopic } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
 
-import { CompoundCanvasComponent } from './compoundCanvas.component';
+import { CompoundCanvasComponent } from '../shared/compoundCanvas.component';
+import { AlertBoxComponent } from '../shared/alertBox.component';
+import { EndMessageComponent } from '../shared/endMessage.component';
 
 @Component({
   //moduleId: module.id,
   selector: 'topic-learn',
   template: `
 <div *ngIf="topic">
-  <h1><b>Learn</b> about {{topic.name}}</h1>
-  <div class="content">
+  <h1> <strong>Learn</strong> about {{topic.name}}</h1>
+
+    <div class="content">
+      <end-message *ngIf="moduleIsComplete" [topicName]="topic.name" [incorrectAnswers]="incorrectAnswers">
+      </end-message>
+
     <div *ngFor="let learnItem of topic.learnItems; let i = index">
       <div *ngIf="currentQuestion == i">
 
@@ -23,24 +29,17 @@ import { CompoundCanvasComponent } from './compoundCanvas.component';
         <h2>{{learnItem.title}}</h2> 
         <br>
 
-        <div class="alert alert-danger" role="alert" *ngIf="!validAnswer && answerSubmitted">
-            <a href="#" class="alert-link">Incorrect Answer!</a>
-            <p>Please click "Retry" to attempt answering the question again.</p>
-        </div>
-
-        <div class="alert alert-success" role="alert" *ngIf="validAnswer && answerSubmitted">
-            <a href="#" class="alert-link">Correct Answer!</a>
-            <p>Correct Answer was {{learnItem.answer}}. <strong>Why?</strong>: {{learnItem.explanation}}</p>
-        </div>
-
-        <form #f="ngForm" (ngSubmit)="onSubmit()" method="post">
+        <alert-box [learnItem]="learnItem" [validAnswer]="validAnswer" [answerSubmitted]="answerSubmitted"></alert-box>
+  
           <p>{{learnItem.name}}</p>
 
             <div class="action-buttons">
               <div class="shaded">
                 <button  type="button" class="btn btn-default" (click)="previousItem()"> Previous </button>
               </div>
+
               <br>
+
               <div *ngIf="learnItem.answer && !answerSubmitted">
                 <button type="button" 
                         (click)="rightAnswer()" 
@@ -48,23 +47,27 @@ import { CompoundCanvasComponent } from './compoundCanvas.component';
                         *ngIf="learnItem.answer == userAnswer">
                     Submit
                 </button>
+
                 <button type="button" 
                         (click)="wrongAnswer()" 
                         class="btn btn-success btn-lg" 
                         *ngIf="learnItem.answer != userAnswer && validAnswer">
                     Submit
                 </button>
+
               </div>
 
               <div *ngIf="!learnItem.answer || answerSubmitted">
-                <button type="submit" class="btn btn-success btn-lg" *ngIf="validAnswer">
+
+                <button type="button" (click)="nextItem()" class="btn btn-success btn-lg" *ngIf="validAnswer">
                   Next
                 </button>
-              </div>
-              <button (click)="retryQuestion()" class="btn btn-danger btn-lg" *ngIf="!validAnswer">Retry</button>
-              <br>
 
+              </div>
+
+              <button (click)="retryQuestion()" class="btn btn-danger btn-lg" *ngIf="!validAnswer">Retry</button>
             </div>
+
           <div *ngIf="learnItem.compoundHotspots">
             <compound-Canvas [learnItem]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</compound-Canvas>
           </div>
@@ -79,6 +82,7 @@ import { CompoundCanvasComponent } from './compoundCanvas.component';
                       <p [style.color]=[info.color]> {{info.description}} </p>
                 </li>
               </ul>
+
               <p *ngIf="learnItem.answer">
                 {{learnItem.question}}
                 <br>
@@ -92,11 +96,7 @@ import { CompoundCanvasComponent } from './compoundCanvas.component';
             </li>
           </ul>
 
-        </form>
 
-      </div>
-      <div class="alert alert-success" role="alert" *ngIf="topic.learnItems.length == currentQuestion">
-            <a href="#" class="alert-link">Congrats! You finished learning about {{topic.name}} </a>
       </div>
     </div>
 
@@ -125,6 +125,10 @@ export class TopicLearnComponent implements OnInit {
   currentQuestion: number;
   validAnswer: boolean;
   answerSubmitted: boolean;
+  moduleIsComplete: boolean;
+  incorrectAnswers: number;
+
+  currentAction: string;
 
   constructor(private route: ActivatedRoute, router: Router, private dataService: DataService) {
       this.router = router;
@@ -132,6 +136,9 @@ export class TopicLearnComponent implements OnInit {
       this.answerSubmitted = false;
       this.userAnswer = "Current Question Not Answered Yet";
       this.currentQuestion = 0;
+      this.moduleIsComplete = false;
+      this.incorrectAnswers = 0;
+      this.currentAction = 'Submit';
    } 
 
   ngOnInit() {
@@ -156,15 +163,21 @@ export class TopicLearnComponent implements OnInit {
     }
   }
 
-  onSubmit(){
+  nextItem(){
     this.answerSubmitted = false;
     this.userAnswer = "Current Question Not Answered Yet";
     this.currentQuestion++;
+
+    if(this.topic.learnItems.length == this.currentQuestion)
+    {
+      this.moduleIsComplete = true;
+    }
   }
 
   wrongAnswer(){
     this.answerSubmitted = true;
     this.validAnswer = false;
+    this.incorrectAnswers++;
   }
 
   rightAnswer(){
@@ -176,6 +189,30 @@ export class TopicLearnComponent implements OnInit {
     this.answerSubmitted = false;
     this.userAnswer = "Current Question Not Answered Yet";
     this.validAnswer = true;
+  }
+
+  performAction(action: string) {
+    switch(action) {
+      case 'Next' : this.nextItem();
+        break;
+      case 'Previous' : this.previousItem();
+        break;
+      case 'Submit' : this.checkAnswer();
+        break;
+      case 'Retry' : this.retryQuestion();
+        break;
+    }
+  }
+
+  checkAnswer() {   
+    if(this.correctAnswer != this.userAnswer) {
+      this.wrongAnswer();
+      this.currentAction = 'retryQuestion';
+    }
+    else {
+      this.rightAnswer();
+      this.currentAction = 'next';
+    }
   }
 
 }
