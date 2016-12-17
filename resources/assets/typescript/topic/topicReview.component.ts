@@ -29,6 +29,9 @@ import { DataService } from '../core/services/data.service';
         <br>
          <div class="shaded">
           <button type="button" class="btn btn-default" (click)="toPreviousItem()"> Previous </button>
+         </div>
+          <br>
+         <div class="shaded">
           <button type="button" class="btn btn-default" *ngIf="reviewComplete" (click)="toNextItem()"> Next </button>
          </div>
             <br>

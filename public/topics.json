@@ -658,7 +658,7 @@
                                     "x": 250,
                                     "size": 30,
                                     "color": "goldenrod",
-                                    "text": "distribution required for activity"
+                                    "text": "disubstitution required for activity"
                               }
                         ]
                   },
@@ -737,7 +737,7 @@
                                     "x": 238,
                                     "size": 30,
                                     "color": "goldenrod",
-                                    "text": "distribution required for activity"
+                                    "text": "disubstitution required for activity"
                               }
                         ]
                   },
@@ -800,7 +800,7 @@
                                     "x": 223,
                                     "size": 30,
                                     "color": "goldenrod",
-                                    "text": "distribution required for activity"
+                                    "text": "disubstitution required for activity"
                               }
                         ],
                         "colorLocationAssociations" : [
@@ -908,7 +908,8 @@
                               {"title": "", "content": "" }, 
                               {"title": "", "content": "" },
                               {"title": "", "content": "" },
-                              {"title": "", "content": "" } 
+                              {"title": "", "content": "" },
+                              {"title": "", "content": "" }
                         ]
                   },
                   {
@@ -964,7 +965,8 @@
                               {"title": "N3", "content": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." }, 
                               {"title": "C2", "content": "Changing C=O → C=S increases lipophilicity and more rapid onset of action" },
                               {"title": "C4 & C6", "content": "Must contain C=O" },
-                              {"title": "R1 & R2", "content": "bulky carbon groups increases lipophilicity and more rapid onset of action" } 
+                              {"title": "R1 & R2", "content": "bulky carbon groups increases lipophilicity and more rapid onset of action" },
+                              {"title": "C5", "content": "Must be disubstituted alkyl groups to be active in the CNS" }
                         ]
                   },
                   {
