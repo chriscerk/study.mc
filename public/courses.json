@@ -13,23 +13,19 @@
                 { "title": "SRIs", "id": 5, "status": "active" },
                 { "title": "SNRIs", "id": 6, "status": "active" },
                 { "title": "TCAs", "id": 7, "status": "active" },
-                { "title": "Atypical Agents", "id": 8, "status": "active" },
-                { "title": "Folic Acid", "id": 9, "status": "inactive" },
-                { "title": "Cell Wall", "id": 10, "status": "inactive" },
-                { "title": "30s Protein", "id": 11, "status": "inactive" },
-                { "title": "50s Protein", "id": 12, "status": "inactive" },
-                { "title": "Beta Lactams", "id": 13, "status": "inactive" },
-                { "title": "DNA", "id": 14, "status": "inactive" }
+                { "title": "Atypical Agents", "id": 8, "status": "active" }
             ]
       },
       {
             "id": 2,
-            "status": "inactive",
-            "name": "Medicinal Chemistry 700",
+            "status": "active",
+            "name": "Medicinal Chemistry 610",
             "abbreviation": "MC",
-            "number": "700",
+            "number": "610",
             "topics": [
-                { "title": "", "id": 1, "status": "inactive" }
+                { "title": "CWB Inhibitors", "id": 1, "status": "inactive" },
+                { "title": "NA Inhibitors", "id": 2, "status": "inactive" },
+                { "title": "PB", "id": 3, "status": "inactive" }
             ]
       }
 ]
