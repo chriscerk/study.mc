@@ -13,7 +13,13 @@
                 { "title": "SRIs", "id": 5, "status": "active" },
                 { "title": "SNRIs", "id": 6, "status": "active" },
                 { "title": "TCAs", "id": 7, "status": "active" },
-                { "title": "Atypical Agents", "id": 8, "status": "active" }
+                { "title": "Atypical Agents", "id": 8, "status": "active" },
+                { "title": "Folic Acid", "id": 9, "status": "inactive" },
+                { "title": "Cell Wall", "id": 10, "status": "inactive" },
+                { "title": "30s Protein", "id": 11, "status": "inactive" },
+                { "title": "50s Protein", "id": 12, "status": "inactive" },
+                { "title": "Beta Lactams", "id": 13, "status": "inactive" },
+                { "title": "DNA", "id": 14, "status": "inactive" }
             ]
       },
       {
