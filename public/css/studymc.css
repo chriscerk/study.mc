@@ -121,30 +121,30 @@ img.loading {
 
 /*** Works on common browsers ***/
 ::selection {
-    background-color: #1f70c1;
+    background-color: #42A948;
     color: #fff;
 }
 
 /*** Mozilla based browsers ***/
 ::-moz-selection {
-    background-color: #1f70c1;
+    background-color: #42A948;
     color: #fff;
 }
 
 /***For Other Browsers ***/
 ::-o-selection {
-    background-color: #1f70c1;
+    background-color: #42A948;
     color: #fff;
 }
 
 ::-ms-selection {
-    background-color: #1f70c1;
+    background-color: #42A948;
     color: #fff;
 }
 
 /*** For Webkit ***/
 ::-webkit-selection {
-    background-color: #1f70c1;
+    background-color: #42A948;
     color: #fff;
 }
 
@@ -326,6 +326,17 @@ th {
     text-shadow: none;
 }
 
+.message-link {
+    font-size: 1.5em;
+    color: white;
+    top: -15px;
+    position: relative;
+}
+
+.message-link:hover {
+    color: #0096de;
+}
+
 .navbar-header {
     padding-left: 20px;
 }
@@ -401,7 +412,8 @@ a.navbar-brand {
 }
 
 footer {
-  font-size: 16pt;
+  font-size: 20pt;
+  line-height: 33pt;
 }
 
 
