@@ -5,14 +5,12 @@
     <header class="navbar navbar-inner navbar-fixed-top review-print-hide">
         <nav class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a href="/">
-                <span class="app-title">Study.MC</span>
+              <a href="/studymc/courses">
+                <span class="glyphicon glyphicon-home topNav"></span>
+                <span class="app-title">StudyMC</span>
+              </a>
+              <a href="/studymc/info.html">
+              	<span class="glyphicon glyphicon-question-sign topNav"></span>
               </a>
             </div>
         </nav>
