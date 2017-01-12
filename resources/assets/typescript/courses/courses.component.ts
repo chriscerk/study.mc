@@ -14,16 +14,17 @@ import { DataService } from '../core/services/data.service';
         <div class="title">{{appTitle}}</div>
       </div>
     </li>
-
-    <li>
-      <div *ngFor="let course of courses;">
-        <a [routerLink]="['/studymc/course',course.id,'topics']">
-          <li class="flex-item classBox hvr-back-pulse {{course.status + '-course' }}">{{course.number}}</li>
-        </a>
-      </div>
-      <div *ngIf="!courses.length">
-        <h1>No Courses Found!</h1>
-      </div>
+    <li class="flex-item">
+      <ul class="flex-container">
+        <div *ngFor="let course of courses;">
+          <a [routerLink]="['/studymc/course',course.id,'topics']">
+            <li class="flex-item classBox hvr-back-pulse {{course.status + '-course' }}">{{course.number}}</li>
+          </a>
+        </div>
+        <div *ngIf="!courses.length">
+          <h1>No Courses Found!</h1>
+        </div>
+      </ul>
     </li>
   </ul>
 

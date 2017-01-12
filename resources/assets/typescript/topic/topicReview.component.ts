@@ -13,9 +13,14 @@ import { DataService } from '../core/services/data.service';
 <div class="review-print-hide">
   <h1><b>Review</b> of {{topic.name}}</h1>
   <div class="alert alert-info review-alert" role="alert" style="display:none;">
-    <a href="#" class="alert-link"> Reviewing on a mobile device <strong>not available</strong> due to the large amount of <strong>typing</strong> required along with <strong>printing</strong>.</a>
+    <a href="#" class="alert-link"> Review limited to Autofill on mobile device.</a>
+      <div class="action-buttons">
+        <div class="shaded">
+          <button type="button" class="btn btn-success shaded" (click)="generateExampleReview()"> Autofill </button>
+        </div>
+      </div>
   </div>
-  <p>Please fill each section of the review. Below is a generated review worksheet, printable upon completion. <a href="/studymc-media/savePDF-HowTo-studymc.mp4">How to Save Review Worksheet as a PDF Video</a></p>
+  <p class="advice">Please fill each section of the review. Below is a generated review worksheet, printable upon completion. <a href="/studymc-media/savePDF-HowTo-studymc.mp4">How to Save Review Worksheet as a PDF Video</a></p>
 <div class="content review-module">
   <form #f="ngForm" (ngSubmit)="onSubmit()" method="post">
   <div *ngFor="let reviewItem of topic.reviewItems; let i = index">

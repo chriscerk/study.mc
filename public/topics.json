@@ -3199,5 +3199,192 @@
                         ]
                   }
             ]            
+      },
+      {
+            "id": 10,
+            "name": "Beta-Lactams",
+            "learnItems":[
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Penicillin: Hover over compound to view areas.",
+                        "imagePath" : "slide2-penicillin.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Position 1",
+                                    "y": 335,
+                                    "x": 432,
+                                    "size": 45,
+                                    "color": "green",
+                                    "text": "Must be a nitrogen"
+                              },
+                              {
+                                    "name": "Position 2",
+                                    "y": 423,
+                                    "x": 550,
+                                    "size": 90,
+                                    "color": "blue",
+                                    "text": "Must be a carboxylic acid for activity; binds to charged nitrogen of a lysine residue in the binding site"
+                              },
+                              {
+                                    "name": "Position 3",
+                                    "y": 280,
+                                    "x": 588,
+                                    "size": 55,
+                                    "color": "orange",
+                                    "text": "Any change will lower activity"
+                              },
+                              {
+                                    "name": "Position 4",
+                                    "y": 209,
+                                    "x": 512,
+                                    "size": 45,
+                                    "color": "purple",
+                                    "text": "Sulfur is usual, but not essential"
+                              },
+                              {
+                                    "name": "Position 5",
+                                    "y": 197,
+                                    "x": 397,
+                                    "size": 75,
+                                    "color": "deeppink",
+                                    "text": "No substitutions allowed; cis stereochemistry with hydrogens at position 5 & 6 is essential"
+                              },
+                              {
+                                    "name": "R Group",
+                                    "y": 215,
+                                    "x": 182,
+                                    "size": 40,
+                                    "color": "grey",
+                                    "text": "EWG: increases the acid stability of the compound. Bulky group: directly attached to the amide will make the compound more B-lactamase resistant. Polar group: broadens the spectrum as this allows the compound to pass through the porins of gram negative bacteria"
+                              },
+                              {
+                                    "name": "Position 7",
+                                    "y": 353,
+                                    "x": 340,
+                                    "size": 75,
+                                    "color": "red",
+                                    "text": "Must be a carbonyl"
+                              }
+                        ]
+                        
+                  }
+            ],
+            "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Penicillins bind and inhibit __________ to prevent crosslinking.",
+                        "options" : [
+                              "Ligases",
+                              "Mur A",
+                              "Pyrophosphatases",
+                              "Penicillin Binding Proteins (PBP)"
+                        ],
+                        "answer" : "Penicillin Binding Proteins (PBP)"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Resistance to penicillins develops quickly due to ________ or PBP mutations",
+                        "options" : [
+                              "β-lactamases",
+                              "acid-base condition changes",
+                              "alteration of side chains"
+                        ],
+                        "answer" : "β-lactamases"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Clavulanic acid, Sulbactam, and Tazobactam are all examples of β-lactamase ________.",
+                        "options" : [
+                              "inducers",
+                              "inhibitors",
+                              "producers"
+                        ],
+                        "answer" : "inhibitors"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "_________ is combined with imipenem to avoid degradation in the kidney.",
+                        "options" : [
+                              "Polymixin",
+                              "Colistin",
+                              "Cilastatin",
+                              "Clavulanic acid "
+                        ],
+                        "answer" : "Cilastatin"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Carbapenem resistant Enterobacteriaceae (CRE) can be treated with polymixin and ______. ",
+                        "options" : [
+                              "cilastatin",
+                              "clavulanic acid",
+                              "sulbactam",
+                              "colistin"
+                        ],
+                        "answer" : "colistin"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Carbapenems cannot be combined with _________. ",
+                        "options" : [
+                              "tetracyclines",
+                              "other beta lactams",
+                              "aminoglycosides",
+                              "macrolides"
+                        ],
+                        "answer" : "aminoglycosides"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Cephalosporins are inherently ____ active than Penicillins but are ____ resistant to β-lactamases.",
+                        "options" : [
+                              "less, more",
+                              "more, less",
+                              "more, not"
+                        ],
+                        "answer" : "less, more"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Cephalosporins substituted with a _______ can extend the spectrum but also cause side effects such as _______ and Disulfiram-like effect.",
+                        "options" : [
+                              "amide, hemolytic anemia",
+                              "ester, thrombocytosis",
+                              "sulfa group, leukopenia",
+                              "MTT group, hypothrombocytopenia"
+                        ],
+                        "answer" : "MTT group, hypothrombocytopenia"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "_______ are mostly reserved for serious Gram-negative infections such as meningitis.",
+                        "options" : [
+                              "Carbapenems",
+                              "Beta Lactams",
+                              "Aminoglycosides",
+                              "Monobactams"
+                        ],
+                        "answer" : "Monobactams"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "_______ is an inhalent to treat chronic pseudomonas infections with CF patients, has activity against pseudomonas because it has the same side chain as _______.",
+                        "options" : [
+                              "Imipenem, cefixime",
+                              "Meropenem, ceftaxime",
+                              "Aztreonam, ceftazidine",
+                              "Ertapenem, cephalexin"
+                        ],
+                        "answer" : "Aztreonam, ceftazidine"
+                  }
+            ],
+             "reviewItems":[
+                  
+            ],                     
+            "exampleReview":[
+                  
+            ]            
       }
 ]

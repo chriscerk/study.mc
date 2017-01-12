@@ -186,11 +186,12 @@ img.loading {
 
 .classBox {
     display: inline-block;
-    width: 5em;
-    line-height: 5em;
+    width: 4em;
+    line-height: 4em;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
+    margin: 10px;
 }
 
 .action-buttons {
@@ -595,6 +596,10 @@ a:hover, a:focus {
   }
 
   .review-module {
+      display: none !important;
+  }
+
+  p.advice {
       display: none !important;
   }
 
