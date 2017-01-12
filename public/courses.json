@@ -23,9 +23,12 @@
             "abbreviation": "MC",
             "number": "610",
             "topics": [
-                { "title": "CWB Inhibitors", "id": 1, "status": "inactive" },
-                { "title": "NA Inhibitors", "id": 2, "status": "inactive" },
-                { "title": "PB", "id": 3, "status": "inactive" }
+                { "title": "CWB Inhibitors", "id": 9, "status": "active" },
+                { "title": "Beta-Lactams", "id": 10, "status": "inactive" },
+                { "title": "FAB Inhibitors", "id": 11, "status": "inactive" },
+                { "title": "DNA Topo Inhibitors", "id": 12, "status": "inactive" },
+                { "title": "30S PB Inhibitors", "id": 13, "status": "inactive" },
+                { "title": "50S PB Inhibitors", "id": 14, "status": "inactive" }
             ]
       }
 ]

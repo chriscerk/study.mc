@@ -2693,5 +2693,511 @@
                   }
 
             ]            
+      },
+      {
+            "id": 9,
+            "name": "CWB-Inhibitors",
+            "learnItems":[
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Fosfomycin: Hover over compound to view areas.",
+                        "imagePath" : "slide2-fosfomycin.PNG",
+                        "imgWidth" : 300,
+                        "imgPadding" : 100,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Reactive Epoxide Group",
+                                    "y": 210,
+                                    "x": 262,
+                                    "size": 55,
+                                    "color": "blue",
+                                    "text": "Reactive Epoxide Group"
+                              },
+                              {
+                                    "name": "PEP Mimic",
+                                    "y": 270,
+                                    "x": 142,
+                                    "size": 75,
+                                    "color": "red",
+                                    "text": "PEP Mimic"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Fosfomycin: Hover over compound to view areas.",
+                        "imagePath" : "slide2-fosfomycin2.PNG",
+                        "imgWidth" : 300,
+                        "imgPadding" : 100,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "PEP Mimic",
+                                    "y": 192,
+                                    "x": 165,
+                                    "size": 100,
+                                    "color": "red",
+                                    "text": "PEP Mimic"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Cycloserine: Hover over compound to view areas.",
+                        "imagePath" : "slide2-cycloserine.PNG",
+                        "compoundHotspots" : [
+                              {
+                                    "name": "D-Ala analogue",
+                                    "y": 260,
+                                    "x": 154,
+                                    "size": 120,
+                                    "color": "red",
+                                    "text": "D-Ala analogue"
+                              },
+                              {
+                                    "name": "5-membered ring",
+                                    "y": 254,
+                                    "x": 264,
+                                    "size": 50,
+                                    "color": "blue",
+                                    "text": "5-membered ring"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Bacitracin: Hover over compound to view areas.",
+                        "imagePath" : "slide3-bacitracin.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 75,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Peptide Bond",
+                                    "y": 310,
+                                    "x": 207,
+                                    "size": 40,
+                                    "color": "red",
+                                    "text": "Bacitracin contains many peptide bonds"
+                              },
+                              {
+                                    "name": "Peptide Bond",
+                                    "y": 310,
+                                    "x": 323,
+                                    "size": 40,
+                                    "color": "red",
+                                    "text": "Bacitracin contains many peptide bonds"
+                              }
+                        ]
+                        
+                  },
+                                    {
+                        "title":"SAR Requirements",  
+                        "name" : "Vancomycin: Hover over compound to view areas.",
+                        "imagePath" : "slide4-vancomycin.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 100,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Peptide Bond",
+                                    "y": 216,
+                                    "x": 435,
+                                    "size": 30,
+                                    "color": "blue",
+                                    "text": "Vancomycin contains many peptide bonds"
+                              },
+                               {
+                                    "name": "H-Bond with D-Ala-D-Ala",
+                                    "y": 233,
+                                    "x": 410,
+                                    "size": 20,
+                                    "color": "red",
+                                    "text": "This atom forms hydrogen bonds with D-Ala-D-Ala"
+                              },
+                              {
+                                    "name": "H-Bond with D-Ala-D-Ala",
+                                    "y": 320,
+                                    "x": 394,
+                                    "size": 20,
+                                    "color": "red",
+                                    "text": "This atom forms hydrogen bonds with D-Ala-D-Ala"
+                              },
+                               {
+                                    "name": "H-Bond with D-Ala-D-Ala",
+                                    "y": 386,
+                                    "x": 387,
+                                    "size": 20,
+                                    "color": "red",
+                                    "text": "This atom forms hydrogen bonds with D-Ala-D-Ala"
+                              },
+                              {
+                                    "name": "H-Bond with D-Ala-D-Ala",
+                                    "y": 544,
+                                    "x": 306,
+                                    "size": 20,
+                                    "color": "red",
+                                    "text": "This atom forms hydrogen bonds with D-Ala-D-Ala"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"Practice Problem",  
+                        "name" : "Mechanism of Action",
+                        "imagePath" : "slide5-9.PNG",
+                        "question" : "Which compound below interferes with peptide cross-linking?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Vancomycin (Compound 3) Binds directly to the D-Ala-D-Ala terminal to prevent peptide cross-linking."
+                  },
+                  {
+                        "title":"Practice Problem",  
+                        "name" : "Mechanism of Action",
+                        "imagePath" : "slide6-7-8.PNG",
+                        "question" : "Which compound below inhibits the conversion of UDP-NAG→ UDP-NAM?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Fosfomycin (Compound 2) Results in irreversible alkylation of the active cysteine on MurA."
+                  },
+                  {
+                        "title":"Practice Problem",  
+                        "name" : "Mechanism of Action",
+                        "imagePath" : "slide6-7-8.PNG",
+                        "question" : "Which compound below inhibits Ala racemase & D-Ala ligase?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Cycloserine (Compound 3) Prevents conversion of L-Ala→ D-Ala and the joining of D-Ala & D-Ala."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Mechanism of Action",
+                        "imagePath" : "slide6-7-8.PNG",
+                        "question" : "Which compound below inhibits pyrophosphatase?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Bacitracin (Compound 1) Inhibits the recycling of bactoprene molecule."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study ",
+                        "imagePath" : "slide5-9.PNG",
+                        "question" : "GT is diagnosed with C. difficile. Which oral antibiotic would be best to treat his infection?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Vancomycin (Compound 3) is not orally absorbed, so it will stay in the gut to treat the infection in the large intestine"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study ",
+                        "imagePath" : "slide10-11.PNG",
+                        "question" : "SM is diagnosed with a UTI infection. Which compound would be best to treat his infection and has few side effects?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Fosfomycin (Compound 2) is indicated for urinary tract infections, and is especially active against E. Coli"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study ",
+                        "imagePath" : "slide10-11.PNG",
+                        "question" : "GT has a history of psychosis. Which antibiotic below is best avoided in this patient?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Cycloserine (Compound 1) acts as a partial agonist at the NMDA receptor can result in dose-dependent neurologic and psychiatric disturbances."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study ",
+                        "imagePath" : "slide12-13.PNG",
+                        "question" : "BK has kidney dysfunction. Which 2 antibiotics below have side effects that would be harmful to this patient?",
+                        "options" : [
+                              "Compound 1 & 2", 
+                              "Compound 1 & 3", 
+                              "Compound 2 & 3"
+                        ],
+                        "answer" : "Compound 1 & 2",
+                        "explanation" : "Bacitracin (Compound 1) and vancomycin (Compound 2) can both result in nephrotoxicity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study ",
+                        "imagePath" : "slide12-13.PNG",
+                        "question" : "AM’s bacterial infection is not responding to treatment. The bacteria in her body have become resistant to the antibiotic by producing D-Ala-D-Lac. Which of the antibiotics was she taking?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Vancomycin (Compound 3) normally binds to D-Ala-D-Ala of the pentapeptide tail, but with this change to D-Ala-D-Lac, it can no longer bind."
+                  }
+            ],
+            "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Gram positive bacteria have ___________ in their cell wall that determine its rigidity and __________ to regulate cation movement.",
+                        "options" : [
+                              "teichoic acid, peptidoglycan",
+                              "cellulose, teichoic acid",
+                              "peptidoglycan, porins",
+                              "cellulose, porins", 
+                              "peptidoglycan, teichoic acid"
+                        ],
+                        "answer" : "peptidoglycan, teichoic acid"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "In Gram negative bacteria the area between the cytoplasmic membrane and thin layer of peptidoglycan is called the ___________.",
+                        "options" : [
+                              "pericardium space",
+                              "endoplasmic space",
+                              "periplasmic space",
+                              "pleuraplasmic space"
+                        ],
+                        "answer" : "periplasmic space"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Source of acetate in N-acetyl glucosamine (NAG) is _________.",
+                        "options" : [
+                              "MurA",
+                              "pyrophosphatase",
+                              "phosphoenolpyruvate",
+                              "acetyl CoA"
+                        ],
+                        "answer" : "acetyl CoA"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "__________ is an irreversible inhibitor of MurA and targets the enzyme UDP-NAG Transferase",
+                        "options" : [
+                              "Cycloserin",
+                              "Bactoprene",
+                              "Fosfomycin",
+                              "Nitrofurantoin"
+                        ],
+                        "answer" : "Fosfomycin"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Fosfomycin is indicated for ___________",
+                        "options" : [
+                              "meningitis",
+                              "UTI",
+                              "pneumonia",
+                              "yeast infection"
+                              
+                        ],
+                        "answer" : "UTI"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "_____________ is a reversible competitive inhibitor of Alanine racemase and D-Ala D-Ala ligase",
+                        "options" : [
+                              "Fosfomycin",
+                              "Bacitracin",
+                              "Vancomycin",
+                              "Cycloserine"
+                        ],
+                        "answer" : "Cycloserine"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "A serious side effect of cycloserine is ____________ caused by NMDA binding",
+                        "options" : [
+                              "muscle aches",
+                              "ototoxicity",
+                              "nephrotoxicity",
+                              "neurotoxicity"
+                        ],
+                        "answer" : "neurotoxicity"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "_________ binds to pyrophosphatase and prevents regeneration of _________",
+                        "options" : [
+                              "Bactoprene, Bacitracin",
+                              "Bacitracin, Bactoprene",
+                              "Vancomycin, Acetyl coA",
+                              "Cycloserine, Acetyl coA",
+                              "Bacitracin, Peptidoglycan",
+                              "Vancomycin, Peptidoglycan"
+                        ],
+                        "answer" : "Bacitracin, Bactoprene"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Vancomycin binds to peptidoglycan to prevent crosslinking. Resistance to Vancomycin occurs through a change in structure of peptidoglycan from an ___________.",
+                        "options" : [
+                              "ester, to an amide",
+                              "amide to an ester",
+                              "amine to an ester",
+                              "amide to an ether",
+                              "amide to an ether"
+                        ],
+                        "answer" : "amide to an ester"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Vancomycin is not orally absorbed but can treat ___________",
+                        "options" : [
+                              "Meningitis",
+                              "UTI",
+                              "C. Diff Infections",
+                              "Pheumonia"
+                        ],
+                        "answer" : "C. Diff Infections"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "To avoid the side effect ___________, vancomycin should be infused _________",
+                        "options" : [
+                              "Steven’s Johnson Syndrome, slowly",
+                              "Reye’s Syndrome, rapidly",
+                              "Red Man Syndrome, slowly",
+                              "Extrapyramidal symptoms, rapidly"
+                        ],
+                        "answer" : "Red Man Syndrome, slowly"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Daptomycin cannot be used for ________ because of inactivation by surfactants",
+                        "options" : [
+                              "UTI",
+                              "Pneumonia",
+                              "Otitis",
+                              "Sinusitis"
+                        ],
+                        "answer" : "Pneumonia"
+                  }
+            ],
+             "reviewItems":[
+                  {
+                        "title": "Fosfomycin",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "fosfomycin.PNG" },
+                              {"title": "SAR", "content": "" },
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Cycloserine",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "cycloserine.PNG" },
+                              {"title": "SAR", "content": "" },
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Bacitracin",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "bacitracin.PNG" },
+                              {"title": "SAR", "content": "" },
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Vancomycin",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "vancomycin.PNG" },
+                              {"title": "SAR", "content": "" },
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  }
+            ],                     
+            "exampleReview":[
+                  {
+                        "title": "Fosfomycin",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "fosfomycin.PNG" },
+                              {"title": "SAR", "content": "PEP mimic, Reactive epoxide group" },
+                              {"title": "Type of Inhibitor", "content": "Irreversible inhibitor/Suicide inhibitor"},
+                              {"title": "MOA & Target", "content": "MOA: Inhibits PEP which inhibits cell peptidoglycan synthesis - specifically NAM synthesis (Stage 1: Synthesis of Building Blocks) Bactericidal Target: UDP-NAG phosphoenoylpyruvuyl (PEP) transferase = MurA"},
+                              {"title": "MOR", "content": "1) Mutation of active site (Microbe has Cysteine instead of Asp) 2) Mutation of glycerophosphate transporter"},
+                              {"title": "Spectrum", "content": "Broad – both Gram positive and Gram negative"},
+                              {"title": "Toxicities", "content": "Low Nausea, vomiting, diarrhea, hypersensitivity, skin rash"}
+                        ]
+                  },
+                  {
+                        "title": "Cycloserine",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "cycloserine.PNG" },
+                              {"title": "SAR", "content": "D-Ala analogue, 5-membered ring" },
+                              {"title": "Type of Inhibitor", "content": "Non-covalent/competitive inhibitor – substrate mimic Binds 100x more tightly to the enzymes (rigid structure)"},
+                              {"title": "MOA & Target", "content": "MOA; Competitive inhibitor of racemase Which inhibits cell peptidoglycan synthesis. (Stage 1: Synthesis of Building Blocks) Bactericidal Target: D-Ala-D-Ala racemase and D-Ala-D-Ala ligase"},
+                              {"title": "MOR", "content": "Overexpression of  D-alanine racemase (AlrA)"},
+                              {"title": "Spectrum", "content": "Broad – both Gram positive and Gram negative"},
+                              {"title": "Toxicities", "content": "Neurotoxic CNS disturbance, anxiety, confusion and drowsiness"}
+                        ]
+                  },
+                  {
+                        "title": "Bacitracin",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "bacitracin.PNG" },
+                              {"title": "SAR", "content": "Large molecule with many peptide bonds" },
+                              {"title": "Type of Inhibitor", "content": "N/A"},
+                              {"title": "MOA & Target", "content": "MOA: Binds to pyrophosphatase in the presence of Magnesium,thus preventing regeneration of Bactoprene. It is more active if zinc is already present in the preparation, aiding in the binding to pyrophosphatase which inhibits cell peptidoglycan synthesis. (Stage 2: Synthesis of Membrane-bound Precursors and Polymerization) Bactericidal Target: Pyrophosphatases"},
+                              {"title": "MOR", "content": "Failure to penetrate membrane"},
+                              {"title": "Spectrum", "content": "Gram positive only – too big to get through outer membrane of Gram negative"},
+                              {"title": "Toxicities", "content": "Nephrotoxicity – not used systemically*/topical"}
+                        ]
+                  },
+                  {
+                        "title": "Vancomycin",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "vancomycin.PNG" },
+                              {"title": "SAR", "content": "Large molecule with many peptide bonds - Circled atoms form hydrogen bonds with D-Ala-D-Ala" },
+                              {"title": "Type of Inhibitor", "content": "Competitive/Reversible"},
+                              {"title": "MOA & Target", "content": "(Stage 2: Synthesis of Membrane-bound Precursors and Polymerization) Binds directly to the D-Ala-D-Ala terminal to prevent peptide cross-linking Bactericidal Target:  D-Ala-D-Ala"},
+                              {"title": "MOR", "content": "1. Alter the substrate – make D-Ala-D-Lac. Results in loss of H-bond between vancomycin and dipeptide. 2.  Thicker cell wall of bacterium"},
+                              {"title": "Spectrum", "content": " Gram positive only"},
+                              {"title": "Toxicities", "content": "Redman syndrome (if infused too quickly), Nephrotoxicity, Hearing loss, Rash"}
+                        ]
+                  }
+            ]            
       }
 ]

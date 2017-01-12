@@ -67,6 +67,8 @@ export class InteractiveMolecule implements ILearnItem
     title: string;
     name: string;
     imagePath: string;
+    imgWidth: number;
+    imgPadding: number;
     colorLocationAssociations: IColorLocationAssociation[];
     compoundHotspots: IHotspot[];
 }

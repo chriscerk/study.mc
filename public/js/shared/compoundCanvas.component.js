@@ -29,8 +29,18 @@ System.register(['@angular/core', '../shared/interfaces'], function(exports_1, c
                 };
                 CompoundCanvasComponent.prototype.ngAfterViewInit = function () {
                     var fullImgPath = "/studymc-media/compounds/" + this.topic.name + "/" + this.learnItem.imagePath;
-                    var imgWidth = 200;
-                    var imgPadding = 150;
+                    if (this.learnItem.imgWidth) {
+                        var imgWidth = this.learnItem.imgWidth;
+                    }
+                    else {
+                        var imgWidth = 200;
+                    }
+                    if (this.learnItem.imgPadding) {
+                        var imgPadding = this.learnItem.imgPadding;
+                    }
+                    else {
+                        var imgPadding = 150;
+                    }
                     hotspotsModule.initCanvasImg(this.canvasId, fullImgPath, imgPadding, imgWidth, this.learnItem.compoundHotspots);
                 };
                 CompoundCanvasComponent.prototype.showCompoundAreas = function () {

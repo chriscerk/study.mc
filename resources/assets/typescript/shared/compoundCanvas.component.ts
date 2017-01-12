@@ -29,8 +29,20 @@ export class CompoundCanvasComponent implements OnInit, AfterViewInit {
 
     ngAfterViewInit() {
         let fullImgPath = "/studymc-media/compounds/" + this.topic.name + "/" + this.learnItem.imagePath;
-        let imgWidth = 200;
-        let imgPadding = 150;
+
+        if(this.learnItem.imgWidth){
+          var imgWidth = this.learnItem.imgWidth;
+        }
+        else {
+          var imgWidth = 200;
+        }
+
+        if(this.learnItem.imgPadding){
+          var imgPadding = this.learnItem.imgPadding;
+        }
+        else {
+          var imgPadding = 150;
+        }
 
         hotspotsModule.initCanvasImg(this.canvasId, fullImgPath, imgPadding, imgWidth, this.learnItem.compoundHotspots);
     }
