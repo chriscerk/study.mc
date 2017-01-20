@@ -1,13 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 
 import { ITopic } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
+import { nextPrevAnimation } from '../shared/animations';
+
+type Orientation = ( "void" | "next" | "none" | "previous" );
 
 @Component({
   //moduleId: module.id,
   selector: 'topic-review',
+  animations: [nextPrevAnimation],
   template: `
 <div *ngIf="topic">
 <div class="review-print-hide">
@@ -23,11 +27,8 @@ import { DataService } from '../core/services/data.service';
   <p class="advice">Please fill each section of the review. Below is a generated review worksheet, printable upon completion. <a href="/studymc-media/savePDF-HowTo-studymc.mp4">How to Save Review Worksheet as a PDF Video</a></p>
 <div class="content review-module">
   <form #f="ngForm" (ngSubmit)="onSubmit()" method="post">
-  <div *ngFor="let reviewItem of topic.reviewItems; let i = index">
-    <div *ngIf="currentItem == i">    
-        <h2>Section {{i+1}}: {{reviewItem.title}}</h2> 
 
-        <div class="action-buttons">
+      <div class="action-buttons">
         <div class="shaded">
           <button type="button" class="btn btn-default shaded" (click)="generateExampleReview()"> Autofill </button>
         </div>
@@ -43,6 +44,10 @@ import { DataService } from '../core/services/data.service';
             <button type="submit" class="btn btn-success btn-lg" *ngIf="!reviewComplete" (click)="toNextItem()"> Next </button>
             <button type="submit" class="btn btn-success btn-lg" *ngIf="reviewComplete" (click)="printPage()"> Print! </button>
         </div>
+
+  <div *ngFor="let reviewItem of topic.reviewItems; let i = index" [@NextPrevAnimation]="orientation">
+    <div *ngIf="currentItem == i">    
+        <h2>Section {{i+1}}: {{reviewItem.title}}</h2> 
 
         <ul class="flex-container">
           <li *ngFor="let section of reviewItem.sections; let j = index">
@@ -128,13 +133,16 @@ export class TopicReviewComponent implements OnInit {
   printingOptionsVisible: boolean;
   reviewComplete: boolean;
 
-  constructor(private route: ActivatedRoute, router: Router, private dataService: DataService) {
+  public orientation: Orientation;
+
+  constructor(private route: ActivatedRoute, router: Router, private dataService: DataService, private changeDetectorRef: ChangeDetectorRef) {
       this.router = router;
       this.studentName = "";
       this.currentItem = 0;
       this.nextItem = 1;
       this.printingOptionsVisible = false;
       this.reviewComplete = false;
+      this.changeDetectorRef = changeDetectorRef;
    } 
 
   ngOnInit() {
@@ -145,6 +153,7 @@ export class TopicReviewComponent implements OnInit {
       });
 
       this.lastItem = this.topic.reviewItems.length - 1;
+      this.orientation = "void";
   }
 
   ngOnDestroy() {
@@ -152,6 +161,9 @@ export class TopicReviewComponent implements OnInit {
   }
 
   toNextItem() {
+    this.orientation = "next";
+    this.changeDetectorRef.detectChanges();
+
     if(this.currentItem == this.lastItem)
     {
         this.currentItem = 0;
@@ -165,9 +177,13 @@ export class TopicReviewComponent implements OnInit {
       this.currentItem++;
     }
     this.nextItem = this.currentItem + 1;
+    this.orientation = "void";
   }
 
   toPreviousItem() {
+    this.orientation = "previous";
+    this.changeDetectorRef.detectChanges();
+
     if(this.currentItem == 0)
     {
       this.currentItem = this.lastItem;
@@ -176,6 +192,7 @@ export class TopicReviewComponent implements OnInit {
       this.currentItem--;
     }
     this.nextItem = this.currentItem + 1;
+    this.orientation = "void";
   }
 
   printPage() {

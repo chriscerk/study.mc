@@ -2722,25 +2722,6 @@
                                     "text": "PEP Mimic"
                               }
                         ]
-                        
-                  },
-                  {
-                        "title":"SAR Requirements",  
-                        "name" : "Fosfomycin: Hover over compound to view areas.",
-                        "imagePath" : "slide2-fosfomycin2.PNG",
-                        "imgWidth" : 300,
-                        "imgPadding" : 100,
-                        "compoundHotspots" : [
-                              {
-                                    "name": "PEP Mimic",
-                                    "y": 192,
-                                    "x": 165,
-                                    "size": 100,
-                                    "color": "red",
-                                    "text": "PEP Mimic"
-                              }
-                        ]
-                        
                   },
                   {
                         "title":"SAR Requirements",  
@@ -2943,8 +2924,8 @@
                               "Compound 1 & 3", 
                               "Compound 2 & 3"
                         ],
-                        "answer" : "Compound 1 & 2",
-                        "explanation" : "Bacitracin (Compound 1) and vancomycin (Compound 2) can both result in nephrotoxicity."
+                        "answer" : "Compound 1 & 3",
+                        "explanation" : "Bacitracin (Compound 1) and vancomycin (Compound 3) can both result in nephrotoxicity."
                   },
                   {
                         "title":"SAR Practice Problem",  
@@ -3212,10 +3193,18 @@
                         "imgPadding" : 150,
                         "compoundHotspots" : [
                               {
+                                    "name": "β-Lactam Ring",
+                                    "y": 287,
+                                    "x": 400,
+                                    "size": 40,
+                                    "color": "black",
+                                    "text": "β-Lactam Ring & Fused Bicyclic System: Creates a strained system (but less strain than the penicillins, so less reactive)"
+                              },
+                              {
                                     "name": "Position 1",
-                                    "y": 335,
-                                    "x": 432,
-                                    "size": 45,
+                                    "y": 340,
+                                    "x": 437,
+                                    "size": 35,
                                     "color": "green",
                                     "text": "Must be a nitrogen"
                               },
@@ -3232,7 +3221,7 @@
                                     "y": 280,
                                     "x": 588,
                                     "size": 55,
-                                    "color": "orange",
+                                    "color": "darkorange",
                                     "text": "Any change will lower activity"
                               },
                               {
@@ -3245,9 +3234,9 @@
                               },
                               {
                                     "name": "Position 5",
-                                    "y": 197,
+                                    "y": 192,
                                     "x": 397,
-                                    "size": 75,
+                                    "size": 70,
                                     "color": "deeppink",
                                     "text": "No substitutions allowed; cis stereochemistry with hydrogens at position 5 & 6 is essential"
                               },
@@ -3261,9 +3250,91 @@
                               },
                               {
                                     "name": "Position 7",
+                                    "y": 360,
+                                    "x": 333,
+                                    "size": 60,
+                                    "color": "red",
+                                    "text": "Must be a carbonyl"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Cephalosporin: Hover over compound to view areas.",
+                        "imagePath" : "slide4-cephalosporin.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "β-Lactam Ring",
+                                    "y": 271,
+                                    "x": 404,
+                                    "size": 35,
+                                    "color": "black",
+                                    "text": "β-Lactam Ring & Fused Bicyclic System: Creates a strained system (but less strain than the penicillins, so less reactive)"
+                              },
+                              {
+                                    "name": "Position 1",
+                                    "y": 320,
+                                    "x": 438,
+                                    "size": 35,
+                                    "color": "green",
+                                    "text": "Must be a nitrogen"
+                              },
+                              {
+                                    "name": "Position 2",
+                                    "y": 403,
+                                    "x": 516,
+                                    "size": 70,
+                                    "color": "blue",
+                                    "text": "Must be a carboxylic acid for activity; binds to charged nitrogen of a lysine residue in the binding site"
+                              },
+                              {
+                                    "name": "Position 3",
+                                    "y": 319,
+                                    "x": 604,
+                                    "size": 70,
+                                    "color": "darkorange",
+                                    "text": "R2 Group: Non-metabolized group: increases oral activity & acid stability. MTT group: extended spectrum, longer-half life, higher potency. Pyrimidine ring (positive charge): forms a zwitterion & increases solubility. 1,3 thiazole ring: Anti-MRSA activity"
+                              },
+                              {
+                                    "name": "Position 5",
+                                    "y": 185,
+                                    "x": 497,
+                                    "size": 38,
+                                    "color": "purple",
+                                    "text": "Sulfur is usual, but not essential"
+                              },
+                              {
+                                    "name": "Position 6",
+                                    "y": 200,
+                                    "x": 437,
+                                    "size": 45,
+                                    "color": "deeppink",
+                                    "text": "No substitutions allowed"
+                              },
+                              {
+                                    "name": "R1 Group",
+                                    "y": 215,
+                                    "x": 182,
+                                    "size": 40,
+                                    "color": "grey",
+                                    "text": "EWG: increases the acid stability of the compound. Bulky group: directly attached to the amide will make the compound more B-lactamase resistant. Polar group: broadens the spectrum as this allows the compound to pass through the porins of gram negative bacteria. Oxime: increases B-lactamase resistance."
+                              },
+                              {
+                                    "name": "Position 7",
+                                    "y": 195,
+                                    "x": 369,
+                                    "size": 45,
+                                    "color": "brown",
+                                    "text": "R3 group: Addition of OCH3 (7-alpha-methoxy) increases B-lactamase resistance"
+                              },
+                              {
+                                    "name": "Position 8",
                                     "y": 353,
                                     "x": 340,
-                                    "size": 75,
+                                    "size": 60,
                                     "color": "red",
                                     "text": "Must be a carbonyl"
                               }
@@ -3381,8 +3452,72 @@
                   }
             ],
              "reviewItems":[
-                  
-            ],                     
+                   {
+                        "title": "Penicillins",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "penicillins.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Cephalosporins",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "cephalosporins.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Monobactam",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "monobactam.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Carbapenem",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "carbapenem.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Beta Lactamase Inhibitor",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "BetaLactamaseInhibitor.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  }
+            ],      
             "exampleReview":[
                   
             ]            

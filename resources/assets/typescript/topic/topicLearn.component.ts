@@ -1,6 +1,6 @@
 declare var hotspotsModule:any;
 
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 
@@ -10,10 +10,14 @@ import { DataService } from '../core/services/data.service';
 import { CompoundCanvasComponent } from '../shared/compoundCanvas.component';
 import { AlertBoxComponent } from '../shared/alertBox.component';
 import { EndMessageComponent } from '../shared/endMessage.component';
+import { nextPrevAnimation } from '../shared/animations';
+
+type Orientation = ( "void" | "next" | "none" | "previous" );
 
 @Component({
   //moduleId: module.id,
   selector: 'topic-learn',
+  animations: [nextPrevAnimation],
   template: `
 <div *ngIf="topic">
   <h1> <strong>Learn</strong> about {{topic.name}}</h1>
@@ -22,16 +26,14 @@ import { EndMessageComponent } from '../shared/endMessage.component';
       <end-message *ngIf="moduleIsComplete" [topicName]="topic.name" [incorrectAnswers]="incorrectAnswers">
       </end-message>
 
-    <div *ngFor="let learnItem of topic.learnItems; let i = index">
+    <div *ngFor="let learnItem of topic.learnItems; let i = index" [@NextPrevAnimation]="orientation">
       <div *ngIf="currentQuestion == i">
 
         <h3>{{i/topic.learnItems.length | MyPercentPipe }} Complete</h3>
-        <h2>{{learnItem.title}}</h2> 
-        <br>
 
         <alert-box [learnItem]="learnItem" [validAnswer]="validAnswer" [answerSubmitted]="answerSubmitted"></alert-box>
   
-          <p>{{learnItem.name}}</p>
+          <p>{{learnItem.title}} | {{learnItem.name}}</p>
 
             <div class="action-buttons">
               <div class="shaded">
@@ -130,7 +132,9 @@ export class TopicLearnComponent implements OnInit {
 
   currentAction: string;
 
-  constructor(private route: ActivatedRoute, router: Router, private dataService: DataService) {
+  public orientation: Orientation;
+
+  constructor(private route: ActivatedRoute, router: Router, private dataService: DataService, private changeDetectorRef: ChangeDetectorRef) {
       this.router = router;
       this.validAnswer = true;
       this.answerSubmitted = false;
@@ -139,6 +143,7 @@ export class TopicLearnComponent implements OnInit {
       this.moduleIsComplete = false;
       this.incorrectAnswers = 0;
       this.currentAction = 'Submit';
+      this.changeDetectorRef = changeDetectorRef;
    } 
 
   ngOnInit() {
@@ -147,6 +152,8 @@ export class TopicLearnComponent implements OnInit {
         this.dataService.getTopic(id)
             .subscribe((topic: ITopic) => this.topic = topic);
       });
+
+      this.orientation = "void";
   }
 
   ngOnDestroy() {
@@ -154,6 +161,9 @@ export class TopicLearnComponent implements OnInit {
   }
 
   previousItem() {
+    this.orientation = "previous";
+    this.changeDetectorRef.detectChanges();
+
     if(this.currentQuestion == 0)
     {
       return;
@@ -161,9 +171,14 @@ export class TopicLearnComponent implements OnInit {
     else{
       this.currentQuestion--;
     }
+
+    this.orientation = "void";
   }
 
   nextItem(){
+    this.orientation = "next";
+    this.changeDetectorRef.detectChanges();
+
     this.answerSubmitted = false;
     this.userAnswer = "Current Question Not Answered Yet";
     this.currentQuestion++;
@@ -172,6 +187,8 @@ export class TopicLearnComponent implements OnInit {
     {
       this.moduleIsComplete = true;
     }
+
+    this.orientation = "void";
   }
 
   wrongAnswer(){

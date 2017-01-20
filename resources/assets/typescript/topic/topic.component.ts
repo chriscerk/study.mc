@@ -9,7 +9,6 @@ import { MyPercentPipe } from '../shared/pipes/percent.pipe'
   template: `
   
   <div class="topic view">
-        <br />
         <div class="navbar smart-navbar review-print-hide">
             <ul class="nav navbar-nav">
                 <li class="toolbar-item">

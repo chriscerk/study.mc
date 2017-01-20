@@ -16,6 +16,7 @@
         {{ Html::script('reflect-metadata/Reflect.js') }}
         {{ Html::script('systemjs/dist/system.src.js') }}
         {{ Html::script('systemjs.config.js') }}
+        <script src="https://rawgit.com/web-animations/web-animations-js/master/web-animations.min.js"></script>
         <script src="http://study.mc/systemjs.config.js"></script>
         <script src="./canvasHotspots/hotspots.js"></script>
     <script>

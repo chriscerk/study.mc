@@ -21,18 +21,6 @@
 
     </body>
     <footer>
-        <div class="navbar navbar-fixed-bottom review-print-hide">
-            <div class="navbar-inner footer">
-                <div class="container">
-                    <footer>
-                        <div class="row">
-                            <div class="col-md-12">
-                               University of Michigan - College of Pharmacy
-                            </div>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-        </div>
+        University of Michigan | College of Pharmacy
     </footer>
 @stop
