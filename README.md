@@ -36,7 +36,7 @@ Laravel Homestead: https://www.laravel.com/docs/5.3/homestead
 
 # UM Access
 
-The application is currently "bodyless" (without Laravel) due to inability to update their version of PHP and install dependencies for Laravel.
+The application is currently "bodyless" (without Laravel) due to inability to update their version of PHP and install dependencies for Laravel. The "bodyless" application is located at: `studymc/public/studymc`.
 
 <strong>Dev Environment</strong>: http://dev-apps.phar.umich.edu/studymc/
 
@@ -51,5 +51,8 @@ The application is currently "bodyless" (without Laravel) due to inability to up
 `/afs/umich.edu/group/acadaff/pharmacy/Private/html/studymc-media`
 
 # Other Information
+
+`studymc\public\documents` contains all of the raw documents given by Mustapha Beleh upon which this application was built.
+
 
 Originally forked from: https://github.com/axiskafi/angular2-laravel5
