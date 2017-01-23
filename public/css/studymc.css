@@ -1,12 +1,5 @@
-html {
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
 html, body {
-    height:100%;
-    margin:0;
-    padding:0;
+    overflow-y: hidden;
 }
 
 p.review {
@@ -588,6 +581,15 @@ a:hover, a:focus {
 
   .review-alert {
       display: inline-block !important;
+  }
+
+  html, body {
+    overflow-y: unset;
+}
+
+  .loading {
+    font-size: 50px;
+    padding-top: 20vh;
   }
 
   h1 {

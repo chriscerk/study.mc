@@ -20,9 +20,32 @@ A review sheet which students can fill out online then print upon completion.
 <strong>Dependencies</strong>
 `composer`, `nodejs` & `typescript`
 
-<strong>Setup</strong>
+<strong>Environment Setup</strong>
 Laravel Homestead: https://www.laravel.com/docs/5.3/homestead
 
+# Running the Environment
 
+1. `cd Homestead`
+2. `vagrant up`
+3. Go to http://study.mc/ in your browser. (Or whatever domain is setup for Homestead at C:\Windows\System32\drivers\etc\hosts)
+
+# Building
+
+1. `cd studymc`
+2. `gulp`
+
+# UM Access
+
+The application is currently "bodyless" (without Laravel) due to inability to update their version of PHP and install dependencies for Laravel.
+
+<strong>Dev Environment</strong>
+`/afs/umich.edu/group/acadaff/pharmacy/devapps/studymc`
+`/afs/umich.edu/group/acadaff/pharmacy/devapps/studymc-media`
+
+<strong>Prod Environment</strong>
+`/afs/umich.edu/group/acadaff/pharmacy/Private/html/studymc`
+`/afs/umich.edu/group/acadaff/pharmacy/Private/html/studymc-media`
+
+# Other Information
 
 Originally forked from: https://github.com/axiskafi/angular2-laravel5
