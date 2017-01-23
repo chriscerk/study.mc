@@ -39,10 +39,12 @@ Laravel Homestead: https://www.laravel.com/docs/5.3/homestead
 The application is currently "bodyless" (without Laravel) due to inability to update their version of PHP and install dependencies for Laravel.
 
 <strong>Dev Environment</strong>
+
 `/afs/umich.edu/group/acadaff/pharmacy/devapps/studymc`
 `/afs/umich.edu/group/acadaff/pharmacy/devapps/studymc-media`
 
 <strong>Prod Environment</strong>
+
 `/afs/umich.edu/group/acadaff/pharmacy/Private/html/studymc`
 `/afs/umich.edu/group/acadaff/pharmacy/Private/html/studymc-media`
 
