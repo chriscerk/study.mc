@@ -2722,7 +2722,6 @@
                                     "text": "PEP Mimic"
                               }
                         ]
-                        
                   },
                   {
                         "title":"SAR Requirements",  
@@ -3194,10 +3193,18 @@
                         "imgPadding" : 150,
                         "compoundHotspots" : [
                               {
+                                    "name": "β-Lactam Ring",
+                                    "y": 287,
+                                    "x": 400,
+                                    "size": 40,
+                                    "color": "black",
+                                    "text": "β-Lactam Ring & Fused Bicyclic System: Creates a strained system (but less strain than the penicillins, so less reactive)"
+                              },
+                              {
                                     "name": "Position 1",
-                                    "y": 335,
-                                    "x": 432,
-                                    "size": 45,
+                                    "y": 340,
+                                    "x": 437,
+                                    "size": 35,
                                     "color": "green",
                                     "text": "Must be a nitrogen"
                               },
@@ -3214,7 +3221,7 @@
                                     "y": 280,
                                     "x": 588,
                                     "size": 55,
-                                    "color": "orange",
+                                    "color": "darkorange",
                                     "text": "Any change will lower activity"
                               },
                               {
@@ -3227,9 +3234,9 @@
                               },
                               {
                                     "name": "Position 5",
-                                    "y": 197,
+                                    "y": 192,
                                     "x": 397,
-                                    "size": 75,
+                                    "size": 70,
                                     "color": "deeppink",
                                     "text": "No substitutions allowed; cis stereochemistry with hydrogens at position 5 & 6 is essential"
                               },
@@ -3243,9 +3250,9 @@
                               },
                               {
                                     "name": "Position 7",
-                                    "y": 353,
-                                    "x": 340,
-                                    "size": 75,
+                                    "y": 360,
+                                    "x": 333,
+                                    "size": 60,
                                     "color": "red",
                                     "text": "Must be a carbonyl"
                               }
@@ -3260,42 +3267,50 @@
                         "imgPadding" : 150,
                         "compoundHotspots" : [
                               {
+                                    "name": "β-Lactam Ring",
+                                    "y": 271,
+                                    "x": 404,
+                                    "size": 35,
+                                    "color": "black",
+                                    "text": "β-Lactam Ring & Fused Bicyclic System: Creates a strained system (but less strain than the penicillins, so less reactive)"
+                              },
+                              {
                                     "name": "Position 1",
-                                    "y": 335,
-                                    "x": 432,
-                                    "size": 45,
+                                    "y": 320,
+                                    "x": 438,
+                                    "size": 35,
                                     "color": "green",
                                     "text": "Must be a nitrogen"
                               },
                               {
                                     "name": "Position 2",
-                                    "y": 423,
-                                    "x": 550,
-                                    "size": 90,
+                                    "y": 403,
+                                    "x": 516,
+                                    "size": 70,
                                     "color": "blue",
                                     "text": "Must be a carboxylic acid for activity; binds to charged nitrogen of a lysine residue in the binding site"
                               },
                               {
                                     "name": "Position 3",
-                                    "y": 423,
-                                    "x": 550,
-                                    "size": 90,
-                                    "color": "blue",
-                                    "text": "R2 Group: Non-metabolized group: increases oral activity & acid stability. MTT group: extended spectrum, longer-half life, higher potency. Pyrimidine ring (positive charge): forms a zwitterion & increases solubility 1,3 thiazole ring: Anti-MRSA activity"
+                                    "y": 319,
+                                    "x": 604,
+                                    "size": 70,
+                                    "color": "darkorange",
+                                    "text": "R2 Group: Non-metabolized group: increases oral activity & acid stability. MTT group: extended spectrum, longer-half life, higher potency. Pyrimidine ring (positive charge): forms a zwitterion & increases solubility. 1,3 thiazole ring: Anti-MRSA activity"
                               },
                               {
                                     "name": "Position 5",
-                                    "y": 209,
-                                    "x": 512,
-                                    "size": 45,
+                                    "y": 185,
+                                    "x": 497,
+                                    "size": 38,
                                     "color": "purple",
                                     "text": "Sulfur is usual, but not essential"
                               },
                               {
                                     "name": "Position 6",
-                                    "y": 197,
-                                    "x": 397,
-                                    "size": 75,
+                                    "y": 200,
+                                    "x": 437,
+                                    "size": 45,
                                     "color": "deeppink",
                                     "text": "No substitutions allowed"
                               },
@@ -3308,15 +3323,346 @@
                                     "text": "EWG: increases the acid stability of the compound. Bulky group: directly attached to the amide will make the compound more B-lactamase resistant. Polar group: broadens the spectrum as this allows the compound to pass through the porins of gram negative bacteria. Oxime: increases B-lactamase resistance."
                               },
                               {
+                                    "name": "Position 7",
+                                    "y": 195,
+                                    "x": 369,
+                                    "size": 45,
+                                    "color": "brown",
+                                    "text": "R3 group: Addition of OCH3 (7-alpha-methoxy) increases B-lactamase resistance"
+                              },
+                              {
                                     "name": "Position 8",
                                     "y": 353,
                                     "x": 340,
-                                    "size": 75,
+                                    "size": 60,
                                     "color": "red",
                                     "text": "Must be a carbonyl"
                               }
                         ]
                         
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Cephalosporin / Ceftaroline: Hover over compound to view areas.",
+                        "imagePath" : "ceftaroline.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "",
+                                    "y": 169,
+                                    "x": 136,
+                                    "size": 50,
+                                    "color": "orangered",
+                                    "text": "Info: Specific requirements for Ceftaroline (5th generation) to be aware of"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"Other β-lactam Classes",  
+                        "name" : "Carbapenems: Hover over Imipenem to view areas.",
+                        "imagePath" : "imipenem.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "",
+                                    "y": 286,
+                                    "x": 340,
+                                    "size": 85,
+                                    "color": "orangered",
+                                    "text": "Unsaturated 5-membered ring connected to the β-lactam ring"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"Other β-lactam Classes",  
+                        "name" : "Monobactams: Hover over Aztreonam to view areas.",
+                        "imagePath" : "aztreonam.PNG",
+                        "imgWidth" : 400,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "",
+                                    "y": 317,
+                                    "x": 442,
+                                    "size": 50,
+                                    "color": "orangered",
+                                    "text": "Only a single B-lactam ring"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"β-lactamase Inhibitors",  
+                        "name" : "Hover over each molecule to view names.",
+                        "imagePath" : "aztreonam.PNG",
+                        "imgWidth" : 400,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "",
+                                    "y": 317,
+                                    "x": 442,
+                                    "size": 50,
+                                    "color": "orangered",
+                                    "text": "Only a single B-lactam ring"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"β-lactamase Inhibitors",  
+                        "name" : "Hover over each molecule to view names.",
+                        "imagePath" : "exampleInhibitors.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Clavulanic Acid",
+                                    "y": 215,
+                                    "x": 270,
+                                    "size": 115,
+                                    "color": "red",
+                                    "text": "Clavulanic Acid"
+                              },
+                              {
+                                    "name": "Avibactam",
+                                    "y": 406,
+                                    "x": 543,
+                                    "size": 115,
+                                    "color": "blue",
+                                    "text": "Avibactam"
+                              },
+                              {
+                                    "name": "Sulbactam",
+                                    "y": 404,
+                                    "x": 263,
+                                    "size": 115,
+                                    "color": "darkorange",
+                                    "text": "Sulbactam"
+                              },
+                              {
+                                    "name": "Tazobactam",
+                                    "y": 228,
+                                    "x": 533,
+                                    "size": 115,
+                                    "color": "purple",
+                                    "text": "Tazobactam"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide8-9-10.PNG",
+                        "question" : "Which addition to amide side chain (R) broadens the spectrum of penicillins?",
+                        "options" : [
+                              "Bulky group", 
+                              "Heterocyclic ring", 
+                              "Polar group",
+                              "Electron withdrawing group"
+                        ],
+                        "answer" : "Polar group",
+                        "explanation" : "No explanation provided."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide8-9-10.PNG",
+                        "question" : "Which addition to amide side chain (R) makes penicillins more acid stable?",
+                        "options" : [
+                              "Bulky group", 
+                              "Heterocyclic ring", 
+                              "Polar group",
+                              "Electron withdrawing group"
+                        ],
+                        "answer" : "Electron withdrawing group",
+                        "explanation" : "No explanation provided."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide8-9-10.PNG",
+                        "question" : "Which addition to amide side chain (R) makes penicillins less susceptible to B-lactamases?",
+                        "options" : [
+                              "Bulky group", 
+                              "Heterocyclic ring", 
+                              "Polar group",
+                              "Electron withdrawing group"
+                        ],
+                        "answer" : "Bulky group",
+                        "explanation" : "No explanation provided."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide11.PNG",
+                        "question" : "Will the following change increase or decrease activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Sulfate group essential for activity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide12.PNG",
+                        "question" : "Will the following change increase or decrease activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Carboxylic acid essential for activity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide13.PNG",
+                        "question" : "Which compound(s) are acid stable and can be taken orally?",
+                        "options" : [
+                             "Compound 1 & 3",
+                             "Compound 2 & 3", 
+                             "Compound 1 & 2"
+                        ],
+                        "answer" : "Compound 1 & 2",
+                        "explanation" : "Both compound 1 (cefaclor) & compound 2 (cefdinir) contain non-metabolizable groups at position."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide14.PNG",
+                        "question" : "Which compound(s) has increased β-lactamase resistance?",
+                        "options" : [
+                              "Compound 1 & 3",
+                              "Compound 2 & 3", 
+                              "Compound 1 & 2"
+                        ],
+                        "answer" : "Compound 1 & 2",
+                        "explanation" : "Both compound 1 (cefepime) and compound 2 (cefdinir) contains oxime group as R1"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide15.PNG",
+                        "question" : "Which compound has increased β-lactamase resistance?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Compound 3 (cefotetan) Contains 7-alpha-methoxy group."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide16.PNG",
+                        "question" : "Which compound is most active against staph infections?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Compound 2 (methicillin) contain non-metabolizable groups at position."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide17.PNG",
+                        "question" : "Which compound shows the highest oral bioavailability?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Compound 1 (amoxicillin) contains polar R group and does not form a Zwitterion around pH of the GIT. "
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide18.PNG",
+                        "question" : "Which compound is associated with Disulfiram-like reaction?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Compound 2 (cefamandole) because R2- contains MTT ring."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide19.PNG",
+                        "question" : "Which compound is NOT used with β-lactamase inhibitors?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Compound 3 (nafcillin) contains bulky R group"
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide20.PNG",
+                        "question" : "Which compound shows the least amount of antimicrobial activity?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Compound 2 (clavulanic acid) β-lactamase inhibitor; no antimicrobial activity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide21.PNG",
+                        "question" : "Which compound must be used in combination with cilastin?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Compound 2 (imipenem) is hydrolyzed by dehydropeptidase in the kidney to a nephrotoxic metabolite. Cilastin inhibits dehydropeptisdase."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study",
+                        "imagePath" : "slide22.PNG",
+                        "question" : "GM is experienced a life-threatening reaction from amoxicillin, which antibiotic is safe for this patient to use?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Compound 3 (aztreonam) because no cross-allergic reactions with other β-lactams."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study",
+                        "imagePath" : "slide23.PNG",
+                        "question" : "Which compound(s) are acid stable and can be taken orally?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Compound 1 (ceftriaxone) contains heterocyclic ring, which broadens spectrum and increases anti-pseudomonal activity."
                   }
             ],
             "testItems":[
@@ -3429,8 +3775,72 @@
                   }
             ],
              "reviewItems":[
-                  
-            ],                     
+                   {
+                        "title": "Penicillins",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "penicillins.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Cephalosporins",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "cephalosporins.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Monobactam",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "monobactam.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Carbapenem",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "carbapenem.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Beta Lactamase Inhibitor",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "BetaLactamaseInhibitor.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Type of Inhibitor", "content": ""},
+                              {"title": "Toxicities", "content": ""}
+                        ]
+                  }
+            ],      
             "exampleReview":[
                   
             ]            
