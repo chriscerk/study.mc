@@ -17,7 +17,7 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
 <div class="review-print-hide">
   <h1><b>Review</b> of {{topic.name}}</h1>
   <div class="alert alert-info review-alert" role="alert" style="display:none;">
-    <a href="#" class="alert-link"> Review limited to Autofill on mobile device.</a>
+    <a href="#" class="alert-link">Autofill only on mobile device.</a>
       <div class="action-buttons">
         <div class="shaded">
           <button type="button" class="btn btn-success shaded" (click)="generateExampleReview()"> Autofill </button>

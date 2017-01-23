@@ -3340,6 +3340,78 @@
                               }
                         ]
                         
+                  },
+                  {
+                        "title":"SAR Requirements",  
+                        "name" : "Cephalosporin / Ceftaroline: Hover over compound to view areas.",
+                        "imagePath" : "ceftaroline.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "",
+                                    "y": 169,
+                                    "x": 136,
+                                    "size": 50,
+                                    "color": "orangered",
+                                    "text": "Info: Specific requirements for Ceftaroline (5th generation) to be aware of"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"Other β-lactam Classes",  
+                        "name" : "Carbapenems: Hover over Imipenem to view areas.",
+                        "imagePath" : "imipenem.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "",
+                                    "y": 286,
+                                    "x": 340,
+                                    "size": 85,
+                                    "color": "orangered",
+                                    "text": "Unsaturated 5-membered ring connected to the β-lactam ring"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"Other β-lactam Classes",  
+                        "name" : "Monobactams: Hover over Aztreonam to view areas.",
+                        "imagePath" : "aztreonam.PNG",
+                        "imgWidth" : 400,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "",
+                                    "y": 317,
+                                    "x": 442,
+                                    "size": 50,
+                                    "color": "orangered",
+                                    "text": "Only a single B-lactam ring"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"β-lactamase Inhibitors",  
+                        "name" : "Hover over each molecule to view names.",
+                        "imagePath" : "aztreonam.PNG",
+                        "imgWidth" : 400,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "",
+                                    "y": 317,
+                                    "x": 442,
+                                    "size": 50,
+                                    "color": "orangered",
+                                    "text": "Only a single B-lactam ring"
+                              }
+                        ]
+                        
                   }
             ],
             "testItems":[

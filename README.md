@@ -1,6 +1,8 @@
 # StudyMC
 StudyMC (Study Medicinal Chemistry) is a College of Pharmacy web application to help students in studying their course materials.
 
+<strong>*Note:</strong> The live version of this application is currently "bodyless" (without Laravel) due to inability to update the UM server version of PHP and install dependencies for Laravel.
+
 # Organization
 <strong>Learn</strong>
 Content provided to help expand the student's knowledge along with practice problems which include feedback.
@@ -27,7 +29,9 @@ Laravel Homestead: https://www.laravel.com/docs/5.3/homestead
 
 1. `cd Homestead`
 2. `vagrant up`
-3. Go to http://study.mc/ in your browser. (Or whatever domain is setup for Homestead at C:\Windows\System32\drivers\etc\hosts)
+3. Go to http://study.mc/ in your browser. 
+
+(Or the domain setup for Homestead at C:\Windows\System32\drivers\etc\hosts)
 
 # Building
 
@@ -36,7 +40,7 @@ Laravel Homestead: https://www.laravel.com/docs/5.3/homestead
 
 # UM Access
 
-The application is currently "bodyless" (without Laravel) due to inability to update their version of PHP and install dependencies for Laravel. The "bodyless" application is located at: `studymc/public/studymc`.
+The live version of this application is currently "bodyless" (without Laravel) due to inability to update the UM server version of PHP and install dependencies for Laravel. The "bodyless" application is located at: `studymc/public/studymc`.
 
 <strong>Dev Environment</strong>: http://dev-apps.phar.umich.edu/studymc/
 

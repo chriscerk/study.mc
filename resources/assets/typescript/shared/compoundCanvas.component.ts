@@ -6,7 +6,7 @@ import { ITopic, ILearnItem, InteractiveMolecule } from '../shared/interfaces';
   selector: 'compound-Canvas',
   template: 
   `
-  <button class="btn btn-default" (click)="showCompoundAreas()" type="button" id="{{canvasId}}-button">Display SAR Areas</button>
+  <button class="btn btn-default" (click)="showCompoundAreas()" type="button" id="{{canvasId}}-button">Display Areas</button>
   <canvas id="{{canvasId}}">
   </canvas>`,
   styles: [`
