@@ -20,7 +20,7 @@
         @yield('content')
 
     </body>
-    <footer>
+    <footer classs="review-print-hide">
         University of Michigan | College of Pharmacy
     </footer>
 @stop
