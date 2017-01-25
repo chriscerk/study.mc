@@ -3398,24 +3398,6 @@
                   {
                         "title":"β-lactamase Inhibitors",  
                         "name" : "Hover over each molecule to view names.",
-                        "imagePath" : "aztreonam.PNG",
-                        "imgWidth" : 400,
-                        "imgPadding" : 150,
-                        "compoundHotspots" : [
-                              {
-                                    "name": "",
-                                    "y": 317,
-                                    "x": 442,
-                                    "size": 50,
-                                    "color": "orangered",
-                                    "text": "Only a single B-lactam ring"
-                              }
-                        ]
-                        
-                  },
-                  {
-                        "title":"β-lactamase Inhibitors",  
-                        "name" : "Hover over each molecule to view names.",
                         "imagePath" : "exampleInhibitors.PNG",
                         "imgWidth" : 500,
                         "imgPadding" : 150,
@@ -3776,42 +3758,23 @@
             ],
              "reviewItems":[
                    {
-                        "title": "Penicillins",  
+                        "title": "Beta Lactamase Inhibitor",  
                         "sections" : [
-                              {"title": "Compound", "imagePath": "penicillins.PNG" },
+                              {"title": "Compound", "imagePath": "BetaLactamaseInhibitor.PNG" },
                               {"title": "SAR", "content": ""},
-                              {"title": "Target", "content": ""},
                               {"title": "MOA", "content": ""},
                               {"title": "MOR", "content": ""},
-                              {"title": "Spectrum", "content": ""},
-                              {"title": "Type of Inhibitor", "content": ""},
-                              {"title": "Toxicities", "content": ""}
+                              {"title": "Spectrum", "content": ""}
                         ]
                   },
-                  {
-                        "title": "Cephalosporins",  
-                        "sections" : [
-                              {"title": "Compound", "imagePath": "cephalosporins.PNG" },
-                              {"title": "SAR", "content": ""},
-                              {"title": "Target", "content": ""},
-                              {"title": "MOA", "content": ""},
-                              {"title": "MOR", "content": ""},
-                              {"title": "Spectrum", "content": ""},
-                              {"title": "Type of Inhibitor", "content": ""},
-                              {"title": "Toxicities", "content": ""}
-                        ]
-                  },
-                  {
+                   {
                         "title": "Monobactam",  
                         "sections" : [
                               {"title": "Compound", "imagePath": "monobactam.PNG" },
                               {"title": "SAR", "content": ""},
-                              {"title": "Target", "content": ""},
                               {"title": "MOA", "content": ""},
                               {"title": "MOR", "content": ""},
-                              {"title": "Spectrum", "content": ""},
-                              {"title": "Type of Inhibitor", "content": ""},
-                              {"title": "Toxicities", "content": ""}
+                              {"title": "Spectrum & Toxicities", "content": ""}
                         ]
                   },
                   {
@@ -3819,30 +3782,100 @@
                         "sections" : [
                               {"title": "Compound", "imagePath": "carbapenem.PNG" },
                               {"title": "SAR", "content": ""},
-                              {"title": "Target", "content": ""},
                               {"title": "MOA", "content": ""},
                               {"title": "MOR", "content": ""},
-                              {"title": "Spectrum", "content": ""},
-                              {"title": "Type of Inhibitor", "content": ""},
-                              {"title": "Toxicities", "content": ""}
+                              {"title": "Spectrum & Toxicities", "content": ""}
+                        ]
+                  },
+                   {
+                        "title": "Penicillins",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "cephalosporins.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum, Target, Type, & Toxicities", "content": ""}
                         ]
                   },
                   {
-                        "title": "Beta Lactamase Inhibitor",  
+                        "title": "Cephalosporins",  
                         "sections" : [
-                              {"title": "Compound", "imagePath": "BetaLactamaseInhibitor.PNG" },
+                              {"title": "Compound", "imagePath": "cephalosporins.PNG" },
                               {"title": "SAR", "content": ""},
-                              {"title": "Target", "content": ""},
                               {"title": "MOA", "content": ""},
                               {"title": "MOR", "content": ""},
-                              {"title": "Spectrum", "content": ""},
-                              {"title": "Type of Inhibitor", "content": ""},
-                              {"title": "Toxicities", "content": ""}
+                              {"title": "Spectrum, Target, Type, & Toxicities", "content": ""}
                         ]
                   }
             ],      
             "exampleReview":[
-                  
+                  {
+                        "title": "Beta Lactamase Inhibitor",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "BetaLactamaseInhibitor.PNG" },
+                              {"title": "SAR", "content": "-β-lactam ring (tetracyclic amide) is essential. -Any modification to β-lactam ring results in inactivation"},
+                              {"title": "MOA", "content": "Irreversible, 'suicide' inhibitor of many (but not all) bacterial β-lactamases. Covalently bind to serine residue of active site of β-lactamases"},
+                              {"title": "Spectrum", "content": "No antimicrobial activity. Used in combination with penicillins to increase spectrum of activity"}
+                        ]
+                  },
+                  {
+                        "title": "Monobactam",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "monobactam.PNG" },
+                              {"title": "SAR", "content": "- Single β-lactam ring. -A methyl group can be placed at R2 for β-lactamase stability. -R1 can be changed to an extent to improve spectrum and activity. -SO3 group facilitates ring opening. -Methoxy group improves β-lactamase stability but decreases ring stability"},
+                              {"title": "MOA", "content": "Interferes with bactericidal cell wall synthesis by binding to and inactivating penicillin-binding-proteins. This binding causes the formation of elongation or bacterial filamentation resulting in cell lysis and cell death. Bactericidal"},
+                              {"title": "MOR", "content": "Resistance to aztreonam is primarily through hydrolysis by beta-lactamase, alteration of penicillin-binding proteins (PBPs), and decreased permeability."},
+                              {"title": "Spectrum & Toxicities", "content": "Spectrum: Gram negative. Toxicities: Rash, diarrhea"}
+                        ]
+                  },
+                  {
+                        "title": "Carbapenem",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "carbapenem.PNG" },
+                              {"title": "SAR", "content": "-Unsaturated 5-membered ring connected to the β-lactam ring. -β-lactam ring and COOH are essential for function. -R1 and R2 are variable regions that can alter spectrum, susceptibility to lactamases and stability."},
+                              {"title": "MOA", "content": "Cause rapid bacterial cell death by covalently binding to penicillin-binding proteins (PBPs) involved in the biosynthesis of mucopeptides in bacterial cell walls.  Bactericidal effects result through inhibition of cellular growth and division and the loss of cell wall integrity, eventually causing cell wall lysis. The primary target is PBP-2."},
+                              {"title": "MOR", "content": "1. Modified porins 2. Efflux pumps 3. Synthesis of inactivating enzymes (very uncommon)"},
+                              {"title": "Spectrum & Toxicities", "content": "Spectrum: Broadest spectrum (gram positive and negative). Toxicities: GI, Renal insufficiency, Hepatic insufficiency, Anemia"}
+                        ]
+                  },
+                  {
+                        "title": "Penicillins",
+                        "sections": [{
+                              "title": "Compound",
+                              "imagePath": "penicillins.PNG"
+                        }, {
+                              "title": "SAR",
+                              "content": "β-lactam ring & fused bicyclic system: creates a strained system. -Position 1: must be a nitrogen. -Position 2: must be a carboxylic acid for activity; binds to charged nitrogen of a lysine residue in the binding site. -Position 3: any change will lower activity. Position 4: sulfur is usual, but not essential. Position 5: no substitutions allowed; cis stereochemistry with hydrogens at position 5 & 6 is essential. [R Group]: EWG: increases the acid stability of the compound. Bulky group: directly attached to the amide will make the compound more β-lactamase resistant. Polar group: broadens the spectrum as this allows the compound to pass through the porins of gram negative bacteria. Position 7: must be a carbonyl"
+                        }, {
+                              "title": "MOA",
+                              "content": "Inhibits cell peptidoglycan synthesis – specifically crosslinking of peptidoglycan strands. Bactericidal"
+                        }, {
+                              "title": "MOR",
+                              "content": "1. Synthesis of inactivating enzymes ->  β-lactamases  (less common in cephalosporin’s) 2. Mutations to PBP (decreases affinity of drug to target). 3. Alternation of porins (decrease ability of drug to reach site of action in bacteria)."
+                        }, {
+                              "title": "Spectrum, Target, Type, & Toxicities",
+                              "content": "[Spectrum]: Early penicillin’s gram positive only, but as a class they are broad spectrum. [Target]: Penicillin Binding Proteins (PBPs). [Inhibitor Type]: Irreversible covalent inhibitor/ suicide inhibitor – substrate mimic. [Toxicities]:Immune response (low incidence), nephrotoxicity, pseudomonas colitis, seizures."
+                        }]
+                  },
+                  {
+                        "title": "Cephalosporins",
+                        "sections": [{
+                              "title": "Compound",
+                              "imagePath": "cephalosporins.PNG"
+                        }, {
+                              "title": "SAR",
+                              "content": "[β-lactam ring & fused bicyclic system]: creates a strained system (but less strain than the penicillins, so less reactive). [Position 1]: must be a nitrogen. [Position 2]: must be a carboxylic acid for activity; binds to charged nitrogen of a lysine residue in the binding site. [Position 3]: R2 group: -Non-metabolized group: increases oral activity & acid stability. MTT group: extended spectrum, longer-half life, higher potency. -Pyrimidine ring (positive charge): forms a zwitterion & increases solubility. -1,3 thiazole ring: Anti-MRSA activity. [Position 5]: sulfur is usual, but not essential. [Position 6]: no substitutions allowed. [Position 7]: R3 group-addition of OCH3 (7-alpha-methoxy) increases β-lactamase resistance. [R1 group]: -EWG: increases the acid stability of the compound. -Bulky group: directly attached to the amide will make the compound more β-lactamase resistant. -Polar group: broadens the spectrum as this allows the compound to pass through the porins of gram negative bacteria. -Oxime: increases β-lactamase resistance. [Position 8]: must be a carbonyl."
+                        }, {
+                              "title": "MOA",
+                              "content": "Inhibits cell peptidoglycan synthesis – specifically crosslinking of peptidoglycan strands. Bactericidal"
+                        }, {
+                              "title": "MOR",
+                              "content": "1. Synthesis of inactivating enzymes ->  β-lactamases  (less common in cephalosporin’s) 2. Mutations to PBP (decreases affinity of drug to target). 3. Alternation of porins (decrease ability of drug to reach site of action in bacteria)."
+                        }, {
+                              "title": "Spectrum, Target, Type, & Toxicities",
+                              "content": "[Spectrum]: Dependent on generation, some have very broad spectrum – even effective against organisms that produce β-lactamases. [Target]: Penicillin Binding Proteins (PBPs). [Inhibitor Type]: Irreversible covalent inhibitor – suicide inhibitors. [Toxicities]: Immune response (cross reactivity with other β-lactams) – otherwise low, nephrotoxicity, pseudomonas colitis, seizures. A-Typical side effects due to MTT group: Hypothrombocytopenia, Disulfiram-like effect"
+                        }]
+                  }
             ]            
       }
 ]
