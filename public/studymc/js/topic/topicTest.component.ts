@@ -36,13 +36,13 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
               <option *ngFor="let option of testItem.options;">{{option}}</option>
             </select>
           </p>
-          <div class="action-buttons">
-            <button type="submit" class="btn btn-success btn-lg">Submit</button>
+          <div class="action-buttons shaded">
+            <button type="submit" class="btn btn-success">Submit</button>
           </div>
         </form>
 
-        <div class="action-buttons">
-          <button (click)="retryQuestion()" class="btn btn-danger btn-lg" *ngIf="!validAnswer">Retry</button>
+        <div class="action-buttons shaded">
+          <button (click)="retryQuestion()" class="btn btn-danger" *ngIf="!validAnswer">Retry</button>
         </div>
 
          <div class="alert alert-danger" role="alert" *ngIf="!validAnswer">

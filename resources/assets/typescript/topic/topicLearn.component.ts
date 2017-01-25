@@ -38,36 +38,32 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
             <div class="action-buttons">
               <div class="shaded">
                 <button  type="button" class="btn btn-default" (click)="previousItem()"> Previous </button>
+                <br>
+                <br>
+                <button (click)="retryQuestion()" class="btn btn-danger" *ngIf="!validAnswer">Retry</button>
               </div>
 
-              <br>
-
-              <div *ngIf="learnItem.answer && !answerSubmitted">
+              <div *ngIf="learnItem.answer && !answerSubmitted" class="shaded">
                 <button type="button" 
                         (click)="rightAnswer()" 
-                        class="btn btn-success btn-lg" 
+                        class="btn btn-success" 
                         *ngIf="learnItem.answer == userAnswer">
                     Submit
                 </button>
 
                 <button type="button" 
                         (click)="wrongAnswer()" 
-                        class="btn btn-success btn-lg" 
+                        class="btn btn-success" 
                         *ngIf="learnItem.answer != userAnswer && validAnswer">
                     Submit
                 </button>
-
               </div>
 
-              <div *ngIf="!learnItem.answer || answerSubmitted">
-
-                <button type="button" (click)="nextItem()" class="btn btn-success btn-lg" *ngIf="validAnswer">
+              <div *ngIf="!learnItem.answer || answerSubmitted" class="shaded">
+                <button type="button" (click)="nextItem()" class="btn btn-success" *ngIf="validAnswer">
                   Next
                 </button>
-
               </div>
-
-              <button (click)="retryQuestion()" class="btn btn-danger btn-lg" *ngIf="!validAnswer">Retry</button>
             </div>
 
           <div *ngIf="learnItem.compoundHotspots">

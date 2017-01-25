@@ -28,7 +28,7 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
 <div class="content review-module">
   <form #f="ngForm" (ngSubmit)="onSubmit()" method="post">
 
-      <div class="action-buttons">
+      <div class="action-buttons shaded">
         <div class="shaded">
           <button type="button" class="btn btn-default shaded" (click)="generateExampleReview()"> Autofill </button>
         </div>
@@ -41,8 +41,8 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
           <button type="button" class="btn btn-default" *ngIf="reviewComplete" (click)="toNextItem()"> Next </button>
          </div>
             <br>
-            <button type="submit" class="btn btn-success btn-lg" *ngIf="!reviewComplete" (click)="toNextItem()"> Next </button>
-            <button type="submit" class="btn btn-success btn-lg" *ngIf="reviewComplete" (click)="printPage()"> Print! </button>
+            <button type="submit" class="btn btn-success" *ngIf="!reviewComplete" (click)="toNextItem()"> Next </button>
+            <button type="submit" class="btn btn-success" *ngIf="reviewComplete" (click)="printPage()"> Print! </button>
         </div>
 
   <div *ngFor="let reviewItem of topic.reviewItems; let i = index" [@NextPrevAnimation]="orientation">

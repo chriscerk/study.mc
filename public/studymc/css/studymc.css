@@ -236,6 +236,11 @@ img.loading {
         width: 120px;
     }
 
+.shaded > button.btn.btn-success, button.btn.btn-danger {
+        height: 60px;
+        font-size: 18pt;
+    }    
+
 select {
     height: 30pt;
     font-size: 20pt;
@@ -724,6 +729,11 @@ p {
         height: 75px;
         width: 120px;
     }
+
+.shaded > button.btn.btn-success, button.btn.btn-danger {
+        height: 85px;
+        font-size: 18pt;
+    } 
 
   .classBox {
     display: inline-block;
