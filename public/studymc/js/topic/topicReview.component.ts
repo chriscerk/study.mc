@@ -100,7 +100,7 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
             <h3><strong>{{reviewItem.title}}</strong></h3>
 
             <ul class="flex-container" style="border: solid #afafaf; border-width: 1px; border-radius: 10px;">
-              <li *ngFor="let section of reviewItem.sections" style="width: 200px; padding: 3px;">
+              <li *ngFor="let section of reviewItem.sections" style="width: 250px; padding: 3px;">
                 <h4>{{section.title}}</h4>
                 <p class="review">{{section.content}}</p>
                 <div *ngIf="section.imagePath">
@@ -201,7 +201,7 @@ export class TopicReviewComponent implements OnInit {
 
   generateExampleReview() {
     this.topic.reviewItems = this.topic.exampleReview;
-    this.studentName = "Lazy Lawrence";
+    this.studentName = "MC Student";
     this.reviewComplete = true;
   }
 

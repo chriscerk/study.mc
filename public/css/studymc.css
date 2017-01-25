@@ -626,6 +626,11 @@ a:hover, a:focus {
       display: none !important;
   }
 
+  p.review {
+    font-size:16px; 
+    font-family:'Garamond';
+  }
+
   p.advice {
       display: none !important;
   }
