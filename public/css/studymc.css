@@ -682,7 +682,7 @@ a:hover, a:focus {
 
   .action-buttons {
       Bottom: 0px;
-      right: 0px;
+      right: -5px;
       POSITION: fixed;
       MARGIN-LEFT: 60%;
       ALIGN-CONTENT: CENTER;
