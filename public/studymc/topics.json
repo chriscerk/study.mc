@@ -3164,7 +3164,7 @@
                               {"title": "MOA & Target", "content": "MOA: Binds to pyrophosphatase in the presence of Magnesium,thus preventing regeneration of Bactoprene. It is more active if zinc is already present in the preparation, aiding in the binding to pyrophosphatase which inhibits cell peptidoglycan synthesis. (Stage 2: Synthesis of Membrane-bound Precursors and Polymerization) Bactericidal Target: Pyrophosphatases"},
                               {"title": "MOR", "content": "Failure to penetrate membrane"},
                               {"title": "Spectrum", "content": "Gram positive only – too big to get through outer membrane of Gram negative"},
-                              {"title": "Toxicities", "content": "Nephrotoxicity – not used systemically*/topical"}
+                              {"title": "Toxicities", "content": "Nephrotoxicity – not used systemically. For topical use only."}
                         ]
                   },
                   {
@@ -3272,7 +3272,7 @@
                                     "x": 404,
                                     "size": 35,
                                     "color": "black",
-                                    "text": "β-Lactam Ring & Fused Bicyclic System: Creates a strained system (but less strain than the penicillins, so less reactive)"
+                                    "text": "β-Lactam Ring & Fused Bicyclic System: Creates a strained system."
                               },
                               {
                                     "name": "Position 1",
@@ -3514,7 +3514,7 @@
                              "Compound 1 & 2"
                         ],
                         "answer" : "Compound 1 & 2",
-                        "explanation" : "Both compound 1 (cefaclor) & compound 2 (cefdinir) contain non-metabolizable groups at position."
+                        "explanation" : "Both compound 1 (cefaclor) & compound 2 (cefdinir) contain non-metabolizable groups at position 3."
                   },
                   {
                         "title":"SAR Practice Problem",  
@@ -3592,7 +3592,7 @@
                               "Compound 3"
                         ],
                         "answer" : "Compound 3",
-                        "explanation" : "Compound 3 (nafcillin) contains bulky R group"
+                        "explanation" : "Compound 3 (nafcillin) contains bulky R group directly attached to amide."
                   },
                   {
                         "title":"SAR Practice Problem",  
@@ -3875,6 +3875,66 @@
                               "title": "Spectrum, Target, Type, & Toxicities",
                               "content": "[Spectrum]: Dependent on generation, some have very broad spectrum – even effective against organisms that produce β-lactamases. [Target]: Penicillin Binding Proteins (PBPs). [Inhibitor Type]: Irreversible covalent inhibitor – suicide inhibitors. [Toxicities]: Immune response (cross reactivity with other β-lactams) – otherwise low, nephrotoxicity, pseudomonas colitis, seizures. A-Typical side effects due to MTT group: Hypothrombocytopenia, Disulfiram-like effect"
                         }]
+                  }
+            ]            
+      },
+      {
+            "id": 11,
+            "name": "FAB-Inhibitors",
+            "learnItems":[
+            ],
+            "testItems":[
+            ],
+             "reviewItems":[
+                  {
+                        "title": "Sulfonamides (Sulfamethoxazole, Sulfacetamide, Silver Sulfadiazine)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "sulfonamides.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Toxicity", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Trimethoprim (Related Compound: Pyrimethamine)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "trimethoprim.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "Target", "content": ""},
+                              {"title": "MOA", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Spectrum", "content": ""},
+                              {"title": "Toxicity", "content": ""}
+                        ]
+                  }
+            ],                     
+            "exampleReview":[
+                  {
+                        "title": "Sulfonamides (Sulfamethoxazole, Sulfacetamide, Silver Sulfadiazine)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "sulfonamides.PNG" },
+                              {"title": "SAR", "content": "Essential components: [Benzene ring]. [Un-substituted amine para to sulfonamide]. [Sulfonamide para to amine]: -Sulfonamide must be un-ionized to cross bacterial cell membrane. -Sulfonamide must be ionized to interact with DHPS active site. -Disubstitution of sulfonamide abolishes activity (acidic hydrogen required). -Mono-substituted sulfonamide may increase activity (EWG & heterocycles favorable)"},
+                              {"title": "Target", "content": "Dihydropteroate Synthase(DHPS)"},
+                              {"title": "MOA", "content": "PABA mimic that competitively inhibits the synthesis of dihydrofolic acid from PABA. Bacteriostatic."},
+                              {"title": "MOR", "content": "1. Decreased drug uptake (most common). 2. Overexpression of DHPS 3. Increase PABA in bacteria 4. Decrease affinity for sulfonamide by DHPS"},
+                              {"title": "Spectrum", "content": "Broad Spectrum but use as monotherapy is rare"},
+                              {"title": "Toxicity", "content": "Nephrotoxicity; Crystalluria, Rash, Photosensitivity, Stevens-Johnson Syndrome"}
+                        ]
+                  },
+                  {
+                        "title": "Trimethoprim (Related Compound: Pyrimethamine)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "trimethoprim.PNG" },
+                              {"title": "SAR", "content": "-Removal of primary amine results in complete inactivity. -Removal of one or more methoxy groups on trimethoprim results in loss of activity to varying degrees."},
+                              {"title": "Target", "content": "Dihydrofolate Reductase (DHFR)"},
+                              {"title": "MOA", "content": "Inhibits a step of the recycling of the folate cofactor (dihydrofolate to tetrahydrofolate) for purine and thymidine biosynthesis. Binds with ~300x more affinity to bacteria vs. human DHFR. Bacteriostatic"},
+                              {"title": "MOR", "content": "1. Overexpression of DHFR. 2. Decrease affinity for sulfonamide due to mutated enzyme."},
+                              {"title": "Spectrum", "content": "Broad Spectrum. Used in synergy with sulfonamides because of resistance."},
+                              {"title": "Toxicity", "content": "Hypersensitivity rash, Hyperkalemia, Hematologic effects"}
+                        ]
                   }
             ]            
       }
