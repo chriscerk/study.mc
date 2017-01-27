@@ -3882,6 +3882,181 @@
             "id": 11,
             "name": "FAB-Inhibitors",
             "learnItems":[
+                  {
+                        "title":"Sulfonamides",  
+                        "name" : "Hover over the molecule to view SAR Requirements.",
+                        "imagePath" : "sulfonamidesSAR.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Amine",
+                                    "y": 248,
+                                    "x": 205,
+                                    "size": 75,
+                                    "color": "blue",
+                                    "text": "Amine is essential: Must be un-substituted, Must be para to the sulfonamide"
+                              },
+                              {
+                                    "name": "Benzene Ring",
+                                    "y": 248,
+                                    "x": 375,
+                                    "size": 90,
+                                    "color": "red",
+                                    "text": "Benzene ring is essential"
+                              },
+                              {
+                                    "name": "Sulfonamide",
+                                    "y": 248,
+                                    "x": 550,
+                                    "size": 100,
+                                    "color": "green",
+                                    "text": "Sulfonamide is essential: Must be un-ionized to cross bacterial cell membrane, Must be ionized to interact with DHPS active site, Mono-substitution allowed (EWG & heterocycle are favorable), Di-substitution abolishes activity, Must be para to the amine."
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"Trimethoprim",  
+                        "name" : "Hover over Trimethoprim to view characteristic parts.",
+                        "imagePath" : "trimethoprimSAR.PNG",
+                        "imgWidth" : 400,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "",
+                                    "y": 222,
+                                    "x": 263,
+                                    "size": 115,
+                                    "color": "red",
+                                    "text": "First Characteristic part of Trimethoprim"
+                              },
+                              {
+                                    "name": "",
+                                    "y": 360,
+                                    "x": 433,
+                                    "size": 130,
+                                    "color": "red",
+                                    "text": "Second Characteristic part of Trimethoprim"
+                              }
+                        ]
+                        
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide4.PNG",
+                        "question" : "Will the following change increase or decrease activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "Addition of heterocycle to sulfonamide is favorable and decreases pH to optimal range."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide5.PNG",
+                        "question" : "Will the following change increase or decrease activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Amine essential for activity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide6.PNG",
+                        "question" : "Which of the two compounds has greatest antimicrobial activity?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "The negative charge on the sulfonamide can be stabilized by resonance with the ring."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide7.PNG",
+                        "question" : "Which is a prodrug?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Compound 1 (prontosil) Metabolized by reductases to give active form of sulfonamide."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide8.PNG",
+                        "question" : "Which is the longest acting sulfonamide?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Compound 2 (sulfadoxine) Has a half life of 150 hours."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the correct answer",
+                        "imagePath" : "slide9.PNG",
+                        "question" : "Which characteristics, at physiological pH, would provide the most effective sulfonamide?",
+                        "options" : [
+                              "Low lipophilicity, unionized", 
+                              "High lipophilicity, unionized",
+                              "Low lipophilicity, ionized",
+                              "High lipophilicity, ionized"
+                        ],
+                        "answer" : "High lipophilicity, ionized",
+                        "explanation" : "Lipophilicity is needed to enter the cell and ionization is required to bind to enzyme."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Mechanism of Action",
+                        "imagePath" : "slide10.PNG",
+                        "question" : "Which of the following inhibits DHPS?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Compound 1 is sulfamethoxazole."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Mechanism of Action",
+                        "imagePath" : "slide11.PNG",
+                        "question" : "Which of the following inhibits DHFR?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Compound 1 is trimethoprim."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study",
+                        "imagePath" : "slide12.PNG",
+                        "question" : "KT has a history of Steven Johnson Syndrome, which antibiotic is best avoided in her?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Compound 3 (sulfamethoxazole) is a sulfonamide which can lead to this life-threatening rash."
+                  }
             ],
             "testItems":[
                   {
