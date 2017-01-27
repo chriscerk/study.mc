@@ -3884,6 +3884,95 @@
             "learnItems":[
             ],
             "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Sulfonamides can be slow to act because you must deplete the _______ pool before seeing an effect.",
+                        "options" : [
+                              "glutathione",
+                              "sulfa",
+                              "folate",
+                              "DHPS"
+                        ],
+                        "answer" : "folate"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Sulfonamides can cause _______ in infants.",
+                        "options" : [
+                              "ototoxicity",
+                              "kernicterus",
+                              "grey baby syndrome",
+                              "nephrotoxicity "
+                        ],
+                        "answer" : "kernicterus"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "_______ is a side effect of sulfonamides so the medication should be taken at night.",
+                        "options" : [
+                              "Drowsiness",
+                              "Confusion",
+                              "Photosensitivity",
+                              "Blindness"
+                        ],
+                        "answer" : "Photosensitivity"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Patients with _______ may show increased incidence of side effects.",
+                        "options" : [
+                              "alcoholism",
+                              "diabetes",
+                              "G6P deficiency",
+                              "neuropathy"
+                        ],
+                        "answer" : "G6P deficiency"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Selective toxicity to sulfonamides in bacterial cells over mammalian cells occurs because humans lack _______ .",
+                        "options" : [
+                              "dihydrofolate reductase",
+                              "cell walls",
+                              "folic acid synthesis pathways",
+                              "peptidoglycan"
+                        ],
+                        "answer" : "folic acid synthesis pathways"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "A side effect of Bactrim that affects skin and mucous membranes is either _______ .",
+                        "options" : [
+                              "Eczema or Impetigo",
+                              "Toxic Epidermal Necrolysis or Stevens Johnson Syndrome",
+                              "Impetigo or Toxic Epidermal Necrolysis",
+                              "Psoriasis or Stevens Johnson Syndrome"
+                        ],
+                        "answer" : "Toxic Epidermal Necrolysis or Stevens Johnson Syndrome"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "If a patient is taking Bactrim and is G6DP deficient, _______ may be depleted and affect drug metabolism.",
+                        "options" : [
+                              "Folic acid",
+                              "liver enzymes",
+                              "white blood cells",
+                              "lymph",
+                              "Glutathione"
+                        ],
+                        "answer" : "Glutathione"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Sulfonamides target _______ to ultimately inhibit Folic Acid.",
+                        "options" : [
+                              "DHFR",
+                              "DHPS",
+                              "G6P",
+                              "Folic Acid"
+                        ],
+                        "answer" : "DHPS"
+                  }
             ],
              "reviewItems":[
                   {
