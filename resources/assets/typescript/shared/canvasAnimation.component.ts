@@ -1,9 +1,11 @@
 declare var PaperProcessor:any;
 import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
-import { ITopic, ILearnItem, InteractiveMolecule } from '../shared/interfaces';
+import { ITopic, ILearnItem, MovementAnimation } from '../shared/interfaces';
 
+
+// TODO: PaperProcessor nto implemented, current model reflects future PaperProcessor capability 
 @Component({ 
-  selector: 'compound-Canvas',
+  selector: 'Canvas-Animation',
   template: 
   `
   <button class="btn btn-default" (click)="showCompoundAreas()" type="button" id="{{canvasId}}-button">Display Areas</button>
@@ -16,7 +18,7 @@ import { ITopic, ILearnItem, InteractiveMolecule } from '../shared/interfaces';
   `],
 })
 export class CanvasAnimationComponent implements OnInit, AfterViewInit {
-    @Input() learnItem: InteractiveMolecule;
+    @Input() learnItem: MovementAnimation;
     @Input() topic: ITopic;
     @Input() i: number;
     canvasId: string;
@@ -28,23 +30,10 @@ export class CanvasAnimationComponent implements OnInit, AfterViewInit {
     }
 
     ngAfterViewInit() {
-        let fullImgPath = "/studymc-media/compounds/" + this.topic.name + "/" + this.learnItem.imagePath;
+        let relativeImgPath = "/studymc-media/compounds/" + this.topic.name + "/";
 
-        if(this.learnItem.imgWidth){
-          var imgWidth = this.learnItem.imgWidth;
-        }
-        else {
-          var imgWidth = 200;
-        }
-
-        if(this.learnItem.imgPadding){
-          var imgPadding = this.learnItem.imgPadding;
-        }
-        else {
-          var imgPadding = 150;
-        }
-
-        PaperProcessor.initCanvasImg(this.canvasId, fullImgPath, imgPadding, imgWidth, this.learnItem.compoundHotspots);
+        PaperProcessor.applyObjects(this.learnItem.images, relativeImgPath);
+        PaperProcessor.applyMovements(this.learnItem.movements);
     }
 
     showCompoundAreas() {

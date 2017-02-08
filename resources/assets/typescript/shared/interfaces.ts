@@ -83,6 +83,7 @@ export class MovementAnimation implements ILearnItem, CustomAnimation
     title: string;
     name: string;
     movements: IMovement[];
+    images: string[];
 }
 
 export interface IMovement
