@@ -4208,6 +4208,60 @@
             "learnItems":[
             ],
             "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Quinolones have a side effect of _______ due to a high pka of the acid.",
+                        "options" : [
+                              "UTI",
+                              "Crystalluria",
+                              "Cystitis",
+                              "BPH"
+                        ],
+                        "answer" : "Crystalluria"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "A serious side effect of quinolones that have given it a black box warning is _______ .",
+                        "options" : [
+                              "myelosuppression",
+                              "myalgia",
+                              "muscular dystrophy",
+                              "tendon rupture"
+                        ],
+                        "answer" : "DHPS"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Combination with _______ cause synergistic inhibition of GABA receptors and neuroexcitatory activity.",
+                        "options" : [
+                              "Narcotics",
+                              "Antidepressants",
+                              "Antipsychotics",
+                              "NSAIDs"
+                        ],
+                        "answer" : "NSAIDs"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "A side effect of quinolones is _______ so caution should be taken with heart condition.",
+                        "options" : [
+                              "Bradycardia",
+                              "QT prolongation",
+                              "ST segment prolongation",
+                              "Hypertension"
+                        ],
+                        "answer" : "QT prolongation"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Fluoroquinolones should be taken in the evening due to _______ .",
+                        "options" : [
+                              "drowsiness",
+                              "overactive bladder",
+                              "photosensitivity"
+                        ],
+                        "answer" : "photosensitivity"
+                  }
             ],
              "reviewItems":[
                   

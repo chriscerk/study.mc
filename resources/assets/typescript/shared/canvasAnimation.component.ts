@@ -1,3 +1,4 @@
+import { UrlResolver } from '../../../../public/studymc/@angular/compiler';
 declare var PaperProcessor:any;
 import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
 import { ITopic, ILearnItem, MovementAnimation } from '../shared/interfaces';
