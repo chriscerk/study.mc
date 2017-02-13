@@ -4482,5 +4482,21 @@
                         ]
                   }
             ]            
+      },
+      {
+            "id": 13,
+            "name": "30S-PB-Inhibitors",
+            "learnItems":[
+                  
+            ],
+            "testItems":[
+                 
+            ],
+             "reviewItems":[
+                                 
+            ],                     
+            "exampleReview":[
+                  
+            ]            
       }
 ]

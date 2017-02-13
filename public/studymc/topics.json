@@ -4201,5 +4201,286 @@
                         ]
                   }
             ]            
+      },
+      {
+            "id": 12,
+            "name": "DNA-Topo",
+            "learnItems":[
+                  {
+                        "title":"Quinolones",  
+                        "name" : "Hover over the Quinolones compound to view SAR.",
+                        "imagePath" : "quinolones.PNG",
+                        "imgWidth" : 400,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Position 1",
+                                    "y": 407,
+                                    "x": 342,
+                                    "size": 60,
+                                    "color": "red",
+                                    "text": "Position 1: Nitrogen can allow substitutions of alkyl (Me, Et, cPr) or aryl (2,4-difluorophenyl) groups"
+                              },
+                              {
+                                    "name": "Position 2",
+                                    "y": 327,
+                                    "x": 420,
+                                    "size": 40,
+                                    "color": "darkorange",
+                                    "text": "Position 2: Can be either a carbon or nitrogen"
+                              },
+                              {
+                                    "name": "Position 3",
+                                    "y": 225,
+                                    "x": 480,
+                                    "size": 75,
+                                    "color": "gold",
+                                    "text": "Position 3: Must be unsubstituted carboxylic acid"
+                              },
+                              {
+                                    "name": "Position 4",
+                                    "y": 175,
+                                    "x": 342,
+                                    "size": 60,
+                                    "color": "green",
+                                    "text": "Position 4: Must be ketone"
+                              },
+                              {
+                                    "name": "Position 6",
+                                    "y": 253,
+                                    "x": 166,
+                                    "size": 40,
+                                    "color": "blue",
+                                    "text": "Position 6: Fluorine substitution increases activity and broadens spectrum"
+                              },
+                              {
+                                    "name": "Position 7",
+                                    "y": 333,
+                                    "x": 162,
+                                    "size": 40,
+                                    "color": "purple",
+                                    "text": "Position 7: Substitution with nitrogen containing heterocycles (piperazine ring) broadens spectrum; potential for zwitterion"
+                              },
+                              {
+                                    "name": "Position 8",
+                                    "y": 375,
+                                    "x": 235,
+                                    "size": 40,
+                                    "color": "deeppink",
+                                    "text": "Position 8: Substitution with small polar groups (OCH3, F, Cl) increases activity"
+                              }
+                        ]
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide3.PNG",
+                        "question" : "Will the following change increase or decrease activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "Ketone at position 4 is essential to bind to target."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide4.PNG",
+                        "question" : "Will the following change increase or decrease activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "F at position 6 increases activity and broadens spectrum."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide5.PNG",
+                        "question" : "Will the following change increase or decrease activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "Methoxy substitution at position 8 increases activity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide6.PNG",
+                        "question" : "Which is the most active quinolone?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Moxifloxacin (compound 1) because the addition of methoxy at position 8 improves activity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide7.PNG",
+                        "question" : "What does the addition of the circled group result in?",
+                        "options" : [
+                              "Improves activity", 
+                              "Increases half life",
+                              "Broadens spectrum",
+                              "Decreases resistance"
+                        ],
+                        "answer" : "Broadens spectrum",
+                        "explanation" : "Because it increases activity against pseudomonas."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide8.PNG",
+                        "question" : "What can the circled moities lead to?",
+                        "options" : [
+                              "Broadening spectrum", 
+                              "Increasing half life",
+                              "Decreasing resistance",
+                              "Chelation with metals"
+                        ],
+                        "answer" : "Chelation with metals",
+                        "explanation" : "Chelation with metals can reduce oral absorption; do not take with antacids, mineral supplements, or dairy products."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study",
+                        "imagePath" : "slide9.PNG",
+                        "question" : "JT is a 4-year-old boy diagnosed with a gram-negative infection, which antibiotic do you NOT recommend?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Ciprofloxacin (Compound 2) should be recommended since quinolones can lead to tendon rupture in young children and should never be used first line."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study",
+                        "imagePath" : "slide10.PNG",
+                        "question" : "AM is diagnosed with a pseudomonal infection, which antibiotic do you recommend?",
+                        "options" : [
+                              "Compound 1", 
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Norfloxacin (Compound 2) contains piperazine ring, which gives it anti-pseudomonal activity."
+                  }
+            ],
+            "testItems":[
+                  {
+                        "title":"",  
+                        "question" : "Quinolones have a side effect of _______ due to a high pka of the acid.",
+                        "options" : [
+                              "UTI",
+                              "Crystalluria",
+                              "Cystitis",
+                              "BPH"
+                        ],
+                        "answer" : "Crystalluria"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "A serious side effect of quinolones that have given it a black box warning is _______ .",
+                        "options" : [
+                              "myelosuppression",
+                              "myalgia",
+                              "muscular dystrophy",
+                              "tendon rupture"
+                        ],
+                        "answer" : "DHPS"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Combination with _______ cause synergistic inhibition of GABA receptors and neuroexcitatory activity.",
+                        "options" : [
+                              "Narcotics",
+                              "Antidepressants",
+                              "Antipsychotics",
+                              "NSAIDs"
+                        ],
+                        "answer" : "NSAIDs"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "A side effect of quinolones is _______ so caution should be taken with heart condition.",
+                        "options" : [
+                              "Bradycardia",
+                              "QT prolongation",
+                              "ST segment prolongation",
+                              "Hypertension"
+                        ],
+                        "answer" : "QT prolongation"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Fluoroquinolones should be taken in the evening due to _______ .",
+                        "options" : [
+                              "drowsiness",
+                              "overactive bladder",
+                              "photosensitivity"
+                        ],
+                        "answer" : "photosensitivity"
+                  }
+            ],
+             "reviewItems":[
+                   {
+                        "title": "Fluoroquinolones SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "fluoroquinolones.PNG" },
+                              {"title": "Position 1", "content": ""},
+                              {"title": "Position 2", "content": ""},
+                              {"title": "Position 3", "content": ""},
+                              {"title": "Position 4", "content": ""},
+                              {"title": "Position 5", "content": ""},
+                              {"title": "Position 6", "content": ""},
+                              {"title": "Position 7", "content": ""},
+                              {"title": "Position 8", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Fluoroquinolones Info.",  
+                        "sections" : [
+                              {"title": "Examples", "content": ""},
+                              {"title": "Mechanism of Action & Target", "content": ""},
+                              {"title": "Mechanism of Resistance", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicities/DDI’s", "content": ""}
+                        ]
+                  }                  
+            ],                     
+            "exampleReview":[
+                  {
+                        "title": "Fluoroquinolones SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "fluoroquinolones.PNG" },
+                              {"title": "Position 1", "content": "Nitrogen can allow substitutions of alkyl (Me, Et, cPr) or aryl (2,4-difluorophenyl) groups"},
+                              {"title": "Position 2", "content": "Can be either a carbon or nitrogen"},
+                              {"title": "Position 3", "content": "Must be unsubstituted carboxylic acid"},
+                              {"title": "Position 4", "content": "Must be ketone"},
+                              {"title": "Position 6", "content": "Fluorine substitution increases activity and broadens spectrum"},
+                              {"title": "Position 7", "content": "Substitution with nitrogen containing heterocycles (piperazine ring) broadens spectrum; potential for zwitterion"},
+                              {"title": "Position 8", "content": "Substitution with small polar groups (OCH3, F, Cl) increases activity"}
+                        ]
+                  },
+                  {
+                        "title": "Fluoroquinolones Info.",  
+                        "sections" : [
+                              {"title": "Examples", "content": "(Ciprofloxacin, Levofloxacin, Moxifloxacin)"},
+                              {"title": "Mechanism of Action & Target", "content": "MOA: Irreversibly inhibits topoisomerase (DNA gyrase) enzymes, which inhibits relaxation of supercoiled DNA and promotes breakage of double stranded DNA. Bactericidal. Target: Topoisomerase II (DNA Gyrase)"},
+                              {"title": "Mechanism of Resistance", "content": "1. Mutation to the quinolone-resistance determining region (QRDR) of gyrase that affects the binding of fluoroquinolones. 2. Active drug efflux. 3. Decrease drug uptake (reduced permeability)"},
+                              {"title": "Indication/Spectrum", "content": "Broad spectrum (increases with increasing generation)"},
+                              {"title": "Toxicities/DDI’s", "content": "Tendon rupture, QT prolongation, Phototoxicity. Rashes, Peripheral neuropathy. DDI: Chelation with cations, synergistic inhibition of GABA receptor with NSAIDs"}
+                        ]
+                  }
+            ]            
       }
 ]
