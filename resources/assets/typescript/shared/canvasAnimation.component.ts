@@ -33,9 +33,8 @@ export class CanvasAnimationComponent implements OnInit, AfterViewInit {
     ngAfterViewInit() {
         let relativeImgPath = "/studymc-media/compounds/" + this.topic.name + "/";
 
-        FabricProcessor.initCanvas();
-        FabricProcessor.applyObjects(this.learnItem.images, relativeImgPath);
-        FabricProcessor.applyMovements(this.learnItem.movements);
+        FabricProcessor.initCanvas(this.canvasId, this.learnItem.movements);
+        FabricProcessor.applyObjects(this.canvasId, this.learnItem.images);
     }
 
     showCompoundAreas() {
