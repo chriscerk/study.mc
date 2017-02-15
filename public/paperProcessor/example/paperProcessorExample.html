@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Paper Processor Example</title>
+		<LINK href="paperProcessorExample.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<main>
+			<h1>Paper Processor Example</h1>
+			
+			<h2>PaperJS Test</h2>
+			<canvas id="myCanvas"></canvas>
+
+			<h2>PaperProcessor:</h2>
+			    <a href="#" onclick="PaperProcessor.tool1.activate();">Lines</a>
+    			<a href="#" onclick="PaperProcessor.tool2.activate();">Clouds</a>
+			<button onclick="PaperProcessor.fireAllAnimations(this.id)" id="myProcessedCanvas-button">Fire All Animations for myProcessedCanvas</button>
+			<canvas id="myProcessedCanvas"></canvas>
+			<
+		</main>
+
+		<script type="text/javascript" src="../paper/dist/paper-full.js"></script>
+		<script type="text/paperscript" src="../example/paperTest.js" canvas="myCanvas"></script>
+		<script type="text/javascript" src="../paperProcessor.js"></script>
+		<script type="text/javascript" src="paperProcessorExample.js"></script>
+	</body>
+</html>
+
+

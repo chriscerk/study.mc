@@ -1,10 +1,10 @@
 import { UrlResolver } from '../../../../public/studymc/@angular/compiler';
-declare var PaperProcessor:any;
+declare var FabricProcessor:any;
 import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
 import { ITopic, ILearnItem, MovementAnimation } from '../shared/interfaces';
 
 
-// TODO: PaperProcessor nto implemented, current model reflects future PaperProcessor capability 
+// TODO: FabricProcessor not implemented, current model reflects future FabricProcessor capability 
 @Component({ 
   selector: 'Canvas-Animation',
   template: 
@@ -33,11 +33,12 @@ export class CanvasAnimationComponent implements OnInit, AfterViewInit {
     ngAfterViewInit() {
         let relativeImgPath = "/studymc-media/compounds/" + this.topic.name + "/";
 
-        PaperProcessor.applyObjects(this.learnItem.images, relativeImgPath);
-        PaperProcessor.applyMovements(this.learnItem.movements);
+        FabricProcessor.initCanvas();
+        FabricProcessor.applyObjects(this.learnItem.images, relativeImgPath);
+        FabricProcessor.applyMovements(this.learnItem.movements);
     }
 
     showCompoundAreas() {
-      PaperProcessor.displayAllHotspots(this.canvasId, "black");
+      FabricProcessor.fireAllAnimations(this.canvasId);
   }
 }
