@@ -1,5 +1,7 @@
 //Example Image
 var image = "benzodiazepine.PNG";
+var firstOverlay = "d-alanine-overlay.PNG";
+var secondOverlay = "d-cycloserine-overlay.PNG";
 
 var animations = [
       {
@@ -7,7 +9,7 @@ var animations = [
             options: [
                   {
                         name: "canvasSize",
-                        canvasSize: { width: 500, height: 500 }
+                        canvasSize: { width: 900, height: 500 }
                   }
             ],
             movements: [
@@ -17,8 +19,10 @@ var animations = [
                         object: image
                   }
             ],
-            images: [
-                  image
+            objects: [
+                  { image: firstOverlay, startX: 10, startY: 10, startAngle: 0 },
+                  { image: secondOverlay, startX: 10, startY: 200, startAngle: 0 },
+                  { image: image, startX: 10, startY: 400, startAngle: 0 }
             ]
       }
 ]
@@ -28,7 +32,7 @@ var currentAnimation = animations[0];
 
 FabricProcessor.initCanvas(currentCanvasId, currentAnimation.options);
 
-FabricProcessor.applyObjects(currentCanvasId, currentAnimation.images);
+FabricProcessor.applyObjects(currentCanvasId, currentAnimation.objects);
 
 function getCanvasId(buttonId) {
 	var pattern = /^(\w*)(-button)$/;

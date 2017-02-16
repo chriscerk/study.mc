@@ -21,21 +21,44 @@ var FabricProcessor = (function () {
       for(var i in options) {
         let option = options[i];
         if(option.name == "canvasSize") {
-          setCanvasSize(canvasId, option.canvasSize)
+          fabricCanvases[canvasId].setDimensions(option.canvasSize)
         }
+      }
+
+      fabricCanvases[canvasId].on({
+        'object:moving': onChange,
+        'object:scaling': onChange,
+        'object:rotating': onChange,
+      });
+
+      function onChange(options) {
+        options.target.setCoords();
+        fabricCanvases[canvasId].forEachObject(function(obj) {
+          if (obj === options.target) return;
+          obj.setOpacity(options.target.intersectsWithObject(obj) ? 0.5 : 1);
+        });
       }
   }
 
   my.applyObjects = function(canvasId, objects) {
     for(var i in objects) {
-      let object = object[i];
+      let object = objects[i];
 
-      fabric.Image.fromURL(object, function(img) {
+      fabric.Image.fromURL(object.image, function(img) {
+
         img.scale(0.5).set({
-          left: 50,
-          top: 75,
-          angle: -15
+          left: object.startY,
+          top: object.startX,
+          angle: object.startAngle
         });
+
+        img.setControlsVisibility({
+            mt: false, // middle top disable
+            mb: false, // midle bottom
+            ml: false, // middle left
+            mr: false, // I think you get it
+        });
+
         fabricCanvases[canvasId].add(img).setActiveObject(img);
       });
     }

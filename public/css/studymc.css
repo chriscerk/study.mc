@@ -675,7 +675,7 @@ a:hover, a:focus {
     display: block;
     color: white;
     background-color: #292929;
-    height: 67px;
+    height: 55px;
     margin-bottom: 0px;
     box-shadow: 0 0 50px rgb(111, 111, 111);
   }
@@ -726,12 +726,12 @@ p {
         font-size: 16pt;
         padding: 0;
         border-radius: 75px 0 0 75px;
-        height: 75px;
+        height: 60px;
         width: 120px;
     }
 
 .shaded > button.btn.btn-success, button.btn.btn-danger {
-        height: 85px;
+        height: 70px;
         font-size: 18pt;
     } 
 

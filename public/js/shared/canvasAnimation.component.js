@@ -21,7 +21,7 @@ System.register(['@angular/core', '../shared/interfaces'], function(exports_1, c
                 interfaces_1 = interfaces_1_1;
             }],
         execute: function() {
-            // TODO: PaperProcessor nto implemented, current model reflects future PaperProcessor capability 
+            // TODO: FabricProcessor not implemented, current model reflects future FabricProcessor capability 
             CanvasAnimationComponent = (function () {
                 function CanvasAnimationComponent() {
                 }
@@ -30,11 +30,11 @@ System.register(['@angular/core', '../shared/interfaces'], function(exports_1, c
                 };
                 CanvasAnimationComponent.prototype.ngAfterViewInit = function () {
                     var relativeImgPath = "/studymc-media/compounds/" + this.topic.name + "/";
-                    PaperProcessor.applyObjects(this.learnItem.images, relativeImgPath);
-                    PaperProcessor.applyMovements(this.learnItem.movements);
+                    FabricProcessor.initCanvas(this.canvasId, this.learnItem.movements);
+                    FabricProcessor.applyObjects(this.canvasId, this.learnItem.images);
                 };
                 CanvasAnimationComponent.prototype.showCompoundAreas = function () {
-                    PaperProcessor.displayAllHotspots(this.canvasId, "black");
+                    FabricProcessor.fireAllAnimations(this.canvasId);
                 };
                 __decorate([
                     core_1.Input(), 
