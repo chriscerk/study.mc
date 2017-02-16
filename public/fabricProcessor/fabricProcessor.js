@@ -3,12 +3,37 @@ var FabricProcessor = (function () {
       canvases = [],
       contexts = [],
       fabricCanvases = [],
-      imageObjs = [];
+      myObjs = [],
+      canvasObjs = [],
+      canvasMovements = [];
 
   function setCanvasSize(canvasId, canvasSize) {
     contexts[canvasId].canvas.width = canvasSize.width;
     contexts[canvasId].canvas.height = canvasSize.height;
   };
+
+  function applyObjProps(object, img) {
+
+    if(object.hasOwnProperty("opacity")) {
+      img.setOpacity(object.opacity)
+    }
+
+    if(object.hasOwnProperty("startAngle")) {
+      img.set({angle: object.startAngle});
+    }
+
+    if(object.hasOwnProperty("movementLocked")) {
+      if(object.movementLocked == "x") {
+        img.set({lockMovementX: true});
+      }
+      else if(object.movementLocked == "y") {
+        img.set({lockMovementY: true});
+      }
+      else {
+        img.set({lockMovementX: true, lockMovementY: true});
+      }
+    }
+  }
 
   my.moduleName = "FabricProcessor";
 
@@ -20,18 +45,33 @@ var FabricProcessor = (function () {
 
       for(var i in options) {
         let option = options[i];
-        if(option.name == "canvasSize") {
+        if(option.hasOwnProperty("canvasSize")) {
           fabricCanvases[canvasId].setDimensions(option.canvasSize)
         }
       }
 
       fabricCanvases[canvasId].on({
-        'object:moving': onChange,
-        'object:scaling': onChange,
-        'object:rotating': onChange,
+        'object:moving': onMove,
+        'object:scaling': onScale,
+        'object:rotating': onRotate,
+        'object:modified': onModify
       });
 
-      function onChange(options) {
+      function onModify(obj) { }
+
+      function onScale(options) {
+        fadeIfOverlap(options);
+      }
+
+      function onRotate(options) {
+        fadeIfOverlap(options);
+      }
+
+      function onMove(options) {
+        fadeIfOverlap(options);
+      }
+
+      function fadeIfOverlap(options) {
         options.target.setCoords();
         fabricCanvases[canvasId].forEachObject(function(obj) {
           if (obj === options.target) return;
@@ -44,33 +84,69 @@ var FabricProcessor = (function () {
     for(var i in objects) {
       let object = objects[i];
 
+      myObjs[canvasId] = []
+      canvasObjs[canvasId] = []
+
       fabric.Image.fromURL(object.image, function(img) {
 
         img.scale(0.5).set({
-          left: object.startY,
-          top: object.startX,
-          angle: object.startAngle
+          left: object.startX,
+          top: object.startY,
+          lockUniScaling: true
         });
 
+        applyObjProps(object, img);
+
         img.setControlsVisibility({
-            mt: false, // middle top disable
+            mt: false, // middle top 
             mb: false, // midle bottom
             ml: false, // middle left
-            mr: false, // I think you get it
+            mr: false, // middle right
         });
 
         fabricCanvases[canvasId].add(img).setActiveObject(img);
+        myObjs[canvasId].push(object);
+        canvasObjs[canvasId].push(object);
+
+        let objectName = object.image + canvasId
+        canvasMovements[objectName] = object.movement;
       });
     }
   };
 
-  my.applyMovements = function(canvasId, movements) {
-    alert("Not Yet Implemented");
+  function moveObjectAnimation(canvasId, object) {
+
+    let canvasObj = fabricCanvases[canvasId];
+    let movement = canvasMovements[object.image + canvasId];
+
+    canvasObj._objects[0].animate('left', '+=' + movement.destination.x, {
+      duration: 1000,
+      onChange: fabricCanvases[canvasId].renderAll.bind(fabricCanvases[canvasId]),
+      onComplete: function() {
+        
+      },
+      easing: fabric.util.ease.easeInOutQuad
+    });
   };
 
-  my.fireAllAnimations = function(canvasId, canvasId) {
-    alert("Not Yet Implemented");
+  my.fireAllAnimations = function(btnId) {
+
+    let canvasId = getCanvasId(btnId);
+    let objects = myObjs[canvasId];
+    
+    for(var i in objects) {
+      let object = objects[i];
+
+      moveObjectAnimation(canvasId, object);
+    }
   };
+
+  function getCanvasId(buttonId) {
+    var pattern = /^(\w*)(-button)$/;
+    canvasId = pattern.exec(buttonId)[1];
+    return canvasId;
+  }
+
 
   return my;
 }());
