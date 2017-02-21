@@ -33,6 +33,35 @@ var FabricProcessor = (function () {
         img.set({lockMovementX: true, lockMovementY: true});
       }
     }
+
+    if(object.hasOwnProperty("controlLocked")) {
+      if(object.controlLocked == "scaling") {
+        img.setControlsVisibility({
+            mt: false, 
+            mb: false, 
+            ml: false, 
+            mr: false, 
+        });
+      }
+      else if(object.controlLocked == "rotating") {
+        img.setControlsVisibility({
+            mtr: false
+        });
+      }
+      else if(object.controlLocked == "all") {
+        img.setControlsVisibility({
+            mt: false,
+            mb: false, 
+            ml: false, 
+            mr: false, 
+            bl: false,
+            br: false,
+            tl: false,
+            tr: false,
+            mtr: false
+        });
+      }
+    }
   }
 
   my.moduleName = "FabricProcessor";
@@ -41,7 +70,10 @@ var FabricProcessor = (function () {
       canvases[canvasId] = document.getElementById(canvasId);
       contexts[canvasId] = canvases[canvasId].getContext('2d');
 
-      fabricCanvases[canvasId] = new fabric.Canvas(canvasId);
+      fabricCanvases[canvasId] = new fabric.Canvas(canvasId, {
+        selectionColor: 'rgba(105, 255, 105, 0.32)',
+        selectionLineWidth: 2
+      });
 
       for(var i in options) {
         let option = options[i];
@@ -90,23 +122,35 @@ var FabricProcessor = (function () {
       fabric.Image.fromURL(object.image, function(img) {
 
         img.scale(0.5).set({
-          left: object.startX,
-          top: object.startY,
-          lockUniScaling: true
+          left: 0,
+          top: 0,
+          lockUniScaling: true,
+          originX: 'center',
+          originY: 'center'
         });
-
         applyObjProps(object, img);
 
-        img.setControlsVisibility({
-            mt: false, // middle top 
-            mb: false, // midle bottom
-            ml: false, // middle left
-            mr: false, // middle right
+        var text = new fabric.Text(object.text.value, {
+          left: object.text.left,
+          top: object.text.top,
+          fontSize: object.text.fontSize,
+          shadow: 'rgba(0,0,0,0.3) 1px 1px 1px',
+          originX: 'center',
+          originY: 'center'
+        });
+        var group = new fabric.Group([ img, text ], {
+          left: object.startX,
+          top: object.startY,
+          angle: 0,
+          selectionColor: 'green',
+          selectionLineWidth: 2,
+          accessKey: object.image,
+          hasControls: false
         });
 
-        fabricCanvases[canvasId].add(img).setActiveObject(img);
-        myObjs[canvasId].push(object);
-        canvasObjs[canvasId].push(object);
+        fabricCanvases[canvasId].add(group);
+        myObjs[canvasId].push(group);
+        canvasObjs[canvasId].push(group);
 
         let objectName = object.image + canvasId
         canvasMovements[objectName] = object.movement;
@@ -114,31 +158,34 @@ var FabricProcessor = (function () {
     }
   };
 
-  function moveObjectAnimation(canvasId, object) {
+  function moveObjectAnimation(canvasId, object, movement) {
+     if(movement.destination.hasOwnProperty("x")) {
+        object.animate('left', movement.destination.x, {
+          duration: 1000,
+          onChange: fabricCanvases[canvasId].renderAll.bind(fabricCanvases[canvasId]),
+          onComplete: function() {},
+          easing: fabric.util.ease.easeInOutQuad
+        });
+     }
 
-    let canvasObj = fabricCanvases[canvasId];
-    let movement = canvasMovements[object.image + canvasId];
-
-    canvasObj._objects[0].animate('left', '+=' + movement.destination.x, {
-      duration: 1000,
-      onChange: fabricCanvases[canvasId].renderAll.bind(fabricCanvases[canvasId]),
-      onComplete: function() {
-        
-      },
-      easing: fabric.util.ease.easeInOutQuad
-    });
+     if(movement.destination.hasOwnProperty("y")) {
+        object.animate('top', movement.destination.y, {
+          duration: 1000,
+          onChange: fabricCanvases[canvasId].renderAll.bind(fabricCanvases[canvasId]),
+          onComplete: function() {},
+          easing: fabric.util.ease.easeInOutQuad
+        });
+     }
   };
 
   my.fireAllAnimations = function(btnId) {
-
     let canvasId = getCanvasId(btnId);
     let objects = myObjs[canvasId];
-    
-    for(var i in objects) {
-      let object = objects[i];
 
-      moveObjectAnimation(canvasId, object);
-    }
+    fabricCanvases[canvasId].forEachObject(function(obj) {
+      let movement = canvasMovements[obj.accessKey + canvasId];
+      moveObjectAnimation(canvasId, obj, movement);
+    });
   };
 
   function getCanvasId(buttonId) {
@@ -146,7 +193,6 @@ var FabricProcessor = (function () {
     canvasId = pattern.exec(buttonId)[1];
     return canvasId;
   }
-
 
   return my;
 }());

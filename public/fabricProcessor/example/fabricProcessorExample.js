@@ -10,34 +10,46 @@ var customAnimations = [
             options: [
                   {
                         name: "canvasSize",
-                        canvasSize: { width: 900, height: 500 }
+                        canvasSize: { width: 400, height: 600 }
                   }
             ],
             objects: [
                   { 
                         image: firstOverlay, 
-                        startY: 78, 
-                        startX: 0, 
+                        startY: 10, 
+                        startX: 10, 
                         opacity: .5, 
-                        movementLocked: "y", 
-                        text: "" ,
+                        movementLocked: "x",
+                        controlLocked: "all",
+                        text: {
+                              value: "D Alanine",
+                              left: 0,
+                              top: -100,
+                              fontSize: 30
+                        },
                         movement:
                               {
-                                    destination: { x: 30, y:30 },
+                                    destination: { x: 150, y:157 },
                                     on: ""
                               }
                   },
                   { 
                         image: 
                         secondOverlay, 
-                        startY: 80, 
-                        startX: 400, 
+                        startY: 400, 
+                        startX: 20, 
                         opacity: .5, 
-                        movementLocked: "y", 
-                        text: "",
+                        movementLocked: "x",
+                        controlLocked: "all",
+                        text: {
+                              value: "D Cycloserine",
+                              left: 0,
+                              top: 100,
+                              fontSize: 30
+                        },
                         movement:
                               {
-                                    destination: { x: 30, y:30 },
+                                    destination: { x: 160, y:200 },
                                     on: ""
                               }
                   }
