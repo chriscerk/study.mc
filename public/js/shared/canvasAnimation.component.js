@@ -21,7 +21,6 @@ System.register(['@angular/core', '../shared/interfaces'], function(exports_1, c
                 interfaces_1 = interfaces_1_1;
             }],
         execute: function() {
-            // TODO: FabricProcessor not implemented, current model reflects future FabricProcessor capability 
             CanvasAnimationComponent = (function () {
                 function CanvasAnimationComponent() {
                 }
@@ -30,16 +29,16 @@ System.register(['@angular/core', '../shared/interfaces'], function(exports_1, c
                 };
                 CanvasAnimationComponent.prototype.ngAfterViewInit = function () {
                     var relativeImgPath = "/studymc-media/compounds/" + this.topic.name + "/";
-                    FabricProcessor.initCanvas(this.canvasId, this.learnItem.movements);
-                    FabricProcessor.applyObjects(this.canvasId, this.learnItem.images);
+                    fabricProcessor.initCanvas(this.canvasId, this.currentAnimation.options);
+                    fabricProcessor.applyObjects(this.canvasId, this.currentAnimation.objects);
                 };
-                CanvasAnimationComponent.prototype.showCompoundAreas = function () {
-                    FabricProcessor.fireAllAnimations(this.canvasId);
+                CanvasAnimationComponent.prototype.fireAnimations = function () {
+                    fabricProcessor.fireAllAnimations(this.canvasId);
                 };
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', interfaces_1.MovementAnimation)
-                ], CanvasAnimationComponent.prototype, "learnItem", void 0);
+                ], CanvasAnimationComponent.prototype, "currentAnimation", void 0);
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
@@ -50,9 +49,9 @@ System.register(['@angular/core', '../shared/interfaces'], function(exports_1, c
                 ], CanvasAnimationComponent.prototype, "i", void 0);
                 CanvasAnimationComponent = __decorate([
                     core_1.Component({
-                        selector: 'Canvas-Animation',
-                        template: "\n  <button class=\"btn btn-default\" (click)=\"showCompoundAreas()\" type=\"button\" id=\"{{canvasId}}-button\">Display Areas</button>\n  <canvas id=\"{{canvasId}}\">\n  </canvas>",
-                        styles: ["\n    button {\n      float: left;\n    }\n  "],
+                        selector: 'canvas-animation',
+                        template: "\n  <button class=\"btn btn-default\" (click)=\"fireAnimations()\" type=\"button\" id=\"{{canvasId}}-button\">Play</button>\n  <br>\n  <br>\n  <canvas id=\"{{canvasId}}\" width=\"400\" height=\"400\" class=\"lower-canvas\">\n  </canvas>",
+                        styles: ["\n    button {\n      float: left;\n    }\n\n    canvas {\n      margin-right: auto;\n      margin-left: auto;\n    }\n\n    canvas.lower-canvas {\n      border: 1px solid rgb(239, 239, 239);\n      border-radius: 20px;\n    }\n  "],
                     }), 
                     __metadata('design:paramtypes', [])
                 ], CanvasAnimationComponent);

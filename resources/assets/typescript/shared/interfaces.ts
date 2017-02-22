@@ -82,15 +82,40 @@ export class MovementAnimation implements ILearnItem, CustomAnimation
 {
     title: string;
     name: string;
-    movements: IMovement[];
-    images: string[];
+    options: any;
+    objects: fabricObject[];
+}
+
+export interface fabricObject
+{
+    image: string;
+    startX: number;
+    startY: number;
+    movementLocked: string;
+    controlLocked: string;
+    text: ITextItem;
+    movement: IMovement;
+}
+
+export interface ITextItem
+{
+    value: string;
+    left: number;
+    top: number;
+    fontSize: number;
 }
 
 export interface IMovement
 {
     destination: ICanvasLocation;
     origin: ICanvasLocation;
-    object: string;
+    on: string;
+}
+
+export interface IDimension
+{
+    width: number;
+    height: number;
 }
 
 export interface ICanvasLocation

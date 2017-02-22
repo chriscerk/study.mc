@@ -1,4 +1,4 @@
-var FabricProcessor = (function () {
+var fabricProcessor = (function () {
   var my = {},
       canvases = [],
       contexts = [],
@@ -80,6 +80,10 @@ var FabricProcessor = (function () {
         if(option.hasOwnProperty("canvasSize")) {
           fabricCanvases[canvasId].setDimensions(option.canvasSize)
         }
+
+        if(option.hasOwnProperty("canvasSize")) {
+          fabricCanvases[canvasId].setDimensions(option.canvasSize)
+        }
       }
 
       fabricCanvases[canvasId].on({
@@ -141,9 +145,6 @@ var FabricProcessor = (function () {
         var group = new fabric.Group([ img, text ], {
           left: object.startX,
           top: object.startY,
-          angle: 0,
-          selectionColor: 'green',
-          selectionLineWidth: 2,
           accessKey: object.image,
           hasControls: false
         });
@@ -178,8 +179,8 @@ var FabricProcessor = (function () {
      }
   };
 
-  my.fireAllAnimations = function(btnId) {
-    let canvasId = getCanvasId(btnId);
+  my.fireAllAnimations = function(canvasId) {
+    //let canvasId = getCanvasId(btnId);
     let objects = myObjs[canvasId];
 
     fabricCanvases[canvasId].forEachObject(function(obj) {

@@ -9,7 +9,6 @@ var customAnimations = [
             helpText: "",
             options: [
                   {
-                        name: "canvasSize",
                         canvasSize: { width: 400, height: 600 }
                   }
             ],
@@ -60,8 +59,8 @@ var customAnimations = [
 var currentCanvasId = "myProcessedCanvas";
 var currentAnimation = customAnimations[0];
 
-FabricProcessor.initCanvas(currentCanvasId, currentAnimation.options);
-FabricProcessor.applyObjects(currentCanvasId, currentAnimation.objects);
+fabricProcessor.initCanvas(currentCanvasId, currentAnimation.options);
+fabricProcessor.applyObjects(currentCanvasId, currentAnimation.objects);
 
 function getCanvasId(buttonId) {
 	var pattern = /^(\w*)(-button)$/;

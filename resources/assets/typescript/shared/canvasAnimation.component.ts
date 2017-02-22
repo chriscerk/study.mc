@@ -1,25 +1,36 @@
+declare var fabricProcessor:any;
 import { UrlResolver } from '../../../../public/studymc/@angular/compiler';
-declare var FabricProcessor:any;
 import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
 import { ITopic, ILearnItem, MovementAnimation } from '../shared/interfaces';
 
 
-// TODO: FabricProcessor not implemented, current model reflects future FabricProcessor capability 
 @Component({ 
-  selector: 'Canvas-Animation',
+  selector: 'canvas-animation',
   template: 
   `
-  <button class="btn btn-default" (click)="showCompoundAreas()" type="button" id="{{canvasId}}-button">Display Areas</button>
-  <canvas id="{{canvasId}}">
+  <button class="btn btn-default" (click)="fireAnimations()" type="button" id="{{canvasId}}-button">Play</button>
+  <br>
+  <br>
+  <canvas id="{{canvasId}}" width="400" height="400" class="lower-canvas">
   </canvas>`,
   styles: [`
     button {
       float: left;
     }
+
+    canvas {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    canvas.lower-canvas {
+      border: 1px solid rgb(239, 239, 239);
+      border-radius: 20px;
+    }
   `],
 })
 export class CanvasAnimationComponent implements OnInit, AfterViewInit {
-    @Input() learnItem: MovementAnimation;
+    @Input() currentAnimation: MovementAnimation;
     @Input() topic: ITopic;
     @Input() i: number;
     canvasId: string;
@@ -33,11 +44,11 @@ export class CanvasAnimationComponent implements OnInit, AfterViewInit {
     ngAfterViewInit() {
         let relativeImgPath = "/studymc-media/compounds/" + this.topic.name + "/";
 
-        FabricProcessor.initCanvas(this.canvasId, this.learnItem.movements);
-        FabricProcessor.applyObjects(this.canvasId, this.learnItem.images);
+        fabricProcessor.initCanvas(this.canvasId, this.currentAnimation.options);
+        fabricProcessor.applyObjects(this.canvasId, this.currentAnimation.objects);
     }
 
-    showCompoundAreas() {
-      FabricProcessor.fireAllAnimations(this.canvasId);
+    fireAnimations() {
+      fabricProcessor.fireAllAnimations(this.canvasId);
   }
 }

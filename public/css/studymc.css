@@ -31,6 +31,11 @@ p.review {
     margin-bottom: 0;
 }
 
+div.canvas-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .print-dropdown-menu {
     position: absolute;
     top: 100%;

@@ -19,6 +19,8 @@
         <script src="https://rawgit.com/web-animations/web-animations-js/master/web-animations.min.js"></script>
         <script src="http://study.mc/systemjs.config.js"></script>
         <script src="./canvasHotspots/hotspots.js"></script>
+        <script src="./fabricProcessor/fabricProcessor.js"></script>
+        <script type="text/javascript" src="./fabric/dist/fabric.js"></script>
     <script>
       System.import('app').catch(function(err){ console.error(err); });
     </script>

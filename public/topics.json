@@ -2748,6 +2748,55 @@
                         
                   },
                   {
+                        "title": "D Alanine & D Cycloserine",
+                        "name": "Click 'Play' or drag the compounds.",
+                        "options": [
+                              {
+                                    "canvasSize": { "width": 400, "height": 600 }
+                              }
+                        ],
+                        "objects": [
+                              { 
+                                    "image": "d-alanine-overlay.PNG", 
+                                    "startY": 10, 
+                                    "startX": 10, 
+                                    "opacity": ".5", 
+                                    "movementLocked": "x",
+                                    "controlLocked": "all",
+                                    "text": {
+                                          "value": "D Alanine",
+                                          "left": 0,
+                                          "top": -100,
+                                          "fontSize": 30
+                                    },
+                                    "movement":
+                                          {
+                                                "destination": { "x": 150, "y":157 },
+                                                "on": ""
+                                          }
+                              },
+                              { 
+                                    "image": "d-cycloserine-overlay.PNG", 
+                                    "startY": 400, 
+                                    "startX": 20, 
+                                    "opacity": ".5", 
+                                    "movementLocked": "x",
+                                    "controlLocked": "all",
+                                    "text": {
+                                          "value": "D Cycloserine",
+                                          "left": 0,
+                                          "top": 100,
+                                          "fontSize": 30
+                                    },
+                                    "movement":
+                                          {
+                                                "destination": { "x": 160, "y":200 },
+                                                "on": ""
+                                          }
+                              }
+                        ]
+                  },
+                  {
                         "title":"SAR Requirements",  
                         "name" : "Bacitracin: Hover over compound to view areas.",
                         "imagePath" : "slide3-bacitracin.PNG",
