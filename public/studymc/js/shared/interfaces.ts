@@ -73,6 +73,57 @@ export class InteractiveMolecule implements ILearnItem
     compoundHotspots: IHotspot[];
 }
 
+export interface CustomAnimation
+{
+    // Currently Unknown Properties, still investigating.
+}
+
+export class MovementAnimation implements ILearnItem, CustomAnimation
+{
+    title: string;
+    name: string;
+    options: any;
+    objects: fabricObject[];
+}
+
+export interface fabricObject
+{
+    image: string;
+    startX: number;
+    startY: number;
+    movementLocked: string;
+    controlLocked: string;
+    text: ITextItem;
+    movement: IMovement;
+}
+
+export interface ITextItem
+{
+    value: string;
+    left: number;
+    top: number;
+    fontSize: number;
+}
+
+export interface IMovement
+{
+    destination: ICanvasLocation;
+    origin: ICanvasLocation;
+    on: string;
+}
+
+export interface IDimension
+{
+    width: number;
+    height: number;
+}
+
+export interface ICanvasLocation
+{
+    x: number;
+    y: number;
+}
+
 export interface IMultipleChoice extends IQuestion {
     question: string;
     options : string[];
@@ -93,7 +144,6 @@ export interface IQuestion {
     question: string;
     answer: string;
 }
-
 
 export interface IHotspot 
 {

@@ -1,7 +1,7 @@
 System.register([], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var PracticeProblem, TestProblem, InteractiveMolecule, IColorLocationAssociation;
+    var PracticeProblem, TestProblem, InteractiveMolecule, MovementAnimation, IColorLocationAssociation;
     return {
         setters:[],
         execute: function() {
@@ -23,6 +23,12 @@ System.register([], function(exports_1, context_1) {
                 return InteractiveMolecule;
             }());
             exports_1("InteractiveMolecule", InteractiveMolecule);
+            MovementAnimation = (function () {
+                function MovementAnimation() {
+                }
+                return MovementAnimation;
+            }());
+            exports_1("MovementAnimation", MovementAnimation);
             IColorLocationAssociation = (function () {
                 function IColorLocationAssociation() {
                 }

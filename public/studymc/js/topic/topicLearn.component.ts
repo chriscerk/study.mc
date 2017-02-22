@@ -1,5 +1,5 @@
 declare var hotspotsModule:any;
-
+declare var fabricProcessor:any;
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
@@ -8,6 +8,7 @@ import { ITopic } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
 
 import { CompoundCanvasComponent } from '../shared/compoundCanvas.component';
+import { CanvasAnimationComponent } from '../shared/canvasAnimation.component';
 import { AlertBoxComponent } from '../shared/alertBox.component';
 import { EndMessageComponent } from '../shared/endMessage.component';
 import { nextPrevAnimation } from '../shared/animations';
@@ -70,7 +71,11 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
             <compound-Canvas [learnItem]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</compound-Canvas>
           </div>
 
-          <ul *ngIf="!learnItem.compoundHotspots" class="flex-container">
+           <div *ngIf="learnItem.objects">
+            <canvas-animation [currentAnimation]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</canvas-animation>
+          </div>
+
+          <ul *ngIf="!learnItem.compoundHotspots && !learnItem.objects" class="flex-container">
             <li class="flex-item">
               <img src="/studymc-media/compounds/{{topic.name}}/{{learnItem.imagePath}}" id="logo" alt="logo">
             </li>

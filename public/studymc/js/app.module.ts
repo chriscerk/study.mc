@@ -14,6 +14,7 @@ import { TopicTestComponent } from './topic/topicTest.component';
 import { TopicReviewComponent } from './topic/topicReview.component';
 import { CoursesComponent }  from './courses/courses.component';
 import { CompoundCanvasComponent } from './shared/compoundCanvas.component';
+import { CanvasAnimationComponent } from './shared/canvasAnimation.component';
 import { AlertBoxComponent } from './shared/alertBox.component';
 import { EndMessageComponent } from './shared/endMessage.component';
 
@@ -34,6 +35,7 @@ let Components: any[] = [
     TopicTestComponent,
     TopicReviewComponent,
     CompoundCanvasComponent,
+    CanvasAnimationComponent,
     AlertBoxComponent,
     EndMessageComponent
     
