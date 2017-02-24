@@ -86,25 +86,41 @@ var fabricProcessor = (function () {
         }
       }
 
+        function disableScroll() {
+          fabricCanvases[canvasId].allowTouchScrolling = false;
+        };
+
+        function enableScroll() {
+          fabricCanvases[canvasId].allowTouchScrolling = true;
+        };
+
       fabricCanvases[canvasId].on({
         'object:moving': onMove,
         'object:scaling': onScale,
         'object:rotating': onRotate,
-        'object:modified': onModify
+        'object:modified': onModify,
+        'mouse:up': onMouseUp
       });
 
       function onModify(obj) { }
 
+      function onMouseUp() {
+        enableScroll();
+      }
+
       function onScale(options) {
         fadeIfOverlap(options);
+        disableScroll();
       }
 
       function onRotate(options) {
         fadeIfOverlap(options);
+        disableScroll();
       }
 
       function onMove(options) {
         fadeIfOverlap(options);
+        disableScroll();
       }
 
       function fadeIfOverlap(options) {

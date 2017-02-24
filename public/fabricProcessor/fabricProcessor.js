@@ -86,32 +86,56 @@ var fabricProcessor = (function () {
         }
       }
 
+        function disableScroll() {
+          fabricCanvases[canvasId].allowTouchScrolling = false;
+        };
+
+        function enableScroll() {
+          fabricCanvases[canvasId].allowTouchScrolling = true;
+        };
+
       fabricCanvases[canvasId].on({
+        'object:selected': onSelected,
         'object:moving': onMove,
         'object:scaling': onScale,
         'object:rotating': onRotate,
-        'object:modified': onModify
+        'object:modified': onModify,
+        'mouse:up': onMouseUp
       });
 
       function onModify(obj) { }
 
-      function onScale(options) {
-        fadeIfOverlap(options);
+      function onMouseUp() {
+        enableScroll();
       }
 
-      function onRotate(options) {
-        fadeIfOverlap(options);
+      function onScale(o) {
+        fadeIfOverlap(o);
+        disableScroll();
       }
 
-      function onMove(options) {
-        fadeIfOverlap(options);
+      function onRotate(o) {
+        fadeIfOverlap(o);
+        disableScroll();
       }
 
-      function fadeIfOverlap(options) {
-        options.target.setCoords();
+      function onMove(o) {
+        fadeIfOverlap(o);
+        disableScroll();
+      }
+
+      function onSelected(o){
+      var activeObj = o.target;
+      if(activeObj.get('type') == 'group') {
+          activeObj.set({'borderColor':'white','cornerColor':'white'});
+        }
+      }
+
+      function fadeIfOverlap(o) {
+        o.target.setCoords();
         fabricCanvases[canvasId].forEachObject(function(obj) {
-          if (obj === options.target) return;
-          obj.setOpacity(options.target.intersectsWithObject(obj) ? 0.5 : 1);
+          if (obj === o.target) return;
+          obj.setOpacity(o.target.intersectsWithObject(obj) ? 0.5 : 1);
         });
       }
   }
@@ -130,7 +154,9 @@ var fabricProcessor = (function () {
           top: 0,
           lockUniScaling: true,
           originX: 'center',
-          originY: 'center'
+          originY: 'center',
+          selectionBackgroundColor: 'white'
+
         });
         applyObjProps(object, img);
 
@@ -146,7 +172,8 @@ var fabricProcessor = (function () {
           left: object.startX,
           top: object.startY,
           accessKey: object.image,
-          hasControls: false
+          hasControls: false,
+          selectionBackgroundColor: 'white'
         });
 
         fabricCanvases[canvasId].add(group);

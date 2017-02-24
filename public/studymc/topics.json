@@ -2757,7 +2757,7 @@
                         ],
                         "objects": [
                               { 
-                                    "image": "d-alanine-overlay.PNG", 
+                                    "image": "/studymc/d-alanine-overlay.PNG", 
                                     "startY": 10, 
                                     "startX": 10, 
                                     "opacity": ".5", 
@@ -2776,7 +2776,7 @@
                                           }
                               },
                               { 
-                                    "image": "d-cycloserine-overlay.PNG", 
+                                    "image": "/studymc/d-cycloserine-overlay.PNG", 
                                     "startY": 400, 
                                     "startX": 20, 
                                     "opacity": ".5", 
