@@ -11,7 +11,9 @@ import { DataService } from '../core/services/data.service';
       <div class="landing">
         <h2>{{university}}</h2>
         <h1>{{college}}</h1>
-        <div class="title">{{appTitle}}</div>
+        <div class="title">
+          {{appTitle}}
+        </div>
       </div>
     </li>
     <li class="flex-item">
@@ -42,7 +44,7 @@ export class CoursesComponent implements OnInit {
   constructor(private dataService: DataService) { }
   
   ngOnInit() {
-    this.appTitle = 'Study.MC';
+    this.appTitle = 'StudyMC';
     this.college = 'College of Pharmacy';
     this.university = 'University of Michigan';
 

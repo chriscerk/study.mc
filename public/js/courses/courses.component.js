@@ -29,7 +29,7 @@ System.register(['@angular/core', '../core/services/data.service'], function(exp
                 }
                 CoursesComponent.prototype.ngOnInit = function () {
                     var _this = this;
-                    this.appTitle = 'Study.MC';
+                    this.appTitle = 'StudyMC';
                     this.college = 'College of Pharmacy';
                     this.university = 'University of Michigan';
                     this.dataService.getCourses()
@@ -40,7 +40,7 @@ System.register(['@angular/core', '../core/services/data.service'], function(exp
                 CoursesComponent = __decorate([
                     core_1.Component({
                         selector: 'courses',
-                        template: "\n  <ul class=\"flex-container\">\n    <li class=\"flex-item\">\n      <div class=\"landing\">\n        <h2>{{university}}</h2>\n        <h1>{{college}}</h1>\n        <div class=\"title\">{{appTitle}}</div>\n      </div>\n    </li>\n    <li class=\"flex-item\">\n      <ul class=\"flex-container\">\n        <div *ngFor=\"let course of courses;\">\n          <a [routerLink]=\"['/studymc/course',course.id,'topics']\">\n            <li class=\"flex-item classBox hvr-back-pulse {{course.status + '-course' }}\">{{course.number}}</li>\n          </a>\n        </div>\n        <div *ngIf=\"!courses.length\">\n          <h1>No Courses Found!</h1>\n        </div>\n      </ul>\n    </li>\n  </ul>\n\n          "
+                        template: "\n  <ul class=\"flex-container\">\n    <li class=\"flex-item\">\n      <div class=\"landing\">\n        <h2>{{university}}</h2>\n        <h1>{{college}}</h1>\n        <div class=\"title\">\n          {{appTitle}}\n        </div>\n      </div>\n    </li>\n    <li class=\"flex-item\">\n      <ul class=\"flex-container\">\n        <div *ngFor=\"let course of courses;\">\n          <a [routerLink]=\"['/studymc/course',course.id,'topics']\">\n            <li class=\"flex-item classBox hvr-back-pulse {{course.status + '-course' }}\">{{course.number}}</li>\n          </a>\n        </div>\n        <div *ngIf=\"!courses.length\">\n          <h1>No Courses Found!</h1>\n        </div>\n      </ul>\n    </li>\n  </ul>\n\n          "
                     }), 
                     __metadata('design:paramtypes', [data_service_1.DataService])
                 ], CoursesComponent);
