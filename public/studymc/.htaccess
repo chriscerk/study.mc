@@ -9,3 +9,5 @@ ErrorDocument 404 /studymc/
 
     RewriteRule ^(.*) /studymc/ [NC,L]
 </ifModule>
+
+AddType text/cache-manifest .appcache
