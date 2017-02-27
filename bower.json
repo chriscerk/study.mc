@@ -1,7 +1,7 @@
 {
-  "name": "angular2-laravel5",
+  "name": "studymc",
   "authors": [
-    "axiskafi <axis.kafi@test.com>"
+    "chriscerk"
   ],
   "ignore": [
     "**/.*",

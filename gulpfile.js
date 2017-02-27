@@ -1,12 +1,14 @@
 var gulp = require("gulp");
-//var bower = require("gulp-bower");
 var elixir = require("laravel-elixir");
+var $ = require('gulp-load-plugins')();
+var del = require('del');
+var runSequence = require('run-sequence');
+var browserSync = require('browser-sync');
+var pagespeed = require('psi');
+var reload = browserSync.reload;
+
 require('laravel-elixir-livereload');
 var elixirTypscript = require('elixir-typescript');
-/*
-gulp.task('bower', function () {
-    return bower();
-});*/
 
 var vendors = '../../assets/vendors/';
 
@@ -20,7 +22,6 @@ var paths = {
     'tether' : vendors + 'tether/dist'
 };
 
-
 elixir(function (mix) {
     mix.copy('node_modules/@angular', 'public/@angular');
     mix.copy('node_modules/rxjs', 'public/rxjs');
@@ -31,33 +32,7 @@ elixir(function (mix) {
     mix.copy('node_modules/satellizer', 'public/satellizer');
     mix.copy('node_modules/platform', 'public/platform');
     mix.copy('node_modules/reflect-metadata', 'public/reflect-metadata');
-/*
-    mix.copy('resources/assets/vendors/jquery-ui/themes/base/images', 'public/images');
-    mix.copy('resources/assets/vendors/c3/c3.min.css', 'public/css');
-    mix.copy('resources/assets/vendors/c3/c3.min.js', 'public/js');
-    mix.copy('resources/assets/vendors/d3/d3.min.js', 'public/js');
-    mix.copy('resources/assets/vendors/font-awesome/fonts', 'public/fonts');
-*/
-    //CSS Libraries
-    /*
-    mix.styles([paths.fontawesome + "/css/font-awesome.min.css",
-        paths.jqueryUi + "/themes/base/core.css",
-        paths.tether + '/css/tether.css',
-        paths.eonasdanBootstrapDatetimepicker + '/css/bootstrap-datetimepicker.css'
-    ], 'public/css/styles.css');
-*/
-
-    //JS Libraries
-    /*
-    mix.scripts([paths.jquery + "/jquery.js",
-        paths.jqueryUi + "/jquery-ui.min.js",
-        paths.tether + '/js/tether.js',
-        paths.bootstrap + "/js/bootstrap.min.js",
-        paths.moment + '/moment.js',
-        paths.eonasdanBootstrapDatetimepicker + '/js/bootstrap-datetimepicker.min.js'
-    ], 'public/js/scripts.js');
-*/
-
+    mix.copy('node_modules/sw-precache', 'public/sw-precache');
     mix.typescript(
         '/**/*.ts',
         'public/js',
@@ -74,5 +49,21 @@ elixir(function (mix) {
     );
     mix.livereload();
     mix.browserSync({proxy: 'localhost:8000'});
-
 });
+
+gulp.task('generate-service-worker', function(callback) {
+  var path = require('path');
+  var swPrecache = require('sw-precache');
+  var rootDir = 'public/studymc';
+
+  swPrecache.write(path.join(rootDir, 'service-worker.js'), {
+    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif}'],
+    stripPrefix: rootDir
+  }, callback);
+});
+
+gulp.task('pagespeed', pagespeed.bind(null, {
+  url: 'http://dev-apps.phar.umich.edu/studymc/',
+  strategy: 'mobile'
+}));
+
