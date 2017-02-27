@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <html manifest="studymc/studymc.appcache" type="text/cache-manifest">>
+<html>
 <head>
     <title>Study.MC - Info</title>
     <meta charset="utf-8">
@@ -74,6 +74,19 @@
             </div>
         </div>
     </footer>
+
+    <script src="studymc/service-worker.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('studymc/service-worker.js').then(function() { 
+        console.log("Service Worker Registered"); 
+    });
+    }
+    else {
+        console.log("Error Registering Service Worker"); 
+    }
+
+    </script>
     
 </body>
 </html>
