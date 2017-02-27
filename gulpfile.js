@@ -57,8 +57,7 @@ gulp.task('generate-service-worker', function(callback) {
   var rootDir = 'public/studymc';
 
   swPrecache.write(path.join(rootDir, 'service-worker.js'), {
-    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif}'],
-    stripPrefix: rootDir
+    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif}']
   }, callback);
 });
 
