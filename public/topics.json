@@ -4536,7 +4536,156 @@
             "id": 13,
             "name": "30S-PB-Inhibitors",
             "learnItems":[
-                  
+                  {
+                        "title":"Aminoglycosides",  
+                        "name" : "Hover over the Aminoglycosides compound to view SAR.",
+                        "imagePath" : "aminoglycosides.PNG",
+                        "imgWidth" : 450,
+                        "imgPadding" : 200,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Ring 1",
+                                    "y": 241,
+                                    "x": 275,
+                                    "size": 80,
+                                    "color": "blue",
+                                    "text": "Ring 1: -Crucial for broad-spectrum activity. -First target of inactivating enzymes. -The 2-, 3-, 4- hydroxyl groups are not essential for activity. -Methylation of the amine will retain activity and will lower susceptibility to transferases. -All substitutions must be equatorial."
+                              },
+                              {
+                                    "name": "Ring 2",
+                                    "y": 300,
+                                    "x": 416,
+                                    "size": 80,
+                                    "color": "red",
+                                    "text": "Ring 2: Many modifications are possible, for example the 3- amine can be substituted or acylated."
+                              },
+                              {
+                                    "name": "Ring 3",
+                                    "y": 231,
+                                    "x": 547,
+                                    "size": 90,
+                                    "color": "green",
+                                    "text": "Ring 3: The amine can be methylated or changed to a hydroxyl group, but its removal will abolish activity."
+                              }
+                        ]
+                  },
+                  {
+                        "title":"Tetracyclines",  
+                        "name" : "Hover over the Tetracyclines compound to view SAR.",
+                        "imagePath" : "tetracyclines.PNG",
+                        "imgWidth" : 400,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Position 1",
+                                    "y": 315,
+                                    "x": 426,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              },
+                              {
+                                    "name": "Position 2",
+                                    "y": 285,
+                                    "x": 507,
+                                    "size": 60,
+                                    "color": "red",
+                                    "text": "Position 2: Any changes leads to decreased activity, even substitution to the amide."
+                              },
+                              {
+                                    "name": "Position 4",
+                                    "y": 170,
+                                    "x": 438,
+                                    "size": 35,
+                                    "color": "blue",
+                                    "text": "Position 3: Amine in the α-position is essential, but monosubstitution is also active."
+                              },
+                              {
+                                    "name": "Position 5",
+                                    "y": 188,
+                                    "x": 348,
+                                    "size": 35,
+                                    "color": "green",
+                                    "text": "Position 5: R4 can be a hydroxyl, keto group or a hydrogen, and all are active."
+                              },
+                              {
+                                    "name": "Position 6",
+                                    "y": 184,
+                                    "x": 282,
+                                    "size": 35,
+                                    "color": "gold",
+                                    "text": "Position 6: Both substitutions (R2 and R3) are not necessary."
+                              },
+                              {
+                                    "name": "Position 7",
+                                    "y": 194,
+                                    "x": 208,
+                                    "size": 30,
+                                    "color": "darkorange",
+                                    "text": "Position 7: Cl, F, Br, NO2 and a tertiary amine are all active."
+                              },
+                              {
+                                    "name": "Position 8",
+                                    "y": 216,
+                                    "x": 162,
+                                    "size": 30,
+                                    "color": "purple",
+                                    "text": "Position 8: Substitution with small polar groups (OCH3, F, Cl) increases activity"
+                              },
+                              {
+                                    "name": "Position 9",
+                                    "y": 274,
+                                    "x": 164,
+                                    "size": 30,
+                                    "color": "grey",
+                                    "text": "Position 9: Bulky substitution decreases resistance."
+                              },
+                              {
+                                    "name": "Position 10",
+                                    "y": 315,
+                                    "x": 211,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              },
+                              {
+                                    "name": "Position 11",
+                                    "y": 315,
+                                    "x": 284,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              },
+                              {
+                                    "name": "Position 12",
+                                    "y": 315,
+                                    "x": 355,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              },
+                              {
+                                    "name": "Position 12a",
+                                    "y": 315,
+                                    "x": 355,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              }
+                        ]
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide3.PNG",
+                        "question" : "Will the following change increase or decrease activity?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "Ketone at position 4 is essential to bind to target."
+                  }
             ],
             "testItems":[
                  {
