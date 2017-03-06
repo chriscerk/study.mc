@@ -4677,14 +4677,175 @@
                   {
                         "title":"SAR Practice Problem",  
                         "name" : "Activity Change",
-                        "imagePath" : "slide3.PNG",
-                        "question" : "Will the following change increase or decrease activity?",
+                        "imagePath" : "slide4.PNG",
+                        "question" : "Will the following change increase or decrease chemical stability?",
                         "options" : [
                               "Increase", 
                               "Decrease"
                         ],
                         "answer" : "Increase",
-                        "explanation" : "Ketone at position 4 is essential to bind to target."
+                        "explanation" : "Replacement of OH with CH3 at position 6 makes the compound more stable."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide5.PNG",
+                        "question" : "Will the following change increase or decrease bacterial resistance?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Addition of bulky group protects the compound from inactivating enzymes."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide6.PNG",
+                        "question" : "Which of the following binds to both the 30S and 50S ribosomal units?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Tobramycin (compound 2) is the only aminoglycoside that binds to both ribosomal units."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide7.PNG",
+                        "question" : "Which of the following is only used topically?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Neomycin (Compound 1) because only used topically due to nephrotoxicity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide8.PNG",
+                        "question" : "Which of the following does NOT bind to the 30S ribosomal unit?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Azithromycin (Compound 2) because Macrolides bind to the 50S ribosomal unit."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide9.PNG",
+                        "question" : "Which of the following is NOT bactericidal?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Tetracycline (Compound 2) because Tetracyclines are bacteriostatic."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide10.PNG",
+                        "question" : "Which is less susceptible to bacterial resistance?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Tigecycline (Compound 3) because addition of bulky group to position 9."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide11.PNG",
+                        "question" : "Which antibiotic is used primarily by IV injections?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Gentamicin (Compound 3) because Aminoglycosides are not orally absorbed."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide12.PNG",
+                        "question" : "What is the main advantage of the circled group?",
+                        "options" : [
+                              "Retains activity",
+                              "Increases half life", 
+                              "Broadens spectrum",
+                              "Decreases resistance"
+                        ],
+                        "answer" : "Decreases resistance",
+                        "explanation" : "Less spots for inactivating enzymes to act."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide13.PNG",
+                        "question" : "What is the importance of retaining the stereochemistry of the circled group?",
+                        "options" : [
+                              "Retains activity",
+                              "Increases half life", 
+                              "Broadens spectrum",
+                              "Decreases resistance"
+                        ],
+                        "answer" : "Retains activity",
+                        "explanation" : "Essential for activity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide14.PNG",
+                        "question" : "Which reaction of this compound leads to a toxic product?",
+                        "options" : [
+                              "Decompositon in acidic medium",
+                              "Decompositon in basic medium", 
+                              "Chelation",
+                              "Epimerization"
+                        ],
+                        "answer" : "Decompositon in acidic medium",
+                        "explanation" : "Nephrotoxic product."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide15.PNG",
+                        "question" : "Which reactions inactivate this compound?",
+                        "options" : [
+                              "Decompositon in acidic medium & Chelation",
+                              "Decompositon in basic medium & Epimerization", 
+                              "Decompositon in basic medium & Chelation",
+                              "Decompositon in acidic medium & Epimerization"
+                        ],
+                        "answer" : "Decompositon in basic medium & Epimerization",
+                        "explanation" : "No explanation provided."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study",
+                        "imagePath" : "slide16.PNG",
+                        "question" : "Carly Sandbergin is going on vacation to sunny Florida, which antibiotic(s) should she avoid?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3",
+                              "Compound 1 & 2",
+                              "Compound 2 & 3"
+                        ],
+                        "answer" : "Compound 1 & 2",
+                        "explanation" : "Doxycycline (Compound 1) & Ciprofloxacin (Compound 2) because both tetracyclines and quinolones can lead to phototoxicity."
                   }
             ],
             "testItems":[

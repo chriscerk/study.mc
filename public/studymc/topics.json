@@ -2757,7 +2757,7 @@
                         ],
                         "objects": [
                               { 
-                                    "image": "/studymc/d-alanine-overlay.PNG", 
+                                    "image": "d-alanine-overlay.PNG", 
                                     "startY": 10, 
                                     "startX": 10, 
                                     "opacity": ".5", 
@@ -2776,7 +2776,7 @@
                                           }
                               },
                               { 
-                                    "image": "/studymc/d-cycloserine-overlay.PNG", 
+                                    "image": "d-cycloserine-overlay.PNG", 
                                     "startY": 400, 
                                     "startX": 20, 
                                     "opacity": ".5", 
@@ -4536,16 +4536,497 @@
             "id": 13,
             "name": "30S-PB-Inhibitors",
             "learnItems":[
-                  
+                  {
+                        "title":"Aminoglycosides",  
+                        "name" : "Hover over the Aminoglycosides compound to view SAR.",
+                        "imagePath" : "aminoglycosides.PNG",
+                        "imgWidth" : 450,
+                        "imgPadding" : 200,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Ring 1",
+                                    "y": 241,
+                                    "x": 275,
+                                    "size": 80,
+                                    "color": "blue",
+                                    "text": "Ring 1: -Crucial for broad-spectrum activity. -First target of inactivating enzymes. -The 2-, 3-, 4- hydroxyl groups are not essential for activity. -Methylation of the amine will retain activity and will lower susceptibility to transferases. -All substitutions must be equatorial."
+                              },
+                              {
+                                    "name": "Ring 2",
+                                    "y": 300,
+                                    "x": 416,
+                                    "size": 80,
+                                    "color": "red",
+                                    "text": "Ring 2: Many modifications are possible, for example the 3- amine can be substituted or acylated."
+                              },
+                              {
+                                    "name": "Ring 3",
+                                    "y": 231,
+                                    "x": 547,
+                                    "size": 90,
+                                    "color": "green",
+                                    "text": "Ring 3: The amine can be methylated or changed to a hydroxyl group, but its removal will abolish activity."
+                              }
+                        ]
+                  },
+                  {
+                        "title":"Tetracyclines",  
+                        "name" : "Hover over the Tetracyclines compound to view SAR.",
+                        "imagePath" : "tetracyclines.PNG",
+                        "imgWidth" : 400,
+                        "imgPadding" : 150,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Position 1",
+                                    "y": 315,
+                                    "x": 426,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              },
+                              {
+                                    "name": "Position 2",
+                                    "y": 285,
+                                    "x": 507,
+                                    "size": 60,
+                                    "color": "red",
+                                    "text": "Position 2: Any changes leads to decreased activity, even substitution to the amide."
+                              },
+                              {
+                                    "name": "Position 4",
+                                    "y": 170,
+                                    "x": 438,
+                                    "size": 35,
+                                    "color": "blue",
+                                    "text": "Position 3: Amine in the α-position is essential, but monosubstitution is also active."
+                              },
+                              {
+                                    "name": "Position 5",
+                                    "y": 188,
+                                    "x": 348,
+                                    "size": 35,
+                                    "color": "green",
+                                    "text": "Position 5: R4 can be a hydroxyl, keto group or a hydrogen, and all are active."
+                              },
+                              {
+                                    "name": "Position 6",
+                                    "y": 184,
+                                    "x": 282,
+                                    "size": 35,
+                                    "color": "gold",
+                                    "text": "Position 6: Both substitutions (R2 and R3) are not necessary."
+                              },
+                              {
+                                    "name": "Position 7",
+                                    "y": 194,
+                                    "x": 208,
+                                    "size": 30,
+                                    "color": "darkorange",
+                                    "text": "Position 7: Cl, F, Br, NO2 and a tertiary amine are all active."
+                              },
+                              {
+                                    "name": "Position 8",
+                                    "y": 216,
+                                    "x": 162,
+                                    "size": 30,
+                                    "color": "purple",
+                                    "text": "Position 8: Substitution with small polar groups (OCH3, F, Cl) increases activity"
+                              },
+                              {
+                                    "name": "Position 9",
+                                    "y": 274,
+                                    "x": 164,
+                                    "size": 30,
+                                    "color": "grey",
+                                    "text": "Position 9: Bulky substitution decreases resistance."
+                              },
+                              {
+                                    "name": "Position 10",
+                                    "y": 315,
+                                    "x": 211,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              },
+                              {
+                                    "name": "Position 11",
+                                    "y": 315,
+                                    "x": 284,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              },
+                              {
+                                    "name": "Position 12",
+                                    "y": 315,
+                                    "x": 355,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              },
+                              {
+                                    "name": "Position 12a",
+                                    "y": 315,
+                                    "x": 355,
+                                    "size": 30,
+                                    "color": "deeppink",
+                                    "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+                              }
+                        ]
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide4.PNG",
+                        "question" : "Will the following change increase or decrease chemical stability?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "Replacement of OH with CH3 at position 6 makes the compound more stable."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide5.PNG",
+                        "question" : "Will the following change increase or decrease bacterial resistance?",
+                        "options" : [
+                              "Increase", 
+                              "Decrease"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Addition of bulky group protects the compound from inactivating enzymes."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide6.PNG",
+                        "question" : "Which of the following binds to both the 30S and 50S ribosomal units?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Tobramycin (compound 2) is the only aminoglycoside that binds to both ribosomal units."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide7.PNG",
+                        "question" : "Which of the following is only used topically?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Neomycin (Compound 1) because only used topically due to nephrotoxicity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide8.PNG",
+                        "question" : "Which of the following does NOT bind to the 30S ribosomal unit?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Azithromycin (Compound 2) because Macrolides bind to the 50S ribosomal unit."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide9.PNG",
+                        "question" : "Which of the following is NOT bactericidal?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 2",
+                        "explanation" : "Tetracycline (Compound 2) because Tetracyclines are bacteriostatic."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide10.PNG",
+                        "question" : "Which is less susceptible to bacterial resistance?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Tigecycline (Compound 3) because addition of bulky group to position 9."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide11.PNG",
+                        "question" : "Which antibiotic is used primarily by IV injections?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Gentamicin (Compound 3) because Aminoglycosides are not orally absorbed."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide12.PNG",
+                        "question" : "What is the main advantage of the circled group?",
+                        "options" : [
+                              "Retains activity",
+                              "Increases half life", 
+                              "Broadens spectrum",
+                              "Decreases resistance"
+                        ],
+                        "answer" : "Decreases resistance",
+                        "explanation" : "Less spots for inactivating enzymes to act."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide13.PNG",
+                        "question" : "What is the importance of retaining the stereochemistry of the circled group?",
+                        "options" : [
+                              "Retains activity",
+                              "Increases half life", 
+                              "Broadens spectrum",
+                              "Decreases resistance"
+                        ],
+                        "answer" : "Retains activity",
+                        "explanation" : "Essential for activity."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide14.PNG",
+                        "question" : "Which reaction of this compound leads to a toxic product?",
+                        "options" : [
+                              "Decompositon in acidic medium",
+                              "Decompositon in basic medium", 
+                              "Chelation",
+                              "Epimerization"
+                        ],
+                        "answer" : "Decompositon in acidic medium",
+                        "explanation" : "Nephrotoxic product."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide15.PNG",
+                        "question" : "Which reactions inactivate this compound?",
+                        "options" : [
+                              "Decompositon in acidic medium & Chelation",
+                              "Decompositon in basic medium & Epimerization", 
+                              "Decompositon in basic medium & Chelation",
+                              "Decompositon in acidic medium & Epimerization"
+                        ],
+                        "answer" : "Decompositon in basic medium & Epimerization",
+                        "explanation" : "No explanation provided."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study",
+                        "imagePath" : "slide16.PNG",
+                        "question" : "Carly Sandbergin is going on vacation to sunny Florida, which antibiotic(s) should she avoid?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2", 
+                              "Compound 3",
+                              "Compound 1 & 2",
+                              "Compound 2 & 3"
+                        ],
+                        "answer" : "Compound 1 & 2",
+                        "explanation" : "Doxycycline (Compound 1) & Ciprofloxacin (Compound 2) because both tetracyclines and quinolones can lead to phototoxicity."
+                  }
             ],
             "testItems":[
-                 
+                 {
+                        "title":"",  
+                        "question" : "Toxicity to tetracyclines include chelation with _______ which can affect teeth and bone formation.",
+                        "options" : [
+                              "magnesium",
+                              "sodium",
+                              "potassium",
+                              "calcium"
+                        ],
+                        "answer" : "calcium"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Tetracyclines can cause drug induced _______ so caution in renally impaired patients.",
+                        "options" : [
+                              "Renal Fanconi syndrome",
+                              "renal failure",
+                              "kidney stones",
+                              "CKD"
+                        ],
+                        "answer" : "Renal Fanconi syndrome"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Contraindicated in patients less than eight years old or _______.",
+                        "options" : [
+                              "Diabetic",
+                              "asthmatic",
+                              "pregnant",
+                              "lactating"
+                        ],
+                        "answer" : "pregnant"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Aminoglycosides have toxicity problems such as ototoxicity and _______ .",
+                        "options" : [
+                              "neurotoxicity",
+                              "retinal toxicity",
+                              "nephrotoxocity",
+                              "hepatotoxicity"
+                        ],
+                        "answer" : "nephrotoxocity"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Can be deadly due to _______ failure.",
+                        "options" : [
+                              "renal",
+                              "liver",
+                              "respiratory"
+                        ],
+                        "answer" : "respiratory"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Prolonged exposure to aminoglycosides can cause toxic side effects so “ _______ ” is used to give the dose once daily.",
+                        "options" : [
+                              "Extended interval dosing",
+                              "pulse dosing",
+                              "dosing pump"
+                        ],
+                        "answer" : "pulse dosing"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "The most toxic aminoglycoside that is used therapeutically is _______ but it is only used _______ .",
+                        "options" : [
+                              "Bleomycin, Orally",
+                              "Bleomycin, Intravenously",
+                              "Neomycin, Topically",
+                              "Neomycin, Intravenously",
+                              "Streptomycin, Orally",
+                              "Streptomycin, Topically"
+                        ],
+                        "answer" : "Neomycin, Topically"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Two disorders that put patients at higher risk for neurotoxicity with aminoglycosides are Myasthenia Gravis and _______ .",
+                        "options" : [
+                              "Parkinson’s disease",
+                              "epilepsy",
+                              "dementia",
+                              "multiple sclerosis"
+                        ],
+                        "answer" : "Parkinson’s disease"
+                  }
             ],
              "reviewItems":[
-                                 
+                   {
+                        "title": "Aminoglycosides SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "aminoglycosides.PNG" },
+                              {"title": "Ring 1", "content": ""},
+                              {"title": "Ring 2", "content": ""},
+                              {"title": "Ring 3", "content": ""},
+                              {"title": "Polycationic at physiological pH", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Aminoglycosides Info.",  
+                        "sections" : [
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Tetracyclines SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "tetracyclines.PNG" },
+                              {"title": "Positions 1, 10, 11, 12, & 12a", "content": ""},
+                              {"title": "Position 2", "content": ""},
+                              {"title": "Position 4", "content": ""},
+                              {"title": "Position 5", "content": ""},
+                              {"title": "Position 6", "content": ""},
+                              {"title": "Position 7", "content": ""},
+                              {"title": "Position 8", "content": ""},
+                              {"title": "Position 9", "content": ""},
+                              {"title": "Warhead", "content": ""}
+                        ]
+                  },
+                   {
+                        "title": "Tetracyclines Info.",  
+                        "sections" : [
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  }
             ],                     
-            "exampleReview":[
-                  
+            "exampleReview": [
+                  {
+                        "title": "Aminoglycosides SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "aminoglycosides.PNG" },
+                              {"title": "Ring 1", "content": "-Crucial for broad-spectrum activity. -First target of inactivating enzymes. -The 2-, 3-, 4- hydroxyl groups are not essential for activity. -Methylation of the amine will retain activity and will lower susceptibility to transferases. -All substitutions must be equatorial."},
+                              {"title": "Ring 2", "content": "Many modifications are possible, for example the 3- amine can be substituted or acylated."},
+                              {"title": "Ring 3", "content": "The amine can be methylated or changed to a hydroxyl group, but its removal will abolish activity."},
+                              {"title": "Polycationic at physiological pH", "content": "Poor oral absorption"}
+                        ]
+                  },
+                  {
+                        "title": "Aminoglycosides Info.",  
+                        "sections" : [
+                              {"title": "MOA & Target", "content": "-Binds irreversibly to the 30S ribosomal subunit and changes to the “A” site. -Enters cell by binding negatively charged phospholipids and entering via electron transport linked system -> method can be antagonized by divalent cations. Bactericidal. Target: 30S"},
+                              {"title": "MOR", "content": "1. Decreased permeation of aminoglycosides (loss of porin). 2. Bacteria produce enzymes that acetylate or phosphorylate aminoglycosides’ hydroxyl groups to make aminoglycoside inactive. 3. Ribosomal mutations."},
+                              {"title": "Indication/Spectrum", "content": "Very broad spectrum, but better against G-. Used mainly against G- bacilli AEROBES."},
+                              {"title": "Toxicity/DDI", "content": "Nephrotoxicity, Ototoxicity, Neuromuscular blockade (muscular paralysis)"}
+                        ]
+                  },
+                  {
+                        "title": "Tetracyclines SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "tetracyclines.PNG" },
+                              {"title": "Positions 1, 10, 11, 12, & 12a", "content": "Any changes will completely abolish activity, even changes in the stereochemical configuration. Resonance between position 10 and 11 needed for activity."},
+                              {"title": "Position 2", "content": "Any changes leads to decreased activity, even substitution to the amide"},
+                              {"title": "Position 4", "content": "Amine in the α-position is essential, but monosubstitution is also active"},
+                              {"title": "Position 5", "content": "R4 can be a hydroxyl, keto group or a hydrogen, and all are active"},
+                              {"title": "Position 6", "content": "Both substitutions (R2 and R3) are not necessary"},
+                              {"title": "Position 7", "content": "Cl, F, Br, NO2 and a tertiary amine are all active"},
+                              {"title": "Position 8", "content": "Any electron withdrawing or donating group is still active"},
+                              {"title": "Position 9", "content": "bulky substitution decreases resistance"},
+                              {"title": "Warhead", "content": "Resonance between 11 and 12"}
+                        ]
+                  },
+                   {
+                        "title": "Tetracyclines Info.",  
+                        "sections" : [
+                              {"title": "MOA & Target", "content": "Binds reversibly to 30S ribosomal subunit at the A site, preventing attachment of tRNA – leading to termination of translation. Bacteriostatic. Target: 30S"},
+                              {"title": "MOR", "content": "1. Develops efflux pumps. 2. Genes for tet-resistance transmitted by plasmids. 3. Enzymatic modification of antibiotic preventing binding to 30S."},
+                              {"title": "Indication/Spectrum", "content": "Broad spectrum: G+, G-, aerobic and anaerobic"},
+                              {"title": "Toxicity/DDI", "content": "Phototoxicity, Inhibition of bone growth, nephrotoxic, hepatotoxic , stains teeth. DDI: chelation with cations (dairy products, antacids, supplements)"}
+                        ]
+                  }
             ]            
       }
 ]
