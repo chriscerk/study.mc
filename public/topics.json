@@ -4539,7 +4539,94 @@
                   
             ],
             "testItems":[
-                 
+                 {
+                        "title":"",  
+                        "question" : "Toxicity to tetracyclines include chelation with _______ which can affect teeth and bone formation.",
+                        "options" : [
+                              "magnesium",
+                              "sodium",
+                              "potassium",
+                              "calcium"
+                        ],
+                        "answer" : "calcium"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Tetracyclines can cause drug induced _______ so caution in renally impaired patients.",
+                        "options" : [
+                              "Renal Fanconi syndrome",
+                              "renal failure",
+                              "kidney stones",
+                              "CKD"
+                        ],
+                        "answer" : "Renal Fanconi syndrome"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Contraindicated in patients less than eight years old or _______.",
+                        "options" : [
+                              "Diabetic",
+                              "asthmatic",
+                              "pregnant",
+                              "lactating"
+                        ],
+                        "answer" : "pregnant"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Aminoglycosides have toxicity problems such as ototoxicity and _______ .",
+                        "options" : [
+                              "neurotoxicity",
+                              "retinal toxicity",
+                              "nephrotoxocity",
+                              "hepatotoxicity"
+                        ],
+                        "answer" : "nephrotoxocity"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Can be deadly due to _______ failure.",
+                        "options" : [
+                              "renal",
+                              "liver",
+                              "respiratory"
+                        ],
+                        "answer" : "respiratory"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Prolonged exposure to aminoglycosides can cause toxic side effects so “ _______ ” is used to give the dose once daily.",
+                        "options" : [
+                              "Extended interval dosing",
+                              "pulse dosing",
+                              "dosing pump"
+                        ],
+                        "answer" : "pulse dosing"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "The most toxic aminoglycoside that is used therapeutically is _______ but it is only used _______ .",
+                        "options" : [
+                              "Bleomycin, Orally",
+                              "Bleomycin, Intravenously",
+                              "Neomycin, Topically",
+                              "Neomycin, Intravenously",
+                              "Streptomycin, Orally",
+                              "Streptomycin, Topically"
+                        ],
+                        "answer" : "Neomycin, Topically"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Two disorders that put patients at higher risk for neurotoxicity with aminoglycosides are Myasthenia Gravis and _______ .",
+                        "options" : [
+                              "Parkinson’s disease",
+                              "epilepsy",
+                              "dementia",
+                              "multiple sclerosis"
+                        ],
+                        "answer" : "Parkinson’s disease"
+                  }
             ],
              "reviewItems":[
                                  

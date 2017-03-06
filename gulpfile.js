@@ -54,10 +54,19 @@ elixir(function (mix) {
 gulp.task('generate-service-worker', function(callback) {
   var path = require('path');
   var swPrecache = require('sw-precache');
-  var rootDir = 'public/studymc';
+  var rootDir = 'public/';
 
+  //rootDir + '/**/*.{js,html,css,png,jpg,gif,json}',
   swPrecache.write(path.join(rootDir, 'service-worker.js'), {
-    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif}']
+    staticFileGlobs: [
+        'studymc/js/*.{js,html,css,png,jpg,gif,json}',
+        'studymc/js/**/*.{js,html,css,png,jpg,gif,json}',
+       'studymc/js/**/**/*.{js,html,css,png,jpg,gif,json}',
+        'studymc/css/studymc.css',
+       'studymc/*.{js,html,css,png,jpg,gif,json}',
+       'studymc-media/**/*.PNG',
+        'studymc-media/**/**/*.PNG'
+        ]
   }, callback);
 });
 

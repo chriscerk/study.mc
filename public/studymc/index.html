@@ -17,6 +17,10 @@
     <link href="/studymc/css/studymc.css" rel="stylesheet" />
 
     <meta name="mobile-web-app-capable" content="yes">
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='application-name' content='Air Horner'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black'>
+    <meta name='apple-mobile-web-app-title' content='Air Horner'>
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="/studymc/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" sizes="80x80" href="/studymc/icon.png">
@@ -75,17 +79,7 @@
         University of Michigan | College of Pharmacy
     </footer>
 
-    <script src="studymc/service-worker.js"></script>
-    <script>
-    if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('studymc/service-worker.js').then(function() { 
-        console.log("Service Worker Registered"); 
-    });
-    }
-    else {
-        console.log("Error Registering Service Worker"); 
-    }
-    </script>
+     <script src="/studymc/service-worker-registration.js"></script>
     
 </body>
 </html>

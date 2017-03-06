@@ -59,4 +59,10 @@ The live version of this application is currently "bodyless" (without Laravel) d
 `studymc\public\documents` contains all of the raw documents given by Mustapha Beleh upon which this application was built.
 
 
+JSON files are recommended to be under 1.55MB. As of 2017 the largest file is > 300 KB.
+
+Source: http://josh.zeigler.us/technology/web-development/how-big-is-too-big-for-json/
+
+
+
 Originally forked from: https://github.com/axiskafi/angular2-laravel5
