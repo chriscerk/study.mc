@@ -4629,10 +4629,94 @@
                   }
             ],
              "reviewItems":[
-                                 
+                   {
+                        "title": "Aminoglycosides SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "aminoglycosides.PNG" },
+                              {"title": "Ring 1", "content": ""},
+                              {"title": "Ring 2", "content": ""},
+                              {"title": "Ring 3", "content": ""},
+                              {"title": "Polycationic at physiological pH", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Aminoglycosides Info.",  
+                        "sections" : [
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Tetracyclines SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "tetracyclines.PNG" },
+                              {"title": "Positions 1, 10, 11, 12, & 12a", "content": ""},
+                              {"title": "Position 2", "content": ""},
+                              {"title": "Position 4", "content": ""},
+                              {"title": "Position 5", "content": ""},
+                              {"title": "Position 6", "content": ""},
+                              {"title": "Position 7", "content": ""},
+                              {"title": "Position 8", "content": ""},
+                              {"title": "Position 9", "content": ""},
+                              {"title": "Warhead", "content": ""}
+                        ]
+                  },
+                   {
+                        "title": "Tetracyclines Info.",  
+                        "sections" : [
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  }
             ],                     
-            "exampleReview":[
-                  
+            "exampleReview": [
+                  {
+                        "title": "Aminoglycosides SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "aminoglycosides.PNG" },
+                              {"title": "Ring 1", "content": "-Crucial for broad-spectrum activity. -First target of inactivating enzymes. -The 2-, 3-, 4- hydroxyl groups are not essential for activity. -Methylation of the amine will retain activity and will lower susceptibility to transferases. -All substitutions must be equatorial."},
+                              {"title": "Ring 2", "content": "Many modifications are possible, for example the 3- amine can be substituted or acylated."},
+                              {"title": "Ring 3", "content": "The amine can be methylated or changed to a hydroxyl group, but its removal will abolish activity."},
+                              {"title": "Polycationic at physiological pH", "content": "Poor oral absorption"}
+                        ]
+                  },
+                  {
+                        "title": "Aminoglycosides Info.",  
+                        "sections" : [
+                              {"title": "MOA & Target", "content": "-Binds irreversibly to the 30S ribosomal subunit and changes to the “A” site. -Enters cell by binding negatively charged phospholipids and entering via electron transport linked system -> method can be antagonized by divalent cations. Bactericidal. Target: 30S"},
+                              {"title": "MOR", "content": "1. Decreased permeation of aminoglycosides (loss of porin). 2. Bacteria produce enzymes that acetylate or phosphorylate aminoglycosides’ hydroxyl groups to make aminoglycoside inactive. 3. Ribosomal mutations."},
+                              {"title": "Indication/Spectrum", "content": "Very broad spectrum, but better against G-. Used mainly against G- bacilli AEROBES."},
+                              {"title": "Toxicity/DDI", "content": "Nephrotoxicity, Ototoxicity, Neuromuscular blockade (muscular paralysis)"}
+                        ]
+                  },
+                  {
+                        "title": "Tetracyclines SAR",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "tetracyclines.PNG" },
+                              {"title": "Positions 1, 10, 11, 12, & 12a", "content": "Any changes will completely abolish activity, even changes in the stereochemical configuration. Resonance between position 10 and 11 needed for activity."},
+                              {"title": "Position 2", "content": "Any changes leads to decreased activity, even substitution to the amide"},
+                              {"title": "Position 4", "content": "Amine in the α-position is essential, but monosubstitution is also active"},
+                              {"title": "Position 5", "content": "R4 can be a hydroxyl, keto group or a hydrogen, and all are active"},
+                              {"title": "Position 6", "content": "Both substitutions (R2 and R3) are not necessary"},
+                              {"title": "Position 7", "content": "Cl, F, Br, NO2 and a tertiary amine are all active"},
+                              {"title": "Position 8", "content": "Any electron withdrawing or donating group is still active"},
+                              {"title": "Position 9", "content": "bulky substitution decreases resistance"},
+                              {"title": "Warhead", "content": "Resonance between 11 and 12"}
+                        ]
+                  },
+                   {
+                        "title": "Tetracyclines Info.",  
+                        "sections" : [
+                              {"title": "MOA & Target", "content": "Binds reversibly to 30S ribosomal subunit at the A site, preventing attachment of tRNA – leading to termination of translation. Bacteriostatic. Target: 30S"},
+                              {"title": "MOR", "content": "1. Develops efflux pumps. 2. Genes for tet-resistance transmitted by plasmids. 3. Enzymatic modification of antibiotic preventing binding to 30S."},
+                              {"title": "Indication/Spectrum", "content": "Broad spectrum: G+, G-, aerobic and anaerobic"},
+                              {"title": "Toxicity/DDI", "content": "Phototoxicity, Inhibition of bone growth, nephrotoxic, hepatotoxic , stains teeth. DDI: chelation with cations (dairy products, antacids, supplements)"}
+                        ]
+                  }
             ]            
       }
 ]
