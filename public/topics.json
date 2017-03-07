@@ -5028,5 +5028,117 @@
                         ]
                   }
             ]            
+      },
+      {
+            "id": 14,
+            "name": "50S-PB-Inhibitors",
+            "learnItems":[
+                  {
+                        "title":"Aminoglycosides",  
+                        "name" : "Hover over the Aminoglycosides compound to view SAR.",
+                        "imagePath" : "aminoglycosides.PNG",
+                        "imgWidth" : 450,
+                        "imgPadding" : 200,
+                        "compoundHotspots" : [
+                              
+                        ]
+                  }
+            ],
+            "testItems":[
+                 {
+                        "title":"",  
+                        "question" : "Macrolides have many DDI’s with other drugs such as _______ .",
+                        "options" : [
+                              "ACE inhibitors",
+                              "NSAIDs",
+                              "Beta Blockers",
+                              "statins"
+                        ],
+                        "answer" : "statins"
+                  },
+                  {
+                        "title":"",  
+                        "question" : " _______ has evidence for liver transplant.",
+                        "options" : [
+                              "Dirithromycin",
+                              "Azithromycin",
+                              "Erythromycin",
+                              "Telithromycin"
+                        ],
+                        "answer" : "Telithromycin"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "The macrolide ________ is a prodrug activated by hydrolysis.",
+                        "options" : [
+                              "Dirithromycin",
+                              "Telithromycin",
+                              "Erythromycin",
+                              "Azithromycin"
+                        ],
+                        "answer" : "Dirithromycin"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Synercid, a combination including quinupristin and dalfopristin, can only be administered with _______.",
+                        "options" : [
+                              "orally",
+                              "IV",
+                              "intrathecal",
+                              "injection"
+                        ],
+                        "answer" : "IV"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "High levels of chloramphenicol may cause fatal neonatal toxicity and _______ .",
+                        "options" : [
+                              "thrombocytopenia",
+                              "hemolytic anemia",
+                              "aplastic anemia",
+                              "leukemia"
+                        ],
+                        "answer" : "aplastic anemia"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "A side effect of Streptogramin is _______ .",
+                        "options" : [
+                              "muscle/joint pain",
+                              "myalgia",
+                              "constipation",
+                              "neuropathy"
+                        ],
+                        "answer" : "muscle/joint pain"
+                  },
+                  {
+                        "title":"",  
+                        "question" : "Azithromycin has a caution for patients as risk of _______ .",
+                        "options" : [
+                              "Diabetes",
+                              "Heart failure",
+                              "QT prolongation",
+                              "Liver failure"
+                        ],
+                        "answer" : "QT prolongation"
+                  },
+                  {
+                        "title":"",  
+                        "question" : " _______ has the least potential for Cyp450 inhibition.",
+                        "options" : [
+                              "Azithromycin",
+                              "Erythromycin",
+                              "Telithromycin",
+                              "Bleomycin"
+                        ],
+                        "answer" : "Azithromycin"
+                  }
+            ],
+             "reviewItems":[
+                   
+            ],                     
+            "exampleReview": [
+                  
+            ]            
       }
 ]
