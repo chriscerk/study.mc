@@ -5135,10 +5135,140 @@
                   }
             ],
              "reviewItems":[
-                   
+                   {
+                        "title": "Macrolides (Erythromycin, Clarithromycin, Azithromycin)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "macrolides.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Ketolides (Telithromycin)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "ketolides.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Lincosamides (Clindamycin)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "lincosamides.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Streptogramins (Synercid, Pristamycin)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "streptogramins.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Chloramphenicol",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "chloramphenicol.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Oxazolidiones (Linezolid, Tedizolid)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "oxazolidiones.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  }
             ],                     
             "exampleReview": [
-                  
+                  {
+                        "title": "Macrolides (Erythromycin, Clarithromycin, Azithromycin)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "macrolides.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Ketolides (Telithromycin)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "ketolides.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Lincosamides (Clindamycin)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "lincosamides.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Streptogramins (Synercid, Pristamycin)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "streptogramins.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Chloramphenicol",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "chloramphenicol.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  },
+                  {
+                        "title": "Oxazolidiones (Linezolid, Tedizolid)",  
+                        "sections" : [
+                              {"title": "Compound", "imagePath": "oxazolidiones.PNG" },
+                              {"title": "SAR", "content": ""},
+                              {"title": "MOA & Target", "content": ""},
+                              {"title": "MOR", "content": ""},
+                              {"title": "Indication/Spectrum", "content": ""},
+                              {"title": "Toxicity/DDI", "content": ""}
+                        ]
+                  }
             ]            
       }
 ]
