@@ -4549,7 +4549,7 @@
                                     "x": 275,
                                     "size": 80,
                                     "color": "blue",
-                                    "text": "Ring 1: -Crucial for broad-spectrum activity. -First target of inactivating enzymes. -The 2-, 3-, 4- hydroxyl groups are not essential for activity. -Methylation of the amine will retain activity and will lower susceptibility to transferases. -All substitutions must be equatorial."
+                                    "text": "Ring 1: The amine can be methylated or changed to a hydroxyl group, but its removal will abolish activity."
                               },
                               {
                                     "name": "Ring 2",
@@ -4565,7 +4565,7 @@
                                     "x": 547,
                                     "size": 90,
                                     "color": "green",
-                                    "text": "Ring 3: The amine can be methylated or changed to a hydroxyl group, but its removal will abolish activity."
+                                    "text": "Ring 3: -Crucial for broad-spectrum activity. -First target of inactivating enzymes. -The 2-, 3-, 4- hydroxyl groups are not essential for activity. -Methylation of the amine will retain activity and will lower susceptibility to transferases. -All substitutions must be equatorial"
                               }
                         ]
                   },
@@ -4630,7 +4630,7 @@
                                     "x": 162,
                                     "size": 30,
                                     "color": "purple",
-                                    "text": "Position 8: Substitution with small polar groups (OCH3, F, Cl) increases activity"
+                                    "text": "Position 8: Any electron withdrawing or donating group is still active"
                               },
                               {
                                     "name": "Position 9",
@@ -4684,7 +4684,7 @@
                               "Decrease"
                         ],
                         "answer" : "Increase",
-                        "explanation" : "Replacement of OH with CH3 at position 6 makes the compound more stable."
+                        "explanation" : "Replacement of OH with H at position 6 makes the compound more stable."
                   },
                   {
                         "title":"SAR Practice Problem",  
