@@ -5207,66 +5207,66 @@
                         "title": "Macrolides (Erythromycin, Clarithromycin, Azithromycin)",  
                         "sections" : [
                               {"title": "Compound", "imagePath": "macrolides.PNG" },
-                              {"title": "SAR", "content": ""},
-                              {"title": "MOA & Target", "content": ""},
-                              {"title": "MOR", "content": ""},
-                              {"title": "Indication/Spectrum", "content": ""},
-                              {"title": "Toxicity/DDI", "content": ""}
+                              {"title": "SAR", "content": "-Large lactone ring (12, 14, or 16 membered ring). -Contain one or two sugars usually desosamine and/or cladinose. -Connection via ester bond. -Synthetic modifications made on the sugar and the 6 and 12-OH."},
+                              {"title": "MOA & Target", "content": "Inhibit elongation, promote dissociation of peptidyl t-RNA before completion of peptide synthesis by blocking exit tunnel. Reversible binding. Bacteriostatic."},
+                              {"title": "MOR", "content": "Methylation A2058 by ermC"},
+                              {"title": "Indication/Spectrum", "content": "100x more affinity for gram positive vs gram negative"},
+                              {"title": "Toxicity/DDI", "content": "QT prolongation, hepatitis, p450 inhibitor (carbamazepines, benzodiazepines, warfarin, theophylline, prednisone, cyclosporins, statins)"}
                         ]
                   },
                   {
                         "title": "Ketolides (Telithromycin)",  
                         "sections" : [
                               {"title": "Compound", "imagePath": "ketolides.PNG" },
-                              {"title": "SAR", "content": ""},
-                              {"title": "MOA & Target", "content": ""},
-                              {"title": "MOR", "content": ""},
-                              {"title": "Indication/Spectrum", "content": ""},
-                              {"title": "Toxicity/DDI", "content": ""}
+                              {"title": "SAR", "content": "-Replacement of the L-cladinose sugar of erythromycin A with a 3-keto functional group: Restores activity against bacteria with inducible resistance mediated by Erm, and enhances activity against streptococci with Mef-mediated macrolide efflux. -Addition of a carbamate side chain: Promotes activity against both erythromycin-sensitive and erythromycin-resistant bacteria by introducing an interaction with domain II of the 23S rRNA."},
+                              {"title": "MOA & Target", "content": "Inhibit elongation, promote dissociation of peptidyl t-RNA before completion of peptide synthesis by blocking exit tunnel. Reversible binding. Increased affinity for ribosome (2 binding sites for 23 rRNA). Bacteriostatic"},
+                              {"title": "MOR", "content": "Methylation A2058 by ermC"},
+                              {"title": "Indication/Spectrum", "content": "Good gram positive"},
+                              {"title": "Toxicity/DDI", "content": "QT prolongation, hepatitis, p450 inhibitor (carbamazepines, benzodiazepines, warfarin, theophylline, prednisone, cyclosporins, statins)"}
                         ]
                   },
                   {
                         "title": "Lincosamides (Clindamycin)",  
                         "sections" : [
                               {"title": "Compound", "imagePath": "lincosamides.PNG" },
-                              {"title": "SAR", "content": ""},
-                              {"title": "MOA & Target", "content": ""},
-                              {"title": "MOR", "content": ""},
-                              {"title": "Indication/Spectrum", "content": ""},
-                              {"title": "Toxicity/DDI", "content": ""}
+                              {"title": "SAR", "content": "-Eight carbon sugar. -Amide bond."},
+                              {"title": "MOA & Target", "content": "Reversibly binds to the 23S portion of 50S, block translocation of tRNA from A site to P site, blocks elongation. Bacteriostatic."},
+                              {"title": "MOR", "content": "1. Target-site modification by methylation  of the 23S ribosomal target site, encoded by the erm(B) gene and prevents the binding of the antibiotic to its ribosomal target"},
+                              {"title": "Indication/Spectrum", "content": "anaerobic gram positive and negative"},
+                              {"title": "Toxicity/DDI", "content": "GI, rashes, pseudomembranous colitis"}
                         ]
                   },
                   {
                         "title": "Streptogramins (Synercid, Pristamycin)",  
                         "sections" : [
                               {"title": "Compound", "imagePath": "streptogramins.PNG" },
-                              {"title": "SAR", "content": ""},
-                              {"title": "MOA & Target", "content": ""},
-                              {"title": "MOR", "content": ""},
-                              {"title": "Indication/Spectrum", "content": ""},
-                              {"title": "Toxicity/DDI", "content": ""}
+                              {"title": "SAR", "content": "None"},
+                              {"title": "MOA & Target", "content": "Dalfopristin: irreversibly binds to 23S portion of the 50S (blocks the binding of aminoacyl-tRNA). Quinupristin: irreversibly binds to a nearby site on the 50S (inhibits peptide bond formation and elongation). Synergism. Conformational change of the ribosome and enhance the binding of quinupristin. Bactericidal together. Bacteriostatic alone. Target: 23S (D), 50S (Q); P site."},
+                              {"title": "MOR", "content": "(2) target-site modification by methylation  of the 23S ribosomal target site, encoded by the erm(B) gene and prevents the binding of the antibiotic to its ribosomal target. (3) through efflux of the antibiotic. (4) Enzymatic inactivation of drug."},
+                              {"title": "Indication/Spectrum", "content": "Gram positive. (Too big to enter gram negative)."},
+                              {"title": "Toxicity/DDI", "content": "Muscle/joint pain, infusion related events (pain/thrombophlebitis). Cyp3A4 inhibitor so DDIs, myalgia and arthralgia"}
                         ]
                   },
                   {
                         "title": "Chloramphenicol",  
                         "sections" : [
                               {"title": "Compound", "imagePath": "chloramphenicol.PNG" },
-                              {"title": "SAR", "content": ""},
-                              {"title": "MOA & Target", "content": ""},
-                              {"title": "MOR", "content": ""},
-                              {"title": "Indication/Spectrum", "content": ""},
-                              {"title": "Toxicity/DDI", "content": ""}
+                              {"title": "SAR", "content": "-Nitro group: can be replaced with other EWG, but activity decreases. -Aromatic ring: essential for activity. -Chlorines: can be removed or replaced with other halogens, but activity decreases. -R, R stereoisomer: essential for activity."},
+                              {"title": "MOA & Target", "content": "Reversibly Inhibits peptidyl transferase reaction (blocks peptide elongation), competes for macrolide and clindamycin binding. Bacteriostatic (bacteriocidal to influenzae)."},
+                              {"title": "MOR", "content": "1. Plasmid-encoded acetyltransferase that inactivates drug. 2. Chloramphenicol aetyltransferase (CAT)."},
+                              {"title": "Indication/Spectrum", "content": "Broad (gram positive, gram negative, anaerobes and atypicals)"},
+                              {"title": "Toxicity/DDI", "content": "Significant toxicity, so rarely used. Hemolytic anemia (GSH reasoning), mammalian mitochondrial protein synthesis can be inhibited (erythrolpoietic cells highly sensitive)"}
                         ]
                   },
                   {
                         "title": "Oxazolidiones (Linezolid, Tedizolid)",  
                         "sections" : [
                               {"title": "Compound", "imagePath": "oxazolidiones.PNG" },
-                              {"title": "SAR", "content": ""},
-                              {"title": "MOA & Target", "content": ""},
-                              {"title": "MOR", "content": ""},
-                              {"title": "Indication/Spectrum", "content": ""},
-                              {"title": "Toxicity/DDI", "content": ""}
+                              {"title": "SAR", "content": "-Oxazolidinone ring"},
+                              {"title": "MOA & Target", "content": "Binds to alt. site on 50S from MLS drugs to prevent initiation complex formation.‘cidal for streptococci, ‘static for staphylococci and enterococci."},
+                              {"title": "MOR", "content": "Mutations on 23S rRNA binding site"},
+                              {"title": "Indication/Spectrum", "content": "Gram positive only (similar to vanco)"},
+                              {"title": "Toxicity/DDI", "content": "MAO inhibitors so not with SSRIs, bone marrow suppression, mitochondrial toxicity"}
                         ]
                   }
             ]            
