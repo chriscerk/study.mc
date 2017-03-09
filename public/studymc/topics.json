@@ -5034,14 +5034,271 @@
             "name": "50S-PB-Inhibitors",
             "learnItems":[
                   {
-                        "title":"Aminoglycosides",  
-                        "name" : "Hover over the Aminoglycosides compound to view SAR.",
-                        "imagePath" : "aminoglycosides.PNG",
+                        "title":"Macrolides",  
+                        "name" : "Hover over the Macrolides compound to view SAR.",
+                        "imagePath" : "macrolides-sar.PNG",
                         "imgWidth" : 450,
-                        "imgPadding" : 200,
+                        "imgPadding" : 100,
                         "compoundHotspots" : [
-                              
+                              {
+                                    "name": "Sugar",
+                                    "y": 401,
+                                    "x": 392,
+                                    "size": 60,
+                                    "color": "red",
+                                    "text": "Macrolides contain one or two sugars usually desosamine and/or cladinose."
+                              },
+                              {
+                                    "name": "Sugar",
+                                    "y": 262,
+                                    "x": 465,
+                                    "size": 60,
+                                    "color": "red",
+                                    "text": "Macrolides contain one or two sugars usually desosamine and/or cladinose."
+                              },
+                              {
+                                    "name": "Lactone Ring ",
+                                    "y": 246,
+                                    "x": 278,
+                                    "size": 80,
+                                    "color": "blue",
+                                    "text": "Large lactone ring (12, 14, or 16 membered ring)."
+                              }
                         ]
+                  },
+                  {
+                        "title":"Ketolides",  
+                        "name" : "Hover over the Ketolides compound to view SAR.",
+                        "imagePath" : "ketolides-sar.PNG",
+                        "imgWidth" : 400,
+                        "imgPadding" : 160,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "3-keto functional group",
+                                    "y": 393,
+                                    "x": 354,
+                                    "size": 30,
+                                    "color": "red",
+                                    "text": "3-keto functional group replaces L-cladinose sugar of erythromycin A: Restores activity against bacteria with inducible resistance mediated by Erm, and enhances activity against streptococci with Mef-mediated macrolide efflux"
+                              },
+                              {
+                                    "name": "Carbamate Side Chain",
+                                    "y": 235,
+                                    "x": 145,
+                                    "size": 80,
+                                    "color": "blue",
+                                    "text": "Carbamate Side Chain Addition: Promotes activity against both erythromycin-sensitive and erythromycin-resistant bacteria by introducing an interaction with domain II of the 23S rRNA."
+                              }
+                        ]
+                  },
+                  {
+                        "title":"Lincosamides",  
+                        "name" : "Hover over the Lincosamides compound to view SAR.",
+                        "imagePath" : "lincosamides-sar.PNG",
+                        "imgWidth" : 450,
+                        "imgPadding" : 100,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Eight Carbon Sugar",
+                                    "y": 209,
+                                    "x": 450,
+                                    "size": 130,
+                                    "color": "red",
+                                    "text": "Eight Carbon Sugar"
+                              },
+                              {
+                                    "name": "Amide bond",
+                                    "y": 228,
+                                    "x": 278,
+                                    "size": 40,
+                                    "color": "blue",
+                                    "text": "Amide bond."
+                              }
+                        ]
+                  },
+                  {
+                        "title":"Streptogramins",  
+                        "name" : "Hover over the Streptogramins compound to view SAR.",
+                        "imagePath" : "streptogramins-sar.PNG",
+                        "imgWidth" : 700,
+                        "imgPadding" : 100,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Type A: Quinupristin",
+                                    "y": 275,
+                                    "x": 257,
+                                    "size": 175,
+                                    "color": "red",
+                                    "text": "Type A: Quinupristi - Type A & B used together synergistically"
+                              },
+                              {
+                                    "name": "Type B: Dalfopristin",
+                                    "y": 260,
+                                    "x": 685,
+                                    "size": 175,
+                                    "color": "blue",
+                                    "text": "Type B: Dalfopristin - Type A & B used together synergistically"
+                              }
+                        ]
+                  },
+                  {
+                        "title":"Chloramphenicol",  
+                        "name" : "Hover over the Chloramphenicol compound to view SAR.",
+                        "imagePath" : "chloramphenicol-sar.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 130,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Nitro group",
+                                    "y": 223,
+                                    "x": 164,
+                                    "size": 40,
+                                    "color": "red",
+                                    "text": "Nitro group: can be replaced with other EWG, but activity decreases"
+                              },
+                              {
+                                    "name": "Aromatic ring",
+                                    "y": 223,
+                                    "x": 283,
+                                    "size": 60,
+                                    "color": "darkorange",
+                                    "text": "Aromatic ring: essential for activity"
+                              },
+                              {
+                                    "name": "Chlorines",
+                                    "y": 181,
+                                    "x": 617,
+                                    "size": 40,
+                                    "color": "green",
+                                    "text": "Chlorines: can be removed or replaced with other halogens, but activity decreases"
+                              },
+                              {
+                                    "name": "R, R stereoisomer",
+                                    "y": 223,
+                                    "x": 409,
+                                    "size": 40,
+                                    "color": "blue",
+                                    "text": "R, R stereoisomer: essential for activity"
+                              }
+                        ]
+                  },
+                  {
+                        "title":"Oxazolidinones",  
+                        "name" : "Hover over the Oxazolidinones compound to view SAR.",
+                        "imagePath" : "oxazolidinones-sar.PNG",
+                        "imgWidth" : 500,
+                        "imgPadding" : 100,
+                        "compoundHotspots" : [
+                              {
+                                    "name": "Oxazolidinone ring",
+                                    "y": 155,
+                                    "x": 410,
+                                    "size": 70,
+                                    "color": "red",
+                                    "text": "Oxazolidinone ring"
+                              }
+                        ]
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide8.PNG",
+                        "question" : "Will the following change increase or decrease chemical stability?",
+                        "options" : [
+                              "Increase",
+                              "Decrease"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "Replacement of OH with OCH3 reduces acid-catalyzed degradation."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide9.PNG",
+                        "question" : "Will the following change increase or decrease acid stability?",
+                        "options" : [
+                              "Increase",
+                              "Decrease"
+                        ],
+                        "answer" : "Increase",
+                        "explanation" : "15 member ring (with no ketone) increases acid stability and permits accumulation of azithromycin in the cell."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Activity Change",
+                        "imagePath" : "slide10.PNG",
+                        "question" : "Will the following change increase or decrease activity?",
+                        "options" : [
+                              "Increase",
+                              "Decrease"
+                        ],
+                        "answer" : "Decrease",
+                        "explanation" : "Cl increases lipophilicity and has better oral absorption."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide11.PNG",
+                        "question" : "Which compound is less susceptible to bacteria resistance?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Telithromycin (Compound 1) because the addition of 3-keto group and carbamate side chain."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Compare Compounds",
+                        "imagePath" : "slide12.PNG",
+                        "question" : "Which of the following is NOT bacteriostatic?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Gentamicin (Compound 1) because Aminoglycosides are bactericidal."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Choose the Correct Answer",
+                        "imagePath" : "slide13.PNG",
+                        "question" : "Gray Baby Syndrome results from inability to produce which metabolite?",
+                        "options" : [
+                              "Dechlorination",
+                              "N-reduction",
+                              "3-O-glucuronidation"
+                        ],
+                        "answer" : "3-O-glucuronidation",
+                        "explanation" : "No explanation provided."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study",
+                        "imagePath" : "slide14.PNG",
+                        "question" : "Lucille Mangonzy is experiencing diarrhea after taking her antibiotic, which compound did she most likely take?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 3",
+                        "explanation" : "Clindamycin (Compound 3) has highest incidence of pseudomembranous colitis."
+                  },
+                  {
+                        "title":"SAR Practice Problem",  
+                        "name" : "Clinical Case Study",
+                        "imagePath" : "slide15.PNG",
+                        "question" : "Which compound is less susceptible to bacteria resistance?",
+                        "options" : [
+                              "Compound 1",
+                              "Compound 2",
+                              "Compound 3"
+                        ],
+                        "answer" : "Compound 1",
+                        "explanation" : "Chloramphenicol (Compound 1) has a major toxicity of aplastic anemia."
                   }
             ],
             "testItems":[
