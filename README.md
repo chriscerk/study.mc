@@ -48,7 +48,7 @@ The live version of this application is currently "bodyless" (without Laravel) d
 
 `/afs/umich.edu/group/acadaff/pharmacy/devapps/studymc-media`
 
-<strong>Prod Environment</strong>: https://apps.phar.umich.edu/studymc/
+<strong>Production Environment</strong>: https://apps.phar.umich.edu/studymc/
 
 `/afs/umich.edu/group/acadaff/pharmacy/Private/html/studymc`
 

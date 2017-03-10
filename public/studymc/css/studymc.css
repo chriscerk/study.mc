@@ -213,6 +213,13 @@ img.loading {
     margin-bottom: 35px;
 }
 
+.mediumBox {
+    width: 20em;
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
 .classBox {
     display: inline-block;
     width: 4em;

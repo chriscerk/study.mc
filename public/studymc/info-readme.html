@@ -30,34 +30,29 @@
 
     <main class="container">
         <div class="content">
-        <h1>Info</h1>
+        <h1>Dev. ReadMe</h1>
         <br>
-	    <p>StudyMC (Study Medicinal Chemistry) is a web application to help students in learning, testing, and reviewing their course materials.</p>
+	    <p>StudyMC (Study Medicinal Chemistry) is an Angular 2 application.</p>
         <br>
+        <h2>Installation</h2>
+            <h3>Dependencies</h3>
+            <p>`composer`, `nodejs` & `typescript`</p>
 
-        <div class="flex-container">
-            <div class="flex-item mediumBox">
-                <h2><span class="glyphicon glyphicon-education"></span>&nbsp;&nbsp;Learn</h2>
-                <p>Content provided to help expand students' knowledge along with practice problems with feedback.</p>
-            </div>
-            <div class="flex-item mediumBox">
-                <h2><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Test</h2>
-                <p>Example test questions to gauge a student's knowledge on a particular topic.</p>
-            </div>
-            <div class="flex-item mediumBox">
-                <h2><span class="glyphicon glyphicon-repeat"></span>&nbsp;&nbsp;Review</h2>
-                <p>Printable online review sheet. The "Autocomplete" button on the right provides an example sheet.</p>
-            </div>
-        </div>
-        <br>
+            <h3>Environment Setup</h3>
+            <p>Laravel Homestead: https://www.laravel.com/docs/5.3/homestead </p>
+        <h2>Running the Environment</h2>
+        <ol>
+            <li>`cd Homestead`</li>
+            <li>`vagrant up`</li>
+            <li>Go to http://study.mc/ in your browser. (Or the specific domain setup for Homestead at C:\Windows\System32\drivers\etc\hosts)</li>
+        </ol>
 
-        <p><a href="/studymc-media/savePDF-HowTo-studymc.mp4">How to Save Review Worksheet as a PDF Video</a></p>
-        <p>After clicking the "Print!" button, a print page will appear. From the print page, Click on "Change..." under Destination in the top left side of the screen. A window will popup. Under "Local Destinations" click "Save as PDF." The window will close. In the top left side of the screen, click the "Save" button.</p>
+        <h2>Building</h2>
+        <ol>
+            <li>`cd studymc`</li>
+            <li>`gulp`</li>
+        </ol>
 
-        <br>
-        <br>
-        <p><a href="/studymc-media/mobileReview.mp4">Mobile Review: Studying on the go.</a></p>
-        </div>
 	    <br /><br />
         <hr>
         <img type="image/png" src="/studymc/icon-logo-144.png" style="margin-right:auto; margin-left:auto; display:inherit;"/>
