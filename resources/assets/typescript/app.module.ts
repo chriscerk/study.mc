@@ -8,6 +8,7 @@ import { AppComponent }  from './app.component';
 import { CourseComponent }  from './course/course.component';
 import { CourseTopicsComponent }  from './course/courseTopics.component';
 
+import { TrainingComponent } from './training/training.component';
 import { TopicComponent }  from './topic/topic.component';
 import { TopicLearnComponent } from './topic/topicLearn.component';
 import { TopicTestComponent } from './topic/topicTest.component';
@@ -26,7 +27,8 @@ import {ReactiveFormsModule} from "@angular/forms";
 import { MyPercentPipe } from './shared/pipes/percent.pipe'
 
 let Components: any[] = [
-    AppComponent, 
+    AppComponent,
+    TrainingComponent,
     CourseComponent, 
     CoursesComponent, 
     CourseTopicsComponent,
@@ -38,7 +40,6 @@ let Components: any[] = [
     CanvasAnimationComponent,
     AlertBoxComponent,
     EndMessageComponent
-    
   ];
 
   let Pipes: any[] = [

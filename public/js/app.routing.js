@@ -1,7 +1,7 @@
-System.register(['@angular/router', './course/course.component', './courses/courses.component', './course/courseTopics.component', './topic/topic.component', './topic/topicLearn.component', './topic/topicTest.component', './topic/topicReview.component'], function(exports_1, context_1) {
+System.register(['@angular/router', './course/course.component', './courses/courses.component', './course/courseTopics.component', './training/training.component', './topic/topic.component', './topic/topicLearn.component', './topic/topicTest.component', './topic/topicReview.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var router_1, course_component_1, courses_component_1, courseTopics_component_1, topic_component_1, topicLearn_component_1, topicTest_component_1, topicReview_component_1;
+    var router_1, course_component_1, courses_component_1, courseTopics_component_1, training_component_1, topic_component_1, topicLearn_component_1, topicTest_component_1, topicReview_component_1;
     var app_routes, app_routing;
     return {
         setters:[
@@ -17,6 +17,9 @@ System.register(['@angular/router', './course/course.component', './courses/cour
             function (courseTopics_component_1_1) {
                 courseTopics_component_1 = courseTopics_component_1_1;
             },
+            function (training_component_1_1) {
+                training_component_1 = training_component_1_1;
+            },
             function (topic_component_1_1) {
                 topic_component_1 = topic_component_1_1;
             },
@@ -31,6 +34,7 @@ System.register(['@angular/router', './course/course.component', './courses/cour
             }],
         execute: function() {
             app_routes = [
+                { path: 'studymc/training', component: training_component_1.TrainingComponent },
                 { path: 'studymc/course', component: course_component_1.CourseComponent },
                 { path: 'studymc/courses', component: courses_component_1.CoursesComponent },
                 { path: 'studymc/course/:id', component: course_component_1.CourseComponent,
