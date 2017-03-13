@@ -12,6 +12,8 @@ StudyMC (Study Medicinal Chemistry) is a College of Pharmacy web application to 
 
 [Other Info.](https://github.com/chriscerk/studymc#other-information)
 
+[Screenshots](https://github.com/chriscerk/studymc#screenshots)
+
 ## Quicklinks
 App: https://apps.phar.umich.edu/studymc/
 
@@ -30,9 +32,6 @@ Example test questions to gauge a student's knowledge on a particular topic.
 <strong>Review</strong>
 A review sheet which students can fill out online then print upon completion.
 
-![Home Screen](/readme/HomeScreen.png?raw=true "Home Screen")
-
-![Example Test Question](/readme/TestQuestion.png?raw=true "Example Test Question")
 
 # Installation
 
@@ -81,5 +80,8 @@ JSON files are recommended to be under 1.55MB. As of 2017 the largest file is > 
 Source: http://josh.zeigler.us/technology/web-development/how-big-is-too-big-for-json/
 
 
+# Screenshots
 
-Originally forked from: https://github.com/axiskafi/angular2-laravel5
+![Home Screen](/readme/HomeScreen.png?raw=true "Home Screen")
+
+![Example Test Question](/readme/TestQuestion.png?raw=true "Example Test Question")
