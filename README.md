@@ -1,5 +1,16 @@
 <img align="center" src="https://raw.githubusercontent.com/chriscerk/studymc/master/public/studymc/studymc-logo.jpg" alt="Logo">
+
 StudyMC (Study Medicinal Chemistry) is a College of Pharmacy web application to help graduate students learn, test, and review their course materials.
+
+# Overview
+
+[Organization](https://github.com/chriscerk/studymc#organization)
+
+[Installation](https://github.com/chriscerk/studymc#installation)
+
+[UM Access](https://github.com/chriscerk/studymc#um-access)
+
+[Other Info.](https://github.com/chriscerk/studymc#other-information)
 
 ## Quicklinks
 App: https://apps.phar.umich.edu/studymc/
