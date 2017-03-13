@@ -37,6 +37,7 @@
     "zone.js": "^0.6.23"
   },
   "devDependencies": {
+    "@angular/cli": "^1.0.0-rc.1",
     "autoprefixer": "^6.2.1",
     "concurrently": "^2.0.0",
     "elixir-typescript": "2.0.0",
