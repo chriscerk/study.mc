@@ -1,6 +1,11 @@
 # StudyMC
 StudyMC (Study Medicinal Chemistry) is a College of Pharmacy web application to help students in studying their course materials.
 
+## Quicklinks
+
+https://trello.com/studymc
+
+
 <strong>*Note:</strong> The live version of this application is currently "bodyless" (without Laravel) due to inability to update the UM server version of PHP and install dependencies for Laravel.
 
 # Organization
